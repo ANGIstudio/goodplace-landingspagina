@@ -1,3 +1,11 @@
 .c-navigation {
-  @apply border flex justify-between p-10 shadow-md;
+  @apply border flex justify-between px-12 py-6 shadow-md items-center;
+
+  &__list {
+    @apply flex items-center;
+  }
+
+  &__listitem {
+    @apply pl-8 font-medium text-xl;
+  }
 }
