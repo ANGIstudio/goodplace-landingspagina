@@ -3,7 +3,7 @@ module.exports = {
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
   darkMode: false,
   theme: {
-    FontFamily: {
+    fontFamily: {
       cabin: ['Cabin', 'sans-serif'],
     },
     extend: {

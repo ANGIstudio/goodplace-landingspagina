@@ -16,13 +16,13 @@ interface ButtonProps {
 export const Button: React.FC<ButtonProps> = (props) => {
   const { tag, href, label, variant, size, newTab, onClick } = props;
 
-  const classNames = cn('rounded-full', {
-    'inline-block no-underline': tag === 'a' || 'link',
-    'border-0': tag === 'button',
-    'py-3 px-6 text-xl': size === 'M',
-    'py-6 px-12 text-2xl': size === 'L',
-    'bg-primary text-white hover:text-black': variant === 'primary',
-    'bg-secondary text-white hover:text-black': variant === 'secondary',
+  const classNames = cn('o-btn', {
+    'o-btn--link': tag === 'a' || 'link',
+    'o-btn--btn': tag === 'button',
+    'o-btn--m': size === 'M',
+    'o-btn--l': size === 'L',
+    'o-btn--primary': variant === 'primary',
+    'o-btn--secondary': variant === 'secondary',
   });
 
   switch (tag) {
