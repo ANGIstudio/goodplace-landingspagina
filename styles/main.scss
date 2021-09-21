@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Components
+@import "../src/components/Navigation/Navigation.scss";
+@import "../src/components/Wrapper/Wrapper.scss";
+@import "../src/components/Section/Section.scss";

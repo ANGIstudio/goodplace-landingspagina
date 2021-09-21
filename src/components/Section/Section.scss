@@ -1,0 +1,11 @@
+.l-section {
+  @apply py-8;
+
+  &--primary {
+    @apply bg-primary;
+  }
+
+  &--secondary {
+    @apply bg-secondary;
+  }
+}
