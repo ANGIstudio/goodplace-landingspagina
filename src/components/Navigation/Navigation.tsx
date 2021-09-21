@@ -14,27 +14,29 @@ export const Navigation: React.FC<NavigationProps> = ({ logo }) => {
     <header className="c-navigation">
       <div>
         <Link href="#" passHref>
-          <Image
-            className="c-navigation__logo"
-            width="125px"
-            height="75px"
-            alt="logo"
-            src={logo}
-          />
+          <a>
+            <Image
+              className="c-navigation__logo"
+              width="125px"
+              height="75px"
+              alt="logo"
+              src={logo}
+            />
+          </a>
         </Link>
       </div>
       <nav>
         <ul className="c-navigation__list">
-          <li className="c-navigation__listitem">
+          <li className="c-navigation__list-item">
             <Link href="#">Over Goodplace</Link>
           </li>
-          <li className="c-navigation__listitem">
+          <li className="c-navigation__list-item">
             <Link href="#">Veelgestelde vragen</Link>
           </li>
-          <li className="c-navigation__listitem">
+          <li className="c-navigation__list-item">
             <Link href="#">Contact</Link>
           </li>
-          <li className="c-navigation__listitem">
+          <li className="c-navigation__list-item">
             <Button
               tag="link"
               href="#"
