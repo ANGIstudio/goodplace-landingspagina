@@ -1,0 +1,29 @@
+.o-button {
+
+  @apply rounded-full border-0;
+
+  &--link {
+    @apply inline-block no-underline;
+  }
+
+  &--small {
+    @apply py-1 px-3 text-lg;
+  }
+
+  &--medium {
+    @apply py-3 px-6 text-xl;
+  }
+
+  &--large {
+    @apply py-6 px-12 text-2xl;
+  }
+
+  &--primary {
+    @apply bg-primary text-white hover:text-black;
+  }
+
+  &--secondary {
+    @apply bg-secondary text-white hover:text-black;
+  }
+
+}

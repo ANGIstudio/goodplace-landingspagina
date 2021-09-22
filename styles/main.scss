@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+// Settings
+@import "../styles/settings/typography.scss";
+
 // Components
 @import "../src/components/Navigation/Navigation.scss";
 @import "../src/components/Wrapper/Wrapper.scss";
 @import "../src/components/Section/Section.scss";
+@import "../src/components/Button/Button.scss";
+
