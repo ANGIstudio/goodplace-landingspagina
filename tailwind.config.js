@@ -4,12 +4,15 @@ module.exports = {
   darkMode: false,
   theme: {
     fontFamily: {
-      cabin: ['Cabin', 'sans-serif'],
+      jost: ['Jost', 'sans-serif'],
     },
     extend: {
       colors: {
-        primary: '#179ce4',
-        secondary: '#ff2a72',
+        primary: '#52B7AB',
+        secondary: '#F6F6F6',
+        black: '#171717',
+        grey: '#7E7E7E',
+        lightgrey: '#9D9D9D',
       },
     },
   },
