@@ -1,20 +1,24 @@
 .c-hero {
-  @apply flex px-28 justify-between;
+  @apply flex md:flex-row flex-col py-16 justify-between md:space-x-6 items-center;
 
   &__text {
-    @apply flex flex-col justify-center;
+    @apply flex flex-col justify-center md:w-1/2 space-y-8 pb-4 md:pb-0;
   }
 
   &__title {
-    @apply text-secondary pb-8;
+    @apply text-darkgreen font-semibold;
   }
 
   &__subtitle {
-    @apply text-secondary pb-8;
+    @apply text-primary font-light;
   }
 
-  &__downloadlinks {
+  &__download-links {
     @apply flex items-center;
+  }
+
+  &__image {
+    @apply md:w-1/2;
   }
 
 }

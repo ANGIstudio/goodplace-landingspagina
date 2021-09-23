@@ -8,7 +8,9 @@ import { Base } from '../templates/Base';
 const Index: NextPage = () => {
   return (
     <Base>
-      <Hero />
+      <Wrapper>
+        <Hero />
+      </Wrapper>
       <Section bgColor="primary">
         <Wrapper>Dit is de homepage</Wrapper>
       </Section>
