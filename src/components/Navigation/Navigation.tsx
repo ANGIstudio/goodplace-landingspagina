@@ -41,7 +41,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo }) => {
               tag="link"
               href="#"
               label="Download"
-              variant="secondary"
+              variant="primary"
               size="M"
             />
           </li>

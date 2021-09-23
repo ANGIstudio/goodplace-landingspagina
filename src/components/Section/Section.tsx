@@ -3,7 +3,7 @@ import React from 'react';
 import cn from 'classnames';
 
 interface SectionProps {
-  bgColor: 'primary' | 'secondary';
+  bgColor?: 'primary' | 'secondary';
 }
 
 export const Section: React.FC<SectionProps> = ({ bgColor, children }) => {

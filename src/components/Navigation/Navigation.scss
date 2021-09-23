@@ -6,10 +6,10 @@
   }
 
   &__list {
-    @apply flex items-center;
+    @apply md:flex items-center hidden;
   }
 
   &__list-item {
-    @apply pl-8 font-medium text-xl;
+    @apply pl-8 text-xl;
   }
 }
