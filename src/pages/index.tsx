@@ -10,19 +10,25 @@ const Index: NextPage = () => {
     <Base>
       <Section bgColor="primary">
         <Wrapper>
-          <div className="c-content__block">
+          <div className="c-content">
             <div className="c-content__text-block">
               <h3 className="c-content__title">
-                Samen zorgen we voor een Goodplace op deze wereld
+                <strong>
+                  Samen zorgen we voor een
+                  <br className="c-content__title__break" /> Goodplace op deze
+                  aarde
+                </strong>
               </h3>
               <p>
-                Goodplace is een positive movement. Een plek waar je als gever
-                op een makkelijke en leuke manier goede doelen kan steunen en
+                Goodplace is een <i>positive movement</i>. Een plek waar je als
+                gever op
+                <br /> een makkelijke en leuke manier goede doelen kan steunen
+                en <br />
                 positieve updates krijgt.
               </p>
             </div>
             <div className="c-content__image-block">
-              <div className="c-content__hand-image-block">
+              <div className="c-content__hand-image">
                 <Image
                   alt="giving-hand"
                   src="https://via.placeholder.com/150"
@@ -33,11 +39,12 @@ const Index: NextPage = () => {
                   <strong>Geven wanneer jij wilt</strong>
                 </p>
                 <p>
-                  Doneer vrijblijvend wanneer en hoeveel jij wilt aan goede
-                  doelen.
+                  Doneer vrijblijvend wanneer
+                  <br /> en hoeveel jij wilt aan
+                  <br /> goede doelen.
                 </p>
               </div>
-              <div className="c-content__hand-image-block">
+              <div className="c-content__hand-image">
                 <Image
                   alt="anonymous-hand"
                   src="https://via.placeholder.com/150"
@@ -48,11 +55,13 @@ const Index: NextPage = () => {
                   <strong>Jij blijft anoniem</strong>
                 </p>
                 <p>
-                  Jouw donaties blijven anoniem, dus opeens gebeld worden gaat
+                  Jouw donaties blijven anoniem,
+                  <br /> dus opeens gebeld worden gaat
+                  <br />
                   je zeker niet overkomen.
                 </p>
               </div>
-              <div className="c-content__hand-image-block">
+              <div className="c-content__hand-image">
                 <Image
                   alt="impact-hand"
                   src="https://via.placeholder.com/150"
@@ -63,7 +72,9 @@ const Index: NextPage = () => {
                   <strong>Zicht op je impact</strong>
                 </p>
                 <p>
-                  Blijf op de hoogte van de mooie dingen die goede doelen
+                  Blijf op de hoogte van de mooie <br />
+                  dingen die goede doelen
+                  <br />
                   realiseren.
                 </p>
               </div>
