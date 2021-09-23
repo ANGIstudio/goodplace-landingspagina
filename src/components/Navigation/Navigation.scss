@@ -6,7 +6,7 @@
   }
 
   &__list {
-    @apply flex items-center;
+    @apply md:flex items-center hidden;
   }
 
   &__list-item {
