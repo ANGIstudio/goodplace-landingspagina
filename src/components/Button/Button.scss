@@ -19,11 +19,11 @@
   }
 
   &--primary {
-    @apply bg-primary text-white hover:text-black;
+    @apply bg-primary text-white hover:bg-primary/80;
   }
 
   &--secondary {
-    @apply bg-secondary text-white hover:text-black;
+    @apply bg-secondary text-white;
   }
 
 }

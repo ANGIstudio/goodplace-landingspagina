@@ -6,7 +6,7 @@
   }
 
   &__title {
-    @apply text-darkgreen font-semibold;
+    @apply text-darkgreen font-semibold break-words;
   }
 
   &__subtitle {

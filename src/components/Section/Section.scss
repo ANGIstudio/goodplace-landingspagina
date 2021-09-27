@@ -1,11 +1,19 @@
 .l-section {
-  @apply py-20;
+  @apply py-10 md:py-20;
 
   &--primary {
-    @apply bg-primary;
+    @apply bg-lightgreen;
   }
 
   &--secondary {
-    @apply bg-secondary;
+    @apply bg-brown;
+  }
+
+  &--no-bottom {
+    @apply pb-0;
+  }
+
+  &--no-top {
+    @apply pt-0;
   }
 }

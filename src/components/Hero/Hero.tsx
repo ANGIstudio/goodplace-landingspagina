@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import applestore from '../../assets/apple-store-badge.svg';
 import googleplay from '../../assets/google-play-badge.png';
+import phones from '../../assets/phones.svg';
 
 export const Hero: React.FC = () => {
   return (
@@ -20,12 +21,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       <div className="c-hero__image">
-        <Image
-          width={300}
-          height={500}
-          alt="hero-image"
-          src="https://via.placeholder.com/150"
-        />
+        <Image alt="hero-image" src={phones} />
       </div>
     </div>
   );

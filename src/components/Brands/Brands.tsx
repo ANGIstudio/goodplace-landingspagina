@@ -3,25 +3,15 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import ifaw from '../../assets/ifaw.svg';
-import justdiggit from '../../assets/justdiggit.svg';
-import oceancleanup from '../../assets/oceancleanup.svg';
-import savechildsheart from '../../assets/savechildsheart.svg';
-import sunday from '../../assets/sunday.svg';
-import tjommie from '../../assets/tjommie.svg';
-import wwf from '../../assets/wwf.svg';
+interface BrandsProps {
+  brandItems: {
+    id: string;
+    href: string;
+    src: string;
+  }[];
+}
 
-export const Brands = () => {
-  const brandItems = [
-    { id: '1', href: '#', src: ifaw },
-    { id: '2', href: '#', src: wwf },
-    { id: '3', href: '#', src: oceancleanup },
-    { id: '4', href: '#', src: justdiggit },
-    { id: '5', href: '#', src: savechildsheart },
-    { id: '6', href: '#', src: sunday },
-    { id: '7', href: '#', src: tjommie },
-  ];
-
+export const Brands: React.FC<BrandsProps> = ({ brandItems }) => {
   return (
     <ul className="c-brands">
       {brandItems.map((item) => {
