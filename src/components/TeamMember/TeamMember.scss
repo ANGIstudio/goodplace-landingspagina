@@ -1,0 +1,11 @@
+.c-team-member {
+  @apply flex w-full items-center;
+
+  &__text {
+    @apply ml-6;
+  }
+
+  &__title {
+    @apply space-y-6;
+  }
+}

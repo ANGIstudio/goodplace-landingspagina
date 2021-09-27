@@ -4,6 +4,7 @@ import { NextPage } from 'next';
 
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
+import { Team } from '../components/Team/Team';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
@@ -41,6 +42,11 @@ const About: NextPage = () => {
               <br /> meer mooie samenwerkingen te sluiten.
             </p>
           </ContentBlock>
+        </Wrapper>
+      </Section>
+      <Section bgColor="secondary">
+        <Wrapper>
+          <Team />
         </Wrapper>
       </Section>
     </Base>
