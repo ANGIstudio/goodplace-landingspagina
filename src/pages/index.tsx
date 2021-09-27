@@ -4,6 +4,7 @@ import Image from 'next/image';
 import icons from '../assets/icons.svg';
 import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
+import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
@@ -11,6 +12,9 @@ import { Base } from '../templates/Base';
 const Index: NextPage = () => {
   return (
     <Base>
+      <Wrapper>
+        <Hero />
+      </Wrapper>
       <Section bgColor="primary">
         <Wrapper>
           <Brands />
