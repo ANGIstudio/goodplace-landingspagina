@@ -15,13 +15,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo }) => {
       <div>
         <Link href="#" passHref>
           <a>
-            <Image
-              className="c-navigation__logo"
-              width="125px"
-              height="75px"
-              alt="logo"
-              src={logo}
-            />
+            <Image className="c-navigation__logo" alt="logo" src={logo} />
           </a>
         </Link>
       </div>

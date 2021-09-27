@@ -9,6 +9,10 @@
     @apply bg-brown;
   }
 
+  &--lightgreen {
+    @apply bg-lightgreen;
+  }
+
   &--no-bottom {
     @apply pb-0;
   }
