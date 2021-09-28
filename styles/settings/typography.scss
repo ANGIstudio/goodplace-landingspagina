@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 h1 {
- @apply text-4xl leading-9;
+ @apply text-6xl lg:text-8xl lg:leading-10;
 }
 
 h2 {
-  @apply text-3xl leading-8;
+  @apply text-3xl lg:text-5xl lg:leading-9;
 }
 
 h3 {
-  @apply text-2xl leading-7;
+  @apply text-3xl leading-8;
 }
 
 h4 {
@@ -26,5 +26,5 @@ h6 {
 }
 
 p {
-  @apply text-base leading-normal;
+  @apply text-xl leading-normal;
 }

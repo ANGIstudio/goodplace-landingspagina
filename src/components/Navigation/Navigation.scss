@@ -1,5 +1,5 @@
 .c-navigation {
-  @apply border flex justify-between px-12 py-6 shadow-md items-center;
+  @apply flex justify-between px-12 py-6 items-center;
 
   &__logo {
     @apply cursor-pointer;
@@ -10,6 +10,6 @@
   }
 
   &__list-item {
-    @apply pl-8 text-xl;
+    @apply pl-8 text-xl text-darkgreen font-medium;
   }
 }

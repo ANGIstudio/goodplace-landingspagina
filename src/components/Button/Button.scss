@@ -18,12 +18,12 @@
     @apply py-6 px-12 text-2xl;
   }
 
-  &--primary {
-    @apply bg-primary text-white hover:text-black;
+  &--green {
+    @apply bg-green text-white hover:bg-green/80;
   }
 
-  &--secondary {
-    @apply bg-secondary text-white hover:text-black;
+  &--beige {
+    @apply bg-beige text-white;
   }
 
 }

@@ -1,11 +1,19 @@
 .l-section {
-  @apply py-8;
+  @apply py-10 md:py-20;
 
-  &--primary {
-    @apply bg-primary;
+  &--beige {
+    @apply bg-beige;
   }
 
-  &--secondary {
-    @apply bg-secondary;
+  &--lightgreen {
+    @apply bg-lightgreen;
+  }
+
+  &--no-bottom {
+    @apply pb-0;
+  }
+
+  &--no-top {
+    @apply pt-0;
   }
 }

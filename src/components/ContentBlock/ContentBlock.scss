@@ -1,0 +1,15 @@
+.c-content-block {
+  @apply md:flex md:items-center md:space-x-40 justify-center;
+
+  &__text {
+    @apply w-full md:w-1/2 mb-8 md:mb-0;
+  }
+
+  &--image-first {
+    @apply md:flex-row-reverse space-x-reverse;
+  }
+
+  &__image {
+    @apply w-full md:w-1/2;
+  }
+}
