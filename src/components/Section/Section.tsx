@@ -3,7 +3,7 @@ import React from 'react';
 import cn from 'classnames';
 
 interface SectionProps {
-  bgColor?: 'primary' | 'secondary' | 'lightgreen';
+  bgColor?: 'beige' | 'lightgreen';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
 }

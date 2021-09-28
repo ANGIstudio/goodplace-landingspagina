@@ -35,7 +35,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo }) => {
               tag="link"
               href="#"
               label="Download"
-              variant="primary"
+              variant="green"
               size="M"
             />
           </li>

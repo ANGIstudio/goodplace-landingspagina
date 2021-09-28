@@ -17,16 +17,15 @@ import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
-  interface TeamMembers {
+  interface TeamMember {
     name: string;
     id: number;
     img: string;
     description: string;
-    description2?: string;
     endeavors: string;
   }
 
-  const teamMembers: TeamMembers[] = [
+  const teamMembers: TeamMember[] = [
     {
       name: 'Frank Gottenbos',
       id: 1,
@@ -38,8 +37,7 @@ const About: NextPage = () => {
       name: 'Menno van der Marel',
       id: 2,
       img: vandermarel,
-      description: 'Impact maken met slimme innovaties',
-      description2: 'Goede ideeën moeten echt een kans krijgen',
+      description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen`,
       endeavors: 'Fox-IT, VanDerSat, Ocean Cleanup',
     },
     {
@@ -67,7 +65,7 @@ const About: NextPage = () => {
               <h2 className="mb-4 font-bold text-darkgreen">
                 Leuk om kennis te maken
               </h2>
-              <p className="text-primary">
+              <p className="text-green">
                 Samen met jou vergroten we maatschappelijke betrokkenheid. We
                 maken doneren voor iedereen leuk en laagdrempelig, door mensen
                 eenvoudig en positief bij goede doelen en projecten te
@@ -124,20 +122,17 @@ const About: NextPage = () => {
               return (
                 <div
                   key={member.id}
-                  className="flex w-full items-center space-x-6"
+                  className="flex flex-col sm:flex-row md:items-center w-full space-y-6 md:space-y-0 sm:space-x-6 mb-6 md:mb-0"
                 >
-                  <Image src={member.img} alt={member.name} />
+                  <div className="m-auto sm:m-0">
+                    <Image src={member.img} alt={member.name} />
+                  </div>
                   <div>
                     <div className="space-y-6 max-w-xs">
-                      <p>
+                      <p className="whitespace-pre-line">
                         <strong>{member.name}</strong>
                         <br />
                         {member.description}
-                        {member.description2 ? (
-                          <p>{member.description2}</p>
-                        ) : (
-                          ''
-                        )}
                       </p>
                       <p>
                         <i>Other endeavors:</i>
@@ -153,7 +148,7 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="secondary" noPaddingBottom>
+      <Section bgColor="beige" noPaddingBottom>
         <Wrapper>
           <div>
             <div className="md:-mb-64 -mb-28">

@@ -70,7 +70,7 @@ const Index: NextPage = () => {
         <Brands brandItems={brandItems} />
       </Wrapper>
 
-      <Section bgColor="primary">
+      <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
             <div className="mb-16 max-w-lg m-auto">
@@ -146,7 +146,7 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="primary">
+      <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
             <div className="mb-16 max-w-lg m-auto">
@@ -174,7 +174,7 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="secondary" noPaddingBottom>
+      <Section bgColor="beige" noPaddingBottom>
         <Wrapper>
           <div className="text-center">
             <h2 className="mb-4 text-darkgreen font-bold max-w-2xl m-auto">
