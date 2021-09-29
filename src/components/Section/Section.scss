@@ -1,8 +1,12 @@
 .l-section {
-  @apply py-10 md:py-20;
+  @apply py-10 md:py-20 bg-no-repeat bg-center;
 
   &--beige {
     @apply bg-beige;
+  }
+
+  &--lightbeige {
+    @apply bg-lightbeige;
   }
 
   &--lightgreen {

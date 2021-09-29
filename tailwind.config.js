@@ -9,10 +9,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('../src/assets/herobackground.png')",
+        people: "url('../src/assets/bgpeople.png')",
       },
       colors: {
         green: '#52B7AB',
         beige: '#F4F2EC',
+        lightbeige: '#f8f6f0',
         orange: '#FB6B47',
         darkgreen: '#0B7C68',
         lightgreen: '#F7FBF9',

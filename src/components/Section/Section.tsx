@@ -3,15 +3,17 @@ import React from 'react';
 import cn from 'classnames';
 
 interface SectionProps {
-  bgColor?: 'beige' | 'lightgreen';
+  bgColor?: 'beige' | 'lightgreen' | 'lightbeige';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
+  bgImage?: 'bg-people' | 'bg-hero';
 }
 
 export const Section: React.FC<SectionProps> = ({
   bgColor,
   noPaddingBottom,
   noPaddingTop,
+  bgImage,
   children,
 }) => {
   return (
@@ -20,6 +22,7 @@ export const Section: React.FC<SectionProps> = ({
         [`l-section--${bgColor}`]: bgColor,
         [`l-section--no-bottom`]: noPaddingBottom,
         [`l-section--no-top`]: noPaddingTop,
+        [`${bgImage}`]: bgImage,
       })}
     >
       {children}

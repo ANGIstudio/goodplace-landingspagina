@@ -1,0 +1,19 @@
+.c-usp {
+  $el: &;
+
+  &__image {
+    @apply mb-3;
+  }
+
+  &--primary {
+    @apply mx-auto;
+  }
+
+  &--secondary {
+    @apply text-left;
+
+    #{$el}__image {
+      @apply h-16 w-16;
+    }
+  }
+}
