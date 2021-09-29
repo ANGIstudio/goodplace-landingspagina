@@ -8,6 +8,7 @@ import googleplay from '../assets/google-play-badge.png';
 import gortemaker from '../assets/gortemaker.png';
 import gottenbos from '../assets/gottenbos.png';
 import imageframe from '../assets/imageframe.png';
+import phones from '../assets/phones.png';
 import vandermarel from '../assets/vandermarel.png';
 import vanoosten from '../assets/vanoosten.png';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
@@ -147,11 +148,11 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom>
+      <Section bgColor="beige" noPaddingBottom bgImage="bg-arrow">
         <Wrapper>
-          <div>
-            <div className="md:-mb-64 -mb-28">
-              <h2 className="mb-4 text-darkgreen font-bold max-w-2xl">
+          <div className="sm:flex overflow-hidden">
+            <div>
+              <h2 className="mb-8 text-darkgreen font-bold max-w-2xl">
                 Doe je mee met Goodplace’s <i>positive movement?</i>
               </h2>
               <div className="mb-8 flex space-x-3">
@@ -163,7 +164,7 @@ const About: NextPage = () => {
                     src={googleplay}
                   />
                 </div>
-                <div>
+                <div className=" max-w-xs">
                   <Image
                     width={125}
                     height={41}
@@ -173,7 +174,10 @@ const About: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* <Image alt="telephone" src={peopleandphones} /> */}
+
+            <div className="-mb-24 sm:-mb-48">
+              <Image src={phones} alt="phones" />
+            </div>
           </div>
         </Wrapper>
       </Section>

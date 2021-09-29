@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('../src/assets/herobackground.png')",
         people: "url('../src/assets/bgpeople.png')",
+        arrow: "url('../src/assets/bg-arrow.png')",
       },
       colors: {
         green: '#52B7AB',
