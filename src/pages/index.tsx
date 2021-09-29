@@ -1,20 +1,20 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 
-import applestore from '../assets/apple-store-badge.svg';
+import applestore from '../assets/apple-store-badge.png';
+import contact from '../assets/contact.png';
 import googleplay from '../assets/google-play-badge.png';
-import handmoney from '../assets/handmoney.svg';
-import handphone from '../assets/handphone.svg';
-import handworld from '../assets/handworld.svg';
-import icons from '../assets/icons.svg';
-import ifaw from '../assets/ifaw.svg';
-import justdiggit from '../assets/justdiggit.svg';
-import oceancleanup from '../assets/oceancleanup.svg';
-import phonewithpeople from '../assets/phonewithpeople.svg';
-import savechildsheart from '../assets/savechildsheart.svg';
-import sunday from '../assets/sunday.svg';
-import tjommie from '../assets/tjommie.svg';
-import wwf from '../assets/wwf.svg';
+import icons from '../assets/icons.png';
+import ifaw from '../assets/ifaw.png';
+import impact from '../assets/impact.png';
+import justdiggit from '../assets/justdiggit.png';
+import oceancleanup from '../assets/oceancleanup.png';
+import oneplace from '../assets/oneplace.png';
+import saveachildsheart from '../assets/saveachildsheart.png';
+import sunday from '../assets/sunday.png';
+import time from '../assets/time.png';
+import tjommie from '../assets/tjommie.png';
+import wwf from '../assets/wwf.png';
 import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Hero } from '../components/Hero/Hero';
@@ -25,46 +25,54 @@ import { Base } from '../templates/Base';
 interface UspImages {
   title: string;
   description: string;
-  image: string;
+  image: StaticImageData;
 }
 
 const Index: NextPage = () => {
   const uspImages: UspImages[] = [
     {
       title: 'Geven wanneer jij wilt',
-      image: handmoney,
+      image: time,
       description:
-        'Doneer vrijblijvend wanneer en hoeveel jij wilt aan goede doelen.',
+        'Doneer eenvoudig en  vrijblijvend aan de doelen die jij belangrijk vindt.',
     },
     {
-      title: 'Jij blijft anoniem',
-      image: handphone,
+      title: 'Geen ongewenst contact',
+      image: contact,
       description:
-        'Jouw donaties blijven anoniem, dus opeens gebeld worden gaat je zeker niet overkomen.',
+        'Geen ongewenste telefoontjes, post en e-mails van de doelen die je steunt.',
+    },
+    {
+      title: 'Alles op 1 plek',
+      image: oneplace,
+      description:
+        'Eenvoudig overzicht in je donaties aan verschillende goede doelen.',
     },
     {
       title: 'Zicht op je impact',
-      image: handworld,
+      image: impact,
       description:
-        'Blijf op de hoogte van de mooie dingen die goede doelen realiseren.',
+        'Via de app ontvang je positieve berichten van de resultaten van jouw donaties.',
     },
   ];
 
   const brandItems = [
-    { id: '1', href: '#', src: ifaw },
+    { id: '1', href: '#', src: oceancleanup },
     { id: '2', href: '#', src: wwf },
-    { id: '3', href: '#', src: oceancleanup },
-    { id: '4', href: '#', src: justdiggit },
-    { id: '5', href: '#', src: savechildsheart },
-    { id: '6', href: '#', src: sunday },
-    { id: '7', href: '#', src: tjommie },
+    { id: '3', href: '#', src: justdiggit },
+    { id: '4', href: '#', src: ifaw },
+    { id: '5', href: '#', src: sunday },
+    { id: '6', href: '#', src: tjommie },
+    { id: '7', href: '#', src: saveachildsheart },
   ];
 
   return (
     <Base>
-      <Wrapper>
-        <Hero />
-      </Wrapper>
+      <div className="bg-hero">
+        <Wrapper>
+          <Hero />
+        </Wrapper>
+      </div>
 
       <Wrapper>
         <Brands brandItems={brandItems} />
@@ -87,7 +95,10 @@ const Index: NextPage = () => {
             </div>
             <div className="space-y-8 md:flex md:space-y-0 justify-around items-center">
               {uspImages.map((usp) => (
-                <div className="m-auto max-w-xs" key={usp.title}>
+                <div
+                  className="m-auto max-w-xs md:w-1/2 lg:w-1/4"
+                  key={usp.title}
+                >
                   <div className="mb-3">
                     <Image alt={usp.title} src={usp.image} />
                   </div>
@@ -104,7 +115,7 @@ const Index: NextPage = () => {
 
       <Section>
         <Wrapper>
-          <ContentBlock image="lifesavers" imageFirst>
+          <ContentBlock image="sharingiscaring" imageFirst>
             <h3 className="mb-4">
               <strong>Sharing is caring</strong>
             </h3>
@@ -125,7 +136,7 @@ const Index: NextPage = () => {
 
       <Section>
         <Wrapper>
-          <ContentBlock image="phones" imageFirst={false}>
+          <ContentBlock image="phoneswithtiger" imageFirst={false}>
             <h3 className="mb-4">
               <strong>Snel en makkelijk doneren</strong>
             </h3>
@@ -140,7 +151,7 @@ const Index: NextPage = () => {
               <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
             </p>
             <div>
-              <Image width={408} height={81} alt={icons} src={icons} />
+              <Image width={408} height={81} alt="icons" src={icons} />
             </div>
           </ContentBlock>
         </Wrapper>
@@ -180,21 +191,25 @@ const Index: NextPage = () => {
             <h2 className="mb-4 text-darkgreen font-bold max-w-2xl m-auto">
               Doe je mee met Goodplace’s <i>positive movement?</i>
             </h2>
-            <div className="mb-8">
-              <Image
-                width={100}
-                height={40}
-                alt="googleplay"
-                src={googleplay}
-              />
-              <Image
-                width={100}
-                height={40}
-                alt="apple-store"
-                src={applestore}
-              />
+            <div className="mb-8 flex space-x-3">
+              <div>
+                <Image
+                  height={41}
+                  width={141}
+                  alt="googleplay"
+                  src={googleplay}
+                />
+              </div>
+              <div>
+                <Image
+                  width={125}
+                  height={41}
+                  alt="apple-store"
+                  src={applestore}
+                />
+              </div>
             </div>
-            <Image alt="telephone" src={phonewithpeople} />
+            {/* <Image alt="telephone" src={} /> */}
           </div>
         </Wrapper>
       </Section>

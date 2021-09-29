@@ -3,10 +3,10 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import facebook from '../../assets/facebook.svg';
-import instagram from '../../assets/instagram.svg';
+import facebook from '../../assets/facebook.png';
+import instagram from '../../assets/instagram.png';
 import logo from '../../assets/logo.png';
-import twitter from '../../assets/twitter.svg';
+import twitter from '../../assets/twitter.png';
 
 export const Footer: React.FC = () => {
   const socialItems = [

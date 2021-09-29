@@ -1,16 +1,16 @@
-import goededoelen from './goededoelen.svg';
-import icons from './icons.svg';
-import lifesavers from './lifesavers.svg';
-import phones from './phones.svg';
+import brandsframe from './brandsframe.png';
+import peoplewithballoons from './peoplewithballoons.png';
+import phoneswithtiger from './phoneswithtiger.png';
+import sharingiscaring from './sharingiscaring.png';
 
 export interface AssetsProps {
-  [index: string]: HTMLImageElement | undefined;
+  [index: string]: StaticImageData | undefined;
 }
 
 export const assets: AssetsProps = {
-  icons,
-  phones,
-  lifesavers,
-  goededoelen,
+  brandsframe,
+  phoneswithtiger,
+  peoplewithballoons,
+  sharingiscaring,
 };
 export default assets;

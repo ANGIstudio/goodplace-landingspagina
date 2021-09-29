@@ -1,5 +1,5 @@
 .c-hero {
-  @apply flex md:flex-row flex-col py-16 justify-between md:space-x-6 items-center;
+  @apply flex md:flex-row flex-col py-4 justify-between md:space-x-6 items-center;
 
   &__text {
     @apply flex flex-col justify-center md:w-1/2 space-y-8 pb-4 md:pb-0;
@@ -14,7 +14,7 @@
   }
 
   &__download-links {
-    @apply flex items-center;
+    @apply flex space-x-3;
   }
 
   &__image {
