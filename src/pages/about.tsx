@@ -19,7 +19,7 @@ const About: NextPage = () => {
   interface TeamMember {
     name: string;
     id: number;
-    img: string;
+    img: StaticImageData;
     description: string;
     endeavors: string;
   }
