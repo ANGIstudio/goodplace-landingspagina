@@ -13,6 +13,10 @@
     @apply md:hidden cursor-pointer;
   }
 
+  &__link-active {
+    @apply border-b-2 pb-1 border-darkgreen;
+  }
+
   &__hamburger {
     @apply md:hidden;
   }

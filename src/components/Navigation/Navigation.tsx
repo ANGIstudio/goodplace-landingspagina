@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import closed from '../../assets/closed.png';
 import hamburger from '../../assets/hamburger.png';
@@ -13,10 +14,9 @@ interface NavigationProps {
 }
 
 export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
+  const handleClick = () => setIsOpen(!isOpen);
 
   return (
     <header className="c-navigation">
@@ -40,7 +40,17 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <nav>
           <ul className="c-navigation__desktop">
             <li className="c-navigation__desktop-item">
-              <Link href="/about">Wie zijn wij?</Link>
+              <Link href="/about">
+                <a
+                  className={
+                    router.pathname === '/about'
+                      ? 'c-navigation__link-active'
+                      : ''
+                  }
+                >
+                  Wie zijn wij?
+                </a>
+              </Link>
             </li>
             <li className="c-navigation__desktop-item">
               <Button
@@ -56,7 +66,17 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
           {isOpen ? (
             <ul className="c-navigation__mobile">
               <li className="c-navigation__mobile-item">
-                <Link href="/about">Wie zijn wij?</Link>
+                <Link href="/about">
+                  <a
+                    className={
+                      router.pathname === '/about'
+                        ? 'c-navigation__link-active'
+                        : ''
+                    }
+                  >
+                    Wie zijn wij?
+                  </a>
+                </Link>
               </li>
               <li className="c-navigation__mobile-item">
                 <Button
