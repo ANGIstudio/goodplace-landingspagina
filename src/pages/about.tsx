@@ -3,14 +3,13 @@ import React from 'react';
 import { NextPage } from 'next';
 import Image from 'next/image';
 
-import aboutimages from '../assets/aboutimages.svg';
-import applestore from '../assets/apple-store-badge.svg';
+import applestore from '../assets/apple-store-badge.png';
 import googleplay from '../assets/google-play-badge.png';
-import gortemaker from '../assets/gortemaker.svg';
-import gottenbos from '../assets/gottenbos.svg';
-import peopleandphones from '../assets/peopleandphones.svg';
-import vandermarel from '../assets/vandermarel.svg';
-import vanoosten from '../assets/vanoosten.svg';
+import gortemaker from '../assets/gortemaker.png';
+import gottenbos from '../assets/gottenbos.png';
+import imageframe from '../assets/imageframe.png';
+import vandermarel from '../assets/vandermarel.png';
+import vanoosten from '../assets/vanoosten.png';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
@@ -72,14 +71,14 @@ const About: NextPage = () => {
                 betrekken.
               </p>
             </div>
-            <Image className="md:w-2/3" alt="about-images" src={aboutimages} />
+            <Image className="md:w-2/3" alt="imageframe" src={imageframe} />
           </div>
         </Wrapper>
       </Section>
 
       <Section>
         <Wrapper>
-          <ContentBlock image="lifesavers" imageFirst>
+          <ContentBlock image="peoplewithballoons" imageFirst>
             <h3 className="mb-4">
               <strong>Doneren moet juist leuk zijn</strong>
             </h3>
@@ -95,7 +94,7 @@ const About: NextPage = () => {
 
       <Section bgColor="lightgreen">
         <Wrapper>
-          <ContentBlock image="goededoelen" imageFirst={false}>
+          <ContentBlock image="brandsframe" imageFirst={false}>
             <h3 className="mb-4">
               <strong>Partners</strong>
             </h3>
@@ -155,22 +154,26 @@ const About: NextPage = () => {
               <h2 className="mb-4 text-darkgreen font-bold max-w-2xl">
                 Doe je mee met Goodplace’s <i>positive movement?</i>
               </h2>
-              <div className="mb-8">
-                <Image
-                  width={100}
-                  height={40}
-                  alt="googleplay"
-                  src={googleplay}
-                />
-                <Image
-                  width={100}
-                  height={40}
-                  alt="apple-store"
-                  src={applestore}
-                />
+              <div className="mb-8 flex space-x-3">
+                <div>
+                  <Image
+                    height={41}
+                    width={141}
+                    alt="googleplay"
+                    src={googleplay}
+                  />
+                </div>
+                <div>
+                  <Image
+                    width={125}
+                    height={41}
+                    alt="apple-store"
+                    src={applestore}
+                  />
+                </div>
               </div>
             </div>
-            <Image alt="telephone" src={peopleandphones} />
+            {/* <Image alt="telephone" src={peopleandphones} /> */}
           </div>
         </Wrapper>
       </Section>

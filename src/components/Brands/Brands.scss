@@ -1,16 +1,9 @@
 .c-brands {
   @apply
-    p-4
-    grid
-    grid-cols-2
-    sm:grid-cols-3
-    md:flex
-    md:flex-row
+    flex
+    flex-wrap
+    space-x-4
     justify-between
     items-center
-    w-full
-    gap-x-24
-    gap-y-4
-    md:gap-0
   ;
 }
