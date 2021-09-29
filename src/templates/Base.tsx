@@ -1,7 +1,7 @@
 import React from 'react';
 
-import logo from '../assets/logo.svg';
-import mobilelogo from '../assets/mobilelogo.svg';
+import logo from '../assets/logo.png';
+import mobilelogo from '../assets/mobilelogo.png';
 import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation/Navigation';
 import { Section } from '../components/Section/Section';

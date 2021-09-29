@@ -1,12 +1,12 @@
 .c-content-block {
-  @apply md:flex md:items-center md:space-x-40 justify-center;
+  @apply md:flex md:items-center gap-10;
 
   &__text {
-    @apply w-full md:w-1/2 mb-8 md:mb-0;
+    @apply w-full md:w-1/2;
   }
 
   &--image-first {
-    @apply md:flex-row-reverse space-x-reverse;
+    @apply md:flex-row-reverse;
   }
 
   &__image {

@@ -116,7 +116,7 @@ const Index: NextPage = () => {
             </p>
             <p>
               Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
-              wordt met je vrienden delen.{' '}
+              wordt met je vrienden delen.
               <i>Happiness is sweetest when shared.</i>
             </p>
           </ContentBlock>

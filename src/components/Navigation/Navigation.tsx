@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import closed from '../../assets/closed.svg';
-import hamburger from '../../assets/hamburger.svg';
+import closed from '../../assets/closed.png';
+import hamburger from '../../assets/hamburger.png';
 import { Button } from '../Button/Button';
 
 interface NavigationProps {
-  logo: string;
-  mobilelogo: string;
+  logo: StaticImageData;
+  mobilelogo: StaticImageData;
 }
 
 export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
@@ -22,7 +22,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
     <header className="c-navigation">
       <div className="c-navigation__bar">
         <div className="c-navigation__logo">
-          <Link href="#" passHref>
+          <Link href="/" passHref>
             <a>
               <Image alt="logo" src={logo} />
             </a>
@@ -30,7 +30,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         </div>
 
         <div className="c-navigation__mobile-logo">
-          <Link href="#" passHref>
+          <Link href="/" passHref>
             <a>
               <Image alt="logo" src={mobilelogo} />
             </a>
@@ -40,13 +40,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <nav>
           <ul className="c-navigation__desktop">
             <li className="c-navigation__desktop-item">
-              <Link href="#">Wat is het?</Link>
-            </li>
-            <li className="c-navigation__desktop-item">
-              <Link href="#">Hoe werkt het?</Link>
-            </li>
-            <li className="c-navigation__desktop-item">
-              <Link href="#">Contact</Link>
+              <Link href="/about">Wie zijn wij?</Link>
             </li>
             <li className="c-navigation__desktop-item">
               <Button
@@ -62,13 +56,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
           {isOpen ? (
             <ul className="c-navigation__mobile">
               <li className="c-navigation__mobile-item">
-                <Link href="#">Wat is het?</Link>
-              </li>
-              <li className="c-navigation__mobile-item">
-                <Link href="#">Hoe werkt het?</Link>
-              </li>
-              <li className="c-navigation__mobile-item">
-                <Link href="#">Contact</Link>
+                <Link href="/about">Wie zijn wij?</Link>
               </li>
               <li className="c-navigation__mobile-item">
                 <Button

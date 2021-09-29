@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import facebook from '../../assets/facebook.svg';
 import instagram from '../../assets/instagram.svg';
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import twitter from '../../assets/twitter.svg';
 
 export const Footer: React.FC = () => {
