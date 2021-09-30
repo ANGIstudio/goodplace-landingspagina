@@ -9,6 +9,10 @@
     @apply text-darkgreen font-semibold break-words;
   }
 
+  &__dot {
+    @apply text-orange;
+  }
+
   &__subtitle {
     @apply text-green font-light;
   }
