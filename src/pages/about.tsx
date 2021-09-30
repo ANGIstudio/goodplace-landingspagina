@@ -8,6 +8,7 @@ import googleplay from '../assets/google-play-badge.png';
 import gortemaker from '../assets/gortemaker.png';
 import gottenbos from '../assets/gottenbos.png';
 import imageframe from '../assets/imageframe.png';
+import phones from '../assets/phones.png';
 import vandermarel from '../assets/vandermarel.png';
 import vanoosten from '../assets/vanoosten.png';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
@@ -79,15 +80,18 @@ const About: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="peoplewithballoons" imageFirst>
-            <h3 className="mb-4">
-              <strong>Doneren moet juist leuk zijn</strong>
-            </h3>
-            <p>
-              Wij wilden wel graag doneren aan onze favoriete goede doelen, maar
-              zaten er niet op te wachten om vervolgens gebeld te worden of
-              magazines thuis te krijgen. Geld geven moet toch ook zonder gedoe
-              kunnen? Dat was voor ons de inspiratie om Goodplace te beginnen.
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Doneren moet juist leuk zijn</strong>
+              </h3>
+              <p>
+                Wij wilden wel graag doneren aan onze favoriete goede doelen,
+                maar zaten er niet op te wachten om vervolgens gebeld te worden
+                of magazines thuis te krijgen. Geld geven moet toch ook zonder
+                gedoe kunnen? Dat was voor ons de inspiratie om Goodplace te
+                beginnen.
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>
@@ -95,15 +99,17 @@ const About: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <ContentBlock image="brandsframe" imageFirst={false}>
-            <h3 className="mb-4">
-              <strong>Partners</strong>
-            </h3>
-            <p>
-              We zijn ontzettend trots om te mogen samenwerken met deze mooie
-              goede doelen in de sectoren natuur, gezondheid en hulp. Deze
-              partners zijn met zorg geselecteerd en we hopen binnenkort nog
-              veel meer mooie samenwerkingen te sluiten.
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Partners</strong>
+              </h3>
+              <p>
+                We zijn ontzettend trots om te mogen samenwerken met deze mooie
+                goede doelen in de sectoren natuur, gezondheid en hulp. Deze
+                partners zijn met zorg geselecteerd en we hopen binnenkort nog
+                veel meer mooie samenwerkingen te sluiten.
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>
@@ -147,11 +153,11 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom>
+      <Section bgColor="beige" noPaddingBottom bgImage="bg-arrow">
         <Wrapper>
-          <div>
-            <div className="md:-mb-64 -mb-28">
-              <h2 className="mb-4 text-darkgreen font-bold max-w-2xl">
+          <div className="sm:flex overflow-hidden">
+            <div>
+              <h2 className="mb-8 text-darkgreen font-bold max-w-2xl">
                 Doe je mee met Goodplace’s <i>positive movement?</i>
               </h2>
               <div className="mb-8 flex space-x-3">
@@ -163,7 +169,7 @@ const About: NextPage = () => {
                     src={googleplay}
                   />
                 </div>
-                <div>
+                <div className=" max-w-xs">
                   <Image
                     width={125}
                     height={41}
@@ -173,7 +179,10 @@ const About: NextPage = () => {
                 </div>
               </div>
             </div>
-            {/* <Image alt="telephone" src={peopleandphones} /> */}
+
+            <div className="-mb-24 sm:-mb-48">
+              <Image src={phones} alt="phones" />
+            </div>
           </div>
         </Wrapper>
       </Section>

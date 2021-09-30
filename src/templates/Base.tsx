@@ -14,7 +14,7 @@ const Base: React.FC = ({ children }) => (
     <Meta appConfig={AppConfig} />
     <Navigation logo={logo} mobilelogo={mobilelogo} />
     {children}
-    <Section>
+    <Section noPaddingBottom>
       <Wrapper>
         <Footer />
       </Wrapper>

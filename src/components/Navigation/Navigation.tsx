@@ -24,7 +24,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <div className="c-navigation__logo">
           <Link href="/" passHref>
             <a>
-              <Image alt="logo" src={logo} />
+              <Image alt="logo" src={logo} loading="eager" />
             </a>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <div className="c-navigation__mobile-logo">
           <Link href="/" passHref>
             <a>
-              <Image alt="logo" src={mobilelogo} />
+              <Image alt="logo" src={mobilelogo} loading="eager" />
             </a>
           </Link>
         </div>
@@ -96,7 +96,11 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
           onClick={handleClick}
           className="c-navigation__hamburger"
         >
-          <Image alt="hamburger" src={isOpen ? closed : hamburger} />
+          <Image
+            alt="hamburger"
+            src={isOpen ? closed : hamburger}
+            loading="eager"
+          />
         </button>
       </div>
     </header>

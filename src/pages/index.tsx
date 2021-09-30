@@ -8,17 +8,23 @@ import icons from '../assets/icons.png';
 import ifaw from '../assets/ifaw.png';
 import impact from '../assets/impact.png';
 import justdiggit from '../assets/justdiggit.png';
+import moneyone from '../assets/money-one.png';
+import moneytwo from '../assets/money-two.png';
 import oceancleanup from '../assets/oceancleanup.png';
 import oneplace from '../assets/oneplace.png';
+import phones from '../assets/phones.png';
 import saveachildsheart from '../assets/saveachildsheart.png';
 import sunday from '../assets/sunday.png';
+import taxes from '../assets/taxes.png';
 import time from '../assets/time.png';
 import tjommie from '../assets/tjommie.png';
+import wallet from '../assets/wallet.png';
 import wwf from '../assets/wwf.png';
 import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/Section/Section';
+import { Usp } from '../components/Usp/Usp';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
@@ -56,6 +62,33 @@ const Index: NextPage = () => {
     },
   ];
 
+  const howDoesItWorkUsp: UspImages[] = [
+    {
+      title: '100% naar het goede doel',
+      image: moneyone,
+      description:
+        'Als je een donatie doet via Goodplace dan gaat het volledige bedrag regelrecht naar het goede doel.',
+    },
+    {
+      title: 'Niks aan de Goodplace strijkstok',
+      image: wallet,
+      description:
+        'Goodplace is een stichting, en heeft dus geen winstoogmerk. Met een start donatie van diverse betrokkenen is Goodplace ontwikkeld, en het bestuur ontvangt ook geen salaris.',
+    },
+    {
+      title: 'Belastingvrij geven',
+      image: taxes,
+      description:
+        'Je ontvangt jaarlijks een overzicht van al je donaties zodat je met belastingvoordeel kunt doneren. Afhankelijk van jouw inkomen is jouw totale donatie van dat jaar belasting aftrekbaar en betaal je dus minder inkomstenbelasting. ',
+    },
+    {
+      title: 'Transparant over jaarcijfers',
+      image: moneytwo,
+      description:
+        'Meer lezen over de financiering van Goodplace? Dat kan! Wij streven er naar om zo transparant mogelijk te zijn over onze financien. De jaarcijfers van Goodplace worden daarom jaarlijks op onze website gepubliceerd.',
+    },
+  ];
+
   const brandItems = [
     { id: '1', href: '#', src: oceancleanup },
     { id: '2', href: '#', src: wwf },
@@ -68,11 +101,13 @@ const Index: NextPage = () => {
 
   return (
     <Base>
-      <div className="bg-hero">
+      <Section bgColor="lightbeige" noPaddingBottom noPaddingTop>
         <Wrapper>
-          <Hero />
+          <div className="bg-hero">
+            <Hero />
+          </div>
         </Wrapper>
-      </div>
+      </Section>
 
       <Wrapper>
         <Brands brandItems={brandItems} />
@@ -81,7 +116,7 @@ const Index: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
-            <div className="mb-16 max-w-lg m-auto">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>
                   Samen zorgen we voor een Goodplace op deze aarde
@@ -93,20 +128,9 @@ const Index: NextPage = () => {
                 en positieve updates krijgt.
               </p>
             </div>
-            <div className="space-y-8 md:flex md:space-y-0 justify-around items-center">
+            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {uspImages.map((usp) => (
-                <div
-                  className="m-auto max-w-xs md:w-1/2 lg:w-1/4"
-                  key={usp.title}
-                >
-                  <div className="mb-3">
-                    <Image alt={usp.title} src={usp.image} />
-                  </div>
-                  <p>
-                    <strong>{usp.title}</strong>
-                  </p>
-                  <p>{usp.description}</p>
-                </div>
+                <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
             </div>
           </div>
@@ -116,20 +140,22 @@ const Index: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="sharingiscaring" imageFirst>
-            <h3 className="mb-4">
-              <strong>Sharing is caring</strong>
-            </h3>
-            <p className="mb-8">
-              Je favoriete goede doel nóg meer steunen? Je kunt eenvoudig je
-              vrienden uitnodigen om ook een kleine bijdrage te doneren. In de
-              app zie je in één overzicht wat jullie gezamenlijke impact is
-              geweest. Laat dat balletje maar rollen!
-            </p>
-            <p>
-              Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
-              wordt met je vrienden delen.
-              <i>Happiness is sweetest when shared.</i>
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Sharing is caring</strong>
+              </h3>
+              <p className="mb-8">
+                Je favoriete goede doel nóg meer steunen? Je kunt eenvoudig je
+                vrienden uitnodigen om ook een kleine bijdrage te doneren. In de
+                app zie je in één overzicht wat jullie gezamenlijke impact is
+                geweest. Laat dat balletje maar rollen!
+              </p>
+              <p>
+                Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
+                wordt met je vrienden delen.
+                <i>Happiness is sweetest when shared.</i>
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>
@@ -137,21 +163,24 @@ const Index: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="phoneswithtiger" imageFirst={false}>
-            <h3 className="mb-4">
-              <strong>Snel en makkelijk doneren</strong>
-            </h3>
-            <p className="mb-8">
-              Doelen steunen die jij belangrijk vind moet eenvoudig zijn. Daarom
-              kun je Goodplace koppelen aan je favoriete betaal methode. Of het
-              nou gaat om eenmalig €15,- of juist een maandelijkse bijdrage van
-              €2,-. Het kan! En wanneer je toch voor een maandelijks bijdrage
-              gaat, kan je dat ook simpelweg met 1 druk op de knop stopzetten.
-            </p>
-            <p className="mb-10">
-              <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
-            </p>
-            <div>
-              <Image width={408} height={81} alt="icons" src={icons} />
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Snel en makkelijk doneren</strong>
+              </h3>
+              <p className="mb-8">
+                Doelen steunen die jij belangrijk vind moet eenvoudig zijn.
+                Daarom kun je Goodplace koppelen aan je favoriete betaal
+                methode. Of het nou gaat om eenmalig €15,- of juist een
+                maandelijkse bijdrage van €2,-. Het kan! En wanneer je toch voor
+                een maandelijks bijdrage gaat, kan je dat ook simpelweg met 1
+                druk op de knop stopzetten.
+              </p>
+              <p className="mb-10">
+                <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
+              </p>
+              <div>
+                <Image width={408} height={81} alt="icons" src={icons} />
+              </div>
             </div>
           </ContentBlock>
         </Wrapper>
@@ -160,7 +189,28 @@ const Index: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
-            <div className="mb-16 max-w-lg m-auto">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
+              <h3 className="mb-4">
+                <strong>Hoe werkt geven via Goodplace precies?</strong>
+              </h3>
+              <p>
+                Belangrijk dat jouw bijdrage aan een goed doel, ook echt daar
+                terecht komt.
+              </p>
+            </div>
+            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
+              {howDoesItWorkUsp.map((usp) => (
+                <Usp key={usp.title} usp={usp} variant="secondary" />
+              ))}
+            </div>
+          </div>
+        </Wrapper>
+      </Section>
+
+      <Section>
+        <Wrapper>
+          <div className="text-center">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>
                   Prachtige goede doelen met nog mooiere doelstellingen
@@ -185,13 +235,13 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom>
+      <Section bgColor="beige" noPaddingBottom bgImage="bg-people">
         <Wrapper>
-          <div className="text-center">
-            <h2 className="mb-4 text-darkgreen font-bold max-w-2xl m-auto">
+          <div className="text-center overflow-hidden">
+            <h2 className="mb-10 text-darkgreen font-bold max-w-2xl m-auto">
               Doe je mee met Goodplace’s <i>positive movement?</i>
             </h2>
-            <div className="mb-8 flex space-x-3">
+            <div className="flex space-x-3 justify-center">
               <div>
                 <Image
                   height={41}
@@ -209,7 +259,9 @@ const Index: NextPage = () => {
                 />
               </div>
             </div>
-            {/* <Image alt="telephone" src={} /> */}
+            <div className="mt-10 -mb-48">
+              <Image src={phones} alt="phones" />
+            </div>
           </div>
         </Wrapper>
       </Section>
