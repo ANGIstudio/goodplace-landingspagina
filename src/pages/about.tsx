@@ -68,7 +68,13 @@ const About: NextPage = () => {
                   betrekken.
                 </p>
               </div>
-              <Image className="md:w-2/3" alt="imageframe" src={imageframe} />
+              <Image
+                className="md:w-2/3"
+                alt="imageframe"
+                src={imageframe}
+                priority
+                placeholder="blur"
+              />
             </div>
           </div>
         </Wrapper>

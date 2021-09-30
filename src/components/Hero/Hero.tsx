@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       <div className="c-hero__image">
-        <Image alt="hero-image" src={phones} />
+        <Image alt="hero-image" src={phones} priority placeholder="blur" />
       </div>
     </div>
   );
