@@ -4,7 +4,7 @@
   @apply max-w-lg;
 
   &__image {
-    @apply mb-3;
+    @apply mb-4 h-24 w-24 mx-auto;
   }
 
   &--primary {
@@ -15,7 +15,7 @@
     @apply text-left;
 
     #{$el}__image {
-      @apply h-16 w-16;
+      @apply h-16 w-16 mx-0;
     }
   }
 }
