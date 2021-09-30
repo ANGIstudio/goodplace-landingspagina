@@ -116,7 +116,7 @@ const Index: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
-            <div className="mb-16 max-w-lg m-auto">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>
                   Samen zorgen we voor een Goodplace op deze aarde
@@ -189,7 +189,7 @@ const Index: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="text-center">
-            <div className="mb-16 max-w-lg m-auto">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>Hoe werkt geven via Goodplace precies?</strong>
               </h3>
@@ -210,7 +210,7 @@ const Index: NextPage = () => {
       <Section>
         <Wrapper>
           <div className="text-center">
-            <div className="mb-16 max-w-lg m-auto">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>
                   Prachtige goede doelen met nog mooiere doelstellingen
