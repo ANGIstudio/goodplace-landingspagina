@@ -22,7 +22,6 @@ const About: NextPage = () => {
     id: number;
     img: StaticImageData;
     description: string;
-    endeavors: string;
   }
 
   const teamMembers: TeamMember[] = [
@@ -31,28 +30,24 @@ const About: NextPage = () => {
       id: 1,
       img: gottenbos,
       description: 'Shaper & Getting things done',
-      endeavors: 'Logica, Deutsche Telecom, Biners Business & IT, strategie',
     },
     {
       name: 'Menno van der Marel',
       id: 2,
       img: vandermarel,
       description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen`,
-      endeavors: 'Fox-IT, VanDerSat, Ocean Cleanup',
     },
     {
       name: 'Yvo Gortemaker',
       id: 3,
       img: gortemaker,
       description: 'Digital Product Strategy, Entrepreneurship',
-      endeavors: 'GlobalOrange, Saasmore SimpledCard',
     },
     {
       name: 'Leopold van Oosten',
       id: 4,
       img: vanoosten,
       description: 'UX, Tech, Strategy, Entrepreneurship',
-      endeavors: 'You-Sir, Amsterdam Standard, Saasmore',
     },
   ];
 
@@ -80,7 +75,7 @@ const About: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="peoplewithballoons" imageFirst>
-            <div className="max-w-lg">
+            <div className="max-w-lg mt-4">
               <h3 className="mb-4">
                 <strong>Doneren moet juist leuk zijn</strong>
               </h3>
@@ -99,7 +94,7 @@ const About: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <ContentBlock image="brandsframe" imageFirst={false}>
-            <div className="max-w-lg">
+            <div className="max-w-lg mb-8 md:mb-0">
               <h3 className="mb-4">
                 <strong>Partners</strong>
               </h3>
@@ -138,11 +133,6 @@ const About: NextPage = () => {
                         <strong>{member.name}</strong>
                         <br />
                         {member.description}
-                      </p>
-                      <p>
-                        <i>Other endeavors:</i>
-                        <br />
-                        {member.endeavors}
                       </p>
                     </div>
                   </div>

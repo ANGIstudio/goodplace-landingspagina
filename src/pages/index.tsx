@@ -153,7 +153,7 @@ const Index: NextPage = () => {
               <p>
                 Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
                 wordt met je vrienden delen.
-                <i>Happiness is sweetest when shared.</i>
+                <i> Happiness is sweetest when shared.</i>
               </p>
             </div>
           </ContentBlock>

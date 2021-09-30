@@ -10,7 +10,9 @@ export const Hero: React.FC = () => {
   return (
     <div className="c-hero">
       <div className="c-hero__text">
-        <h1 className="c-hero__title">Goodplace, your place to do good.</h1>
+        <h1 className="c-hero__title">
+          Goodplace, your place to do good<span className="c-hero__dot">.</span>
+        </h1>
         <h2 className="c-hero__subtitle">
           Geven is hier écht een
           <br /> fluitje van een cent.

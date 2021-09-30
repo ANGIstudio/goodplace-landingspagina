@@ -9,6 +9,10 @@
     @apply text-darkgreen font-semibold break-words;
   }
 
+  &__dot {
+    @apply text-orange;
+  }
+
   &__subtitle {
     @apply text-green font-light;
   }
@@ -18,7 +22,7 @@
   }
 
   &__image {
-    @apply md:w-1/2 -mb-64 md:-mb-0;
+    @apply md:w-1/2 -mb-36 md:-mb-0;
   }
 
 }
