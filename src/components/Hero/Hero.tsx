@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       <div className="c-hero__image">
-        <Image alt="hero-image" src={phones} />
+        <img className="c-content-block__image" alt="awd" src={phones.src} />
       </div>
     </div>
   );

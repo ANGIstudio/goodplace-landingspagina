@@ -6,7 +6,7 @@ interface SectionProps {
   bgColor?: 'beige' | 'lightgreen' | 'lightbeige';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
-  bgImage?: 'bg-people' | 'bg-hero' | 'bg-arrow';
+  bgImage?: 'bg-people' | 'bg-hero' | 'bg-arrow' | 'bg-abouthero';
 }
 
 export const Section: React.FC<SectionProps> = ({
