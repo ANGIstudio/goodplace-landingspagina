@@ -10,7 +10,7 @@
   }
 
   &__list {
-    @apply space-y-4;
+    @apply mb-4 md:mb-0;
   }
 
 
@@ -23,6 +23,6 @@
   }
 
   &__socials {
-    @apply space-x-5;
+    @apply space-x-5 mt-1;
   }
 }

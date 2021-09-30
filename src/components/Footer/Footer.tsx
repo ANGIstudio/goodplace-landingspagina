@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
 
         <ul className="c-footer__list">
           <li>
-            <strong>Legal</strong>
+            <strong>Social Media</strong>
           </li>
           <li>
             <div className="c-footer__socials">
@@ -64,12 +64,7 @@ export const Footer: React.FC = () => {
                 return (
                   <Link key={item.id} href={item.href} passHref>
                     <a>
-                      <Image
-                        width="20"
-                        height="20px"
-                        alt="logo"
-                        src={item.src}
-                      />
+                      <Image width="30" height="30" alt="logo" src={item.src} />
                     </a>
                   </Link>
                 );
