@@ -73,7 +73,6 @@ const About: NextPage = () => {
                 alt="imageframe"
                 src={imageframe}
                 priority
-                placeholder="blur"
               />
             </div>
           </div>
