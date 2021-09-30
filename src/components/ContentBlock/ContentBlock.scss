@@ -1,5 +1,5 @@
 .c-content-block {
-  @apply flex flex-col md:flex-row justify-center items-center md:gap-x-24;
+  @apply flex flex-col md:flex-row items-center md:gap-x-24;
 
   &__text {
     @apply w-full md:w-1/2;
