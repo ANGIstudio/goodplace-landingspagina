@@ -56,8 +56,8 @@ const About: NextPage = () => {
       <Section noPaddingBottom noPaddingTop>
         <Wrapper>
           <div className="bg-abouthero bg-no-repeat bg-top md:bg-right">
-            <div className="flex flex-col-reverse md:flex-row items-center justify-between">
-              <div className="flex flex-col md:w-1/3 max-w-sm md:mb-0 mb-8 mt-4 md:mt-0">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+              <div className="md:max-w-lg">
                 <h2 className="mb-4 font-bold text-darkgreen">
                   Leuk om kennis te maken
                 </h2>
@@ -68,11 +68,10 @@ const About: NextPage = () => {
                   betrekken.
                 </p>
               </div>
-              <Image
-                className="md:w-2/3"
-                alt="imageframe"
-                src={imageframe}
-                priority
+              <img
+                className="w-full md:w-1/2 mt-8"
+                alt="awd"
+                src={imageframe.src}
               />
             </div>
           </div>
