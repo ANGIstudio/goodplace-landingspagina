@@ -58,21 +58,23 @@ const About: NextPage = () => {
 
   return (
     <Base>
-      <Section>
+      <Section noPaddingBottom noPaddingTop>
         <Wrapper>
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex flex-col md:w-1/3 max-w-sm md:mb-0 mb-8">
-              <h2 className="mb-4 font-bold text-darkgreen">
-                Leuk om kennis te maken
-              </h2>
-              <p className="text-green">
-                Samen met jou vergroten we maatschappelijke betrokkenheid. We
-                maken doneren voor iedereen leuk en laagdrempelig, door mensen
-                eenvoudig en positief bij goede doelen en projecten te
-                betrekken.
-              </p>
+          <div className="bg-abouthero bg-no-repeat bg-top md:bg-right">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-between">
+              <div className="flex flex-col md:w-1/3 max-w-sm md:mb-0 mb-8 mt-4 md:mt-0">
+                <h2 className="mb-4 font-bold text-darkgreen">
+                  Leuk om kennis te maken
+                </h2>
+                <p className="text-green">
+                  Samen met jou vergroten we maatschappelijke betrokkenheid. We
+                  maken doneren voor iedereen leuk en laagdrempelig, door mensen
+                  eenvoudig en positief bij goede doelen en projecten te
+                  betrekken.
+                </p>
+              </div>
+              <Image className="md:w-2/3" alt="imageframe" src={imageframe} />
             </div>
-            <Image className="md:w-2/3" alt="imageframe" src={imageframe} />
           </div>
         </Wrapper>
       </Section>

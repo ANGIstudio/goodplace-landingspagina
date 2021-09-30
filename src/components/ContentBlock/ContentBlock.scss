@@ -1,15 +1,18 @@
 .c-content-block {
-  @apply md:flex md:items-center gap-10;
+  $el: &;
 
-  &__text {
-    @apply w-full md:w-1/2;
-  }
+  @apply md:grid md:items-center md:grid-cols-2 gap-10;
 
   &--image-first {
-    @apply md:flex-row-reverse;
+    #{$el}__image {
+      @apply md:order-1;
+    }
+    #{$el}__text {
+      @apply md:order-2;
+    }
   }
 
   &__image {
-    @apply w-full md:w-1/2;
+    @apply mt-4 md:mt-0;
   }
 }
