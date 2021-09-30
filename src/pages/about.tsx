@@ -80,15 +80,18 @@ const About: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="peoplewithballoons" imageFirst>
-            <h3 className="mb-4">
-              <strong>Doneren moet juist leuk zijn</strong>
-            </h3>
-            <p>
-              Wij wilden wel graag doneren aan onze favoriete goede doelen, maar
-              zaten er niet op te wachten om vervolgens gebeld te worden of
-              magazines thuis te krijgen. Geld geven moet toch ook zonder gedoe
-              kunnen? Dat was voor ons de inspiratie om Goodplace te beginnen.
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Doneren moet juist leuk zijn</strong>
+              </h3>
+              <p>
+                Wij wilden wel graag doneren aan onze favoriete goede doelen,
+                maar zaten er niet op te wachten om vervolgens gebeld te worden
+                of magazines thuis te krijgen. Geld geven moet toch ook zonder
+                gedoe kunnen? Dat was voor ons de inspiratie om Goodplace te
+                beginnen.
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>
@@ -96,15 +99,17 @@ const About: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <ContentBlock image="brandsframe" imageFirst={false}>
-            <h3 className="mb-4">
-              <strong>Partners</strong>
-            </h3>
-            <p>
-              We zijn ontzettend trots om te mogen samenwerken met deze mooie
-              goede doelen in de sectoren natuur, gezondheid en hulp. Deze
-              partners zijn met zorg geselecteerd en we hopen binnenkort nog
-              veel meer mooie samenwerkingen te sluiten.
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Partners</strong>
+              </h3>
+              <p>
+                We zijn ontzettend trots om te mogen samenwerken met deze mooie
+                goede doelen in de sectoren natuur, gezondheid en hulp. Deze
+                partners zijn met zorg geselecteerd en we hopen binnenkort nog
+                veel meer mooie samenwerkingen te sluiten.
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>

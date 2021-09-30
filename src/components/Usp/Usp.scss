@@ -1,6 +1,8 @@
 .c-usp {
   $el: &;
 
+  @apply max-w-lg;
+
   &__image {
     @apply mb-3;
   }

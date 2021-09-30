@@ -140,20 +140,22 @@ const Index: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="sharingiscaring" imageFirst>
-            <h3 className="mb-4">
-              <strong>Sharing is caring</strong>
-            </h3>
-            <p className="mb-8">
-              Je favoriete goede doel nóg meer steunen? Je kunt eenvoudig je
-              vrienden uitnodigen om ook een kleine bijdrage te doneren. In de
-              app zie je in één overzicht wat jullie gezamenlijke impact is
-              geweest. Laat dat balletje maar rollen!
-            </p>
-            <p>
-              Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
-              wordt met je vrienden delen.
-              <i>Happiness is sweetest when shared.</i>
-            </p>
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Sharing is caring</strong>
+              </h3>
+              <p className="mb-8">
+                Je favoriete goede doel nóg meer steunen? Je kunt eenvoudig je
+                vrienden uitnodigen om ook een kleine bijdrage te doneren. In de
+                app zie je in één overzicht wat jullie gezamenlijke impact is
+                geweest. Laat dat balletje maar rollen!
+              </p>
+              <p>
+                Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
+                wordt met je vrienden delen.
+                <i>Happiness is sweetest when shared.</i>
+              </p>
+            </div>
           </ContentBlock>
         </Wrapper>
       </Section>
@@ -161,21 +163,24 @@ const Index: NextPage = () => {
       <Section>
         <Wrapper>
           <ContentBlock image="phoneswithtiger" imageFirst={false}>
-            <h3 className="mb-4">
-              <strong>Snel en makkelijk doneren</strong>
-            </h3>
-            <p className="mb-8">
-              Doelen steunen die jij belangrijk vind moet eenvoudig zijn. Daarom
-              kun je Goodplace koppelen aan je favoriete betaal methode. Of het
-              nou gaat om eenmalig €15,- of juist een maandelijkse bijdrage van
-              €2,-. Het kan! En wanneer je toch voor een maandelijks bijdrage
-              gaat, kan je dat ook simpelweg met 1 druk op de knop stopzetten.
-            </p>
-            <p className="mb-10">
-              <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
-            </p>
-            <div>
-              <Image width={408} height={81} alt="icons" src={icons} />
+            <div className="max-w-lg">
+              <h3 className="mb-4">
+                <strong>Snel en makkelijk doneren</strong>
+              </h3>
+              <p className="mb-8">
+                Doelen steunen die jij belangrijk vind moet eenvoudig zijn.
+                Daarom kun je Goodplace koppelen aan je favoriete betaal
+                methode. Of het nou gaat om eenmalig €15,- of juist een
+                maandelijkse bijdrage van €2,-. Het kan! En wanneer je toch voor
+                een maandelijks bijdrage gaat, kan je dat ook simpelweg met 1
+                druk op de knop stopzetten.
+              </p>
+              <p className="mb-10">
+                <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
+              </p>
+              <div>
+                <Image width={408} height={81} alt="icons" src={icons} />
+              </div>
             </div>
           </ContentBlock>
         </Wrapper>
