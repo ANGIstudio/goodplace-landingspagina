@@ -71,31 +71,36 @@ export const teamMembers: TeamMember[] = [
     name: 'Frank Gottenbos',
     id: 1,
     img: gottenbos,
-    description: 'Shaper & Getting things done',
+    description:
+      'Shaper & Getting things done \n Founder Biners / Investeerder',
   },
   {
     name: 'Menno van der Marel',
     id: 2,
     img: vandermarel,
-    description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen`,
+    description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen \n Entrepreneur / Founder Fox-IT`,
+  },
+  {
+    name: 'Joni Uhlenbeck',
+    id: 3,
+    img: vanoosten,
+    description:
+      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
   },
   {
     name: 'Yvo Gortemaker',
-    id: 3,
-    img: gortemaker,
-    description: 'Digital Product Strategy, Entrepreneurship',
-  },
-  {
-    name: 'Leopold van Oosten',
     id: 4,
-    img: vanoosten,
-    description: 'UX, Tech, Strategy, Entrepreneurship',
+    img: gortemaker,
+    description:
+      'Digital Product Strategy, Entrepreneurship \n Founder Global Orange',
   },
+
   {
     name: 'Leopold van Oosten',
     id: 5,
     img: vanoosten,
-    description: 'UX, Tech, Strategy, Entrepreneurship',
+    description:
+      'UX, Tech, Strategy, Entrepreneurship \n Founder Amsterdam Standard',
   },
 ];
 

@@ -83,8 +83,10 @@ const About: NextPage = () => {
           <h3 className="mb-4">
             <strong>Team</strong>
           </h3>
-          <p className="mb-8">
-            Wij zijn een klein team van betrokken ondernemers.
+          <p className="mb-8 md:w-1/2">
+            Wij zijn een klein team van betrokken ondernemers en doen dit niet
+            voor eigen verdiensten. We geloven helemaal in het concept om de
+            gever centraal te stellen.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
             {teamMembers.map((member) => {
@@ -98,7 +100,7 @@ const About: NextPage = () => {
                   </div>
                   <div>
                     <div className="space-y-6 max-w-xs">
-                      <p className="whitespace-pre-line">
+                      <p className="whitespace-pre-line text-base">
                         <strong>{member.name}</strong>
                         <br />
                         {member.description}
