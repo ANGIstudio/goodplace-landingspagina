@@ -55,7 +55,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
             <li className="c-navigation__desktop-item">
               <Button
                 tag="link"
-                href="#"
+                href="/download"
                 label="Download"
                 variant="green"
                 size="M"
@@ -81,7 +81,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
               <li className="c-navigation__mobile-item">
                 <Button
                   tag="link"
-                  href="#"
+                  href="/download"
                   label="Download"
                   variant="green"
                   size="M"

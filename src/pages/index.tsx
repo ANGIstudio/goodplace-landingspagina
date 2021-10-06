@@ -1,5 +1,8 @@
+import React from 'react';
+
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
 import contact from '../assets/contact.svg';
@@ -253,20 +256,28 @@ const Index: NextPage = () => {
             </h2>
             <div className="flex space-x-3 justify-center">
               <div>
-                <Image
-                  height={41}
-                  width={141}
-                  alt="googleplay"
-                  src={googleplay}
-                />
+                <Link href="/download" passHref>
+                  <a>
+                    <Image
+                      height={41}
+                      width={141}
+                      alt="googleplay"
+                      src={googleplay}
+                    />
+                  </a>
+                </Link>
               </div>
               <div>
-                <Image
-                  width={125}
-                  height={41}
-                  alt="apple-store"
-                  src={applestore}
-                />
+                <Link href="/download" passHref>
+                  <a>
+                    <Image
+                      width={125}
+                      height={41}
+                      alt="apple-store"
+                      src={applestore}
+                    />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="mt-10 -mb-48">
