@@ -165,7 +165,7 @@ const Index: NextPage = () => {
           <ContentBlock image="phoneswithtiger" imageFirst={false}>
             <div className="max-w-lg">
               <h3 className="mb-4">
-                <strong>Snel en makkelijk doneren</strong>
+                <strong>Doneren in één klik</strong>
               </h3>
               <p className="mb-8">
                 Doelen steunen die jij belangrijk vind moet eenvoudig zijn.
