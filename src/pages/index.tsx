@@ -10,6 +10,7 @@ import impact from '../assets/impact.svg';
 import justdiggit from '../assets/justdiggit.png';
 import moneyone from '../assets/money-one.svg';
 import moneytwo from '../assets/money-two.svg';
+import nonprofitsticker from '../assets/nonprofit-sticker.svg';
 import oceancleanup from '../assets/oceancleanup.png';
 import oneplace from '../assets/oneplace.svg';
 import phones from '../assets/phones.png';
@@ -103,7 +104,15 @@ const Index: NextPage = () => {
     <Base>
       <Section bgColor="lightbeige" noPaddingBottom noPaddingTop>
         <Wrapper>
-          <div className="bg-hero">
+          <div className="bg-hero relative">
+            <div className="absolute top-0 -right-6 md:-right-4 z-20 w-[146px] h-[146px] md:h-[214px] md:w-[214px]">
+              <Image
+                alt="non-profit-desktop"
+                src={nonprofitsticker}
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
             <Hero />
           </div>
         </Wrapper>
