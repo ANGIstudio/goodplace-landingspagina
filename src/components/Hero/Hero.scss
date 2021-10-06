@@ -1,8 +1,8 @@
 .c-hero {
-  @apply flex md:flex-row flex-col py-8 md:py-4 justify-between md:space-x-6 items-center overflow-hidden;
+  @apply flex md:flex-row flex-col py-16 md:py-4 justify-between md:space-x-6 md:items-center overflow-hidden;
 
   &__text {
-    @apply flex flex-col justify-center md:w-1/2 space-y-8 pb-4 md:pb-0;
+    @apply md:flex md:flex-col md:justify-center w-3/4 md:w-1/2 space-y-3 md:space-y-8 pb-4 md:pb-0;
   }
 
   &__title {
@@ -14,7 +14,7 @@
   }
 
   &__subtitle {
-    @apply text-green font-light;
+    @apply text-green font-light pb-4;
   }
 
   &__download-links {

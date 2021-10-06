@@ -77,11 +77,8 @@ export const Footer: React.FC = () => {
       <div className="c-footer__legal">
         <div>&copy; 2021 Goodplace. Alle rechten voorbehouden.</div>
         <div>
-          <Link href="#">
+          <Link href="/privacy">
             <a className="c-footer__legal-link">Privacy beleid</a>
-          </Link>
-          <Link href="#">
-            <a className="c-footer__legal-link">Algemene voorwaarden</a>
           </Link>
         </div>
       </div>

@@ -90,13 +90,13 @@ const Index: NextPage = () => {
   ];
 
   const brandItems = [
-    { id: '1', href: '#', src: oceancleanup },
-    { id: '2', href: '#', src: wwf },
-    { id: '3', href: '#', src: justdiggit },
-    { id: '4', href: '#', src: ifaw },
-    { id: '5', href: '#', src: sunday },
-    { id: '6', href: '#', src: tjommie },
-    { id: '7', href: '#', src: saveachildsheart },
+    { id: '1', src: oceancleanup },
+    { id: '2', src: wwf },
+    { id: '3', src: justdiggit },
+    { id: '4', src: ifaw },
+    { id: '5', src: sunday },
+    { id: '6', src: tjommie },
+    { id: '7', src: saveachildsheart },
   ];
 
   return (
@@ -123,9 +123,9 @@ const Index: NextPage = () => {
                 </strong>
               </h3>
               <p>
-                Goodplace is een <i>positive movement</i>. Een plek waar je als
-                gever op een makkelijke en leuke manier goede doelen kan steunen
-                en positieve updates krijgt.
+                Goodplace is een plek waar je als gever op een makkelijke en
+                leuke manier goede doelen kan steunen en positieve updates
+                krijgt.
               </p>
             </div>
             <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -226,6 +226,7 @@ const Index: NextPage = () => {
               <a
                 className="text-darkgreen hover:underline text-lg font-medium"
                 href="#"
+                target="_blank"
               >
                 Aansluiten bij Goodplace ❯
               </a>
@@ -239,7 +240,7 @@ const Index: NextPage = () => {
         <Wrapper>
           <div className="text-center overflow-hidden">
             <h2 className="mb-10 text-darkgreen font-bold max-w-2xl m-auto">
-              Doe je mee met Goodplace’s <i>positive movement?</i>
+              Doe je mee met Goodplace?
             </h2>
             <div className="flex space-x-3 justify-center">
               <div>

@@ -14,8 +14,7 @@ export const Hero: React.FC = () => {
           Goodplace, your place to do good<span className="c-hero__dot">.</span>
         </h1>
         <h2 className="c-hero__subtitle">
-          Geven is hier écht een
-          <br /> fluitje van een cent.
+          Doneren was nog nooit zo makkelijk!
         </h2>
         <div className="c-hero__download-links">
           <div>
