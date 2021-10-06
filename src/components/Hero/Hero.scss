@@ -24,9 +24,4 @@
   &__image {
     @apply md:w-1/2 -mb-48 sm:-mb-64 md:-mb-0;
   }
-
-  &__sticker {
-    @apply absolute top-0 -right-8;
-  }
-
 }
