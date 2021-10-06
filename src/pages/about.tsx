@@ -4,53 +4,17 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 
 import applestore from '../assets/apple-store-badge.png';
+import { teamMembers, brandItems } from '../assets/assets';
 import googleplay from '../assets/google-play-badge.png';
-import gortemaker from '../assets/gortemaker.png';
-import gottenbos from '../assets/gottenbos.png';
 import imageframe from '../assets/imageframe.png';
 import phones from '../assets/phones.png';
-import vandermarel from '../assets/vandermarel.png';
-import vanoosten from '../assets/vanoosten.png';
+import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
-  interface TeamMember {
-    name: string;
-    id: number;
-    img: StaticImageData;
-    description: string;
-  }
-
-  const teamMembers: TeamMember[] = [
-    {
-      name: 'Frank Gottenbos',
-      id: 1,
-      img: gottenbos,
-      description: 'Shaper & Getting things done',
-    },
-    {
-      name: 'Menno van der Marel',
-      id: 2,
-      img: vandermarel,
-      description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen`,
-    },
-    {
-      name: 'Yvo Gortemaker',
-      id: 3,
-      img: gortemaker,
-      description: 'Digital Product Strategy, Entrepreneurship',
-    },
-    {
-      name: 'Leopold van Oosten',
-      id: 4,
-      img: vanoosten,
-      description: 'UX, Tech, Strategy, Entrepreneurship',
-    },
-  ];
-
   return (
     <Base>
       <Section noPaddingTop bgColor="lightgreen">
@@ -97,8 +61,8 @@ const About: NextPage = () => {
 
       <Section bgColor="lightgreen">
         <Wrapper>
-          <ContentBlock image="brandsframe" imageFirst={false}>
-            <div className="max-w-lg mb-8 md:mb-0">
+          <div className="text-center">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>Partners</strong>
               </h3>
@@ -109,7 +73,8 @@ const About: NextPage = () => {
                 veel meer mooie samenwerkingen te sluiten.
               </p>
             </div>
-          </ContentBlock>
+            <Brands brandItems={brandItems} />
+          </div>
         </Wrapper>
       </Section>
 
@@ -152,7 +117,7 @@ const About: NextPage = () => {
           <div className="sm:flex overflow-hidden">
             <div>
               <h2 className="mb-8 text-darkgreen font-bold max-w-2xl">
-                Doe je mee met Goodplace’s <i>positive movement?</i>
+                Doe je mee met Goodplace?
               </h2>
               <div className="mb-8 flex space-x-3">
                 <div>

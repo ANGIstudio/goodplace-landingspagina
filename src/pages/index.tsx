@@ -5,25 +5,19 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
+import { brandItems } from '../assets/assets';
 import contact from '../assets/contact.svg';
 import googleplay from '../assets/google-play-badge.png';
 import icons from '../assets/icons.png';
-import ifaw from '../assets/ifaw.png';
 import impact from '../assets/impact.svg';
-import justdiggit from '../assets/justdiggit.png';
 import moneyone from '../assets/money-one.svg';
 import moneytwo from '../assets/money-two.svg';
 import nonprofitsticker from '../assets/nonprofit-sticker.svg';
-import oceancleanup from '../assets/oceancleanup.png';
 import oneplace from '../assets/oneplace.svg';
 import phones from '../assets/phones.png';
-import saveachildsheart from '../assets/saveachildsheart.png';
-import sunday from '../assets/sunday.png';
 import taxes from '../assets/taxes.svg';
 import time from '../assets/time.svg';
-import tjommie from '../assets/tjommie.png';
 import wallet from '../assets/wallet.svg';
-import wwf from '../assets/wwf.png';
 import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Hero } from '../components/Hero/Hero';
@@ -91,16 +85,6 @@ const Index: NextPage = () => {
       description:
         'Meer lezen over de financiering van Goodplace? Dat kan! Wij streven er naar om zo transparant mogelijk te zijn over onze financien. De jaarcijfers van Goodplace worden daarom jaarlijks op onze website gepubliceerd.',
     },
-  ];
-
-  const brandItems = [
-    { id: '1', src: oceancleanup },
-    { id: '2', src: wwf },
-    { id: '3', src: justdiggit },
-    { id: '4', src: ifaw },
-    { id: '5', src: sunday },
-    { id: '6', src: tjommie },
-    { id: '7', src: saveachildsheart },
   ];
 
   return (
