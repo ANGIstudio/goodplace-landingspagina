@@ -61,7 +61,7 @@ const About: NextPage = () => {
 
       <Section bgColor="lightgreen">
         <Wrapper>
-          <div className="text-center">
+          <div className="md:text-center">
             <div className="mb-8 md:mb-16 max-w-lg m-auto">
               <h3 className="mb-4">
                 <strong>Partners</strong>

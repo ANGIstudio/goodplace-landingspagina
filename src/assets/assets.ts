@@ -13,11 +13,14 @@ import vriendensophia from './brands/vriendensophia.png';
 import warchild from './brands/warchild.png';
 import wildeganzen from './brands/wildeganzen.png';
 import wwf from './brands/wwf.png';
+import facebook from './facebook.svg';
 import gortemaker from './gortemaker.png';
 import gottenbos from './gottenbos.png';
+import instagram from './instagram.svg';
 import peoplewithballoons from './peoplewithballoons.png';
 import phoneswithtiger from './phoneswithtiger.png';
 import sharingiscaring from './sharingiscaring.png';
+import twitter from './twitter.svg';
 import vandermarel from './vandermarel.png';
 import vanoosten from './vanoosten.png';
 
@@ -30,6 +33,13 @@ export const contentImages: ContentImagesProps = {
   peoplewithballoons,
   sharingiscaring,
 };
+
+export interface BrandsProps {
+  brandItems: {
+    id: string;
+    src: StaticImageData;
+  }[];
+}
 
 export const brandItems = [
   { id: '1', src: wwf },
@@ -87,4 +97,18 @@ export const teamMembers: TeamMember[] = [
     img: vanoosten,
     description: 'UX, Tech, Strategy, Entrepreneurship',
   },
+];
+
+export interface SocialsProps {
+  socialsItems: {
+    id: string;
+    src: StaticImageData;
+    href: string;
+  }[];
+}
+
+export const socialsItems = [
+  { id: '1', href: '#', src: instagram },
+  { id: '2', href: '#', src: facebook },
+  { id: '3', href: '#', src: twitter },
 ];

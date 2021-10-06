@@ -3,8 +3,10 @@ import React from 'react';
 import { NextPage } from 'next';
 import Image from 'next/image';
 
+import { socialsItems } from '../assets/assets';
 import peoplewithballoons from '../assets/peoplewithballoons.png';
 import { Section } from '../components/Section/Section';
+import { Socials } from '../components/Socials/Socials';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
@@ -24,6 +26,7 @@ const Download: NextPage = () => {
                 de app kan downloaden? Houd Goodplace in de gaten op onze social
                 media!
               </p>
+              <Socials socialsItems={socialsItems} />
             </div>
             <div className="order-1 md:order-2 m-auto md:m-0 w-2/3 md:w-full">
               <Image alt="peoplewithballons" src={peoplewithballoons} />

@@ -1,0 +1,7 @@
+.c-socials {
+  @apply flex space-x-5 mt-1;
+
+  &__link {
+    @apply cursor-pointer;
+  }
+}

@@ -2,12 +2,7 @@ import React from 'react';
 
 import Image from 'next/image';
 
-interface BrandsProps {
-  brandItems: {
-    id: string;
-    src: StaticImageData;
-  }[];
-}
+import { BrandsProps } from '../../assets/assets';
 
 export const Brands: React.FC<BrandsProps> = ({ brandItems }) => {
   return (
