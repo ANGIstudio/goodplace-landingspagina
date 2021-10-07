@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
-import { brandItems } from '../data/data';
 import contact from '../assets/contact.svg';
 import googleplay from '../assets/google-play-badge.png';
 import icons from '../assets/icons.png';
@@ -24,6 +23,7 @@ import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
 import { Wrapper } from '../components/Wrapper/Wrapper';
+import { brandItems } from '../data/data';
 import { Base } from '../templates/Base';
 
 interface UspImages {
@@ -221,8 +221,9 @@ const Index: NextPage = () => {
               </p>
               <a
                 className="text-darkgreen hover:underline text-lg font-medium"
-                href="#"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
                 target="_blank"
+                rel="noreferrer"
               >
                 Aansluiten bij Goodplace ❯
               </a>

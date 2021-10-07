@@ -10,7 +10,7 @@ const Privacy: NextPage = () => {
   return (
     <Base>
       <Section bgColor="lightgreen">
-        <Wrapper>Privacy page</Wrapper>
+        <Wrapper>Privacy</Wrapper>
       </Section>
     </Base>
   );

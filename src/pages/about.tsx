@@ -4,7 +4,6 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 
 import applestore from '../assets/apple-store-badge.png';
-import { teamMembers, brandItems } from '../data/data';
 import googleplay from '../assets/google-play-badge.png';
 import imageframe from '../assets/imageframe.png';
 import phones from '../assets/phones.png';
@@ -12,6 +11,7 @@ import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
+import { teamMembers, brandItems } from '../data/data';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
