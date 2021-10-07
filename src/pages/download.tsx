@@ -3,19 +3,19 @@ import React from 'react';
 import { NextPage } from 'next';
 import Image from 'next/image';
 
-import { socialsItems } from '../assets/assets';
 import peoplewithballoons from '../assets/peoplewithballoons.png';
 import { Section } from '../components/Section/Section';
 import { Socials } from '../components/Socials/Socials';
 import { Wrapper } from '../components/Wrapper/Wrapper';
+import { socialsItems } from '../data/data';
 import { Base } from '../templates/Base';
 
 const Download: NextPage = () => {
   return (
     <Base>
-      <Section noPaddingTop bgColor="lightbeige">
+      <Section bgColor="lightbeige">
         <Wrapper>
-          <div className="grid md:grid-cols-2 md:items-center gap-10 pt-10 md:mt-0">
+          <div className="grid md:grid-cols-2 md:items-center gap-10">
             <div className="max-w-lg order-2 md:order-1">
               <h3 className="mb-2">
                 <strong>Super dat je Goodplace wilt downloaden!</strong>

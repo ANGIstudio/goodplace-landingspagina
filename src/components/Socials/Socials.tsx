@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { SocialsProps } from '../../assets/assets';
+import { SocialsProps } from '../../data/data';
 
 export const Socials: React.FC<SocialsProps> = ({ socialsItems }) => {
   return (

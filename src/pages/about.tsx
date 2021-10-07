@@ -4,7 +4,7 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 
 import applestore from '../assets/apple-store-badge.png';
-import { teamMembers, brandItems } from '../assets/assets';
+import { teamMembers, brandItems } from '../data/data';
 import googleplay from '../assets/google-play-badge.png';
 import imageframe from '../assets/imageframe.png';
 import phones from '../assets/phones.png';

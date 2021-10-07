@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { socialsItems } from '../../assets/assets';
+import { socialsItems } from '../../data/data';
 import logo from '../../assets/logo.svg';
 import { Socials } from '../Socials/Socials';
 

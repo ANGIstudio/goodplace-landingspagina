@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { contentImages, ContentImagesProps } from '../../assets/assets';
+import { contentImages, ContentImagesProps } from '../../data/data';
 
 interface ContentBlockProps {
   image: string;

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
-import { brandItems } from '../assets/assets';
+import { brandItems } from '../data/data';
 import contact from '../assets/contact.svg';
 import googleplay from '../assets/google-play-badge.png';
 import icons from '../assets/icons.png';

@@ -9,7 +9,7 @@ import { Base } from '../templates/Base';
 const Privacy: NextPage = () => {
   return (
     <Base>
-      <Section noPaddingTop bgColor="lightgreen">
+      <Section bgColor="lightgreen">
         <Wrapper>Privacy page</Wrapper>
       </Section>
     </Base>

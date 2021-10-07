@@ -4,9 +4,12 @@
     flex-wrap
     gap-4
     md:space-x-16
-    justify-center
     items-center
+    justify-center
     py-6
-    md:py-7
-  ;
+    md:py-7;
+
+  &__item {
+    @apply md:w-[70px] w-[50px];
+  }
 }
