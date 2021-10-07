@@ -3,8 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { socialsItems } from '../../data/data';
 import logo from '../../assets/logo.svg';
+import { socialsItems } from '../../data/data';
 import { Socials } from '../Socials/Socials';
 
 export const Footer: React.FC = () => {
