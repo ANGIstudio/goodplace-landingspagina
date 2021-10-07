@@ -10,6 +10,6 @@
     md:py-7;
 
   &__item {
-    @apply md:w-[70px] w-[50px];
+    @apply w-10 md:w-20;
   }
 }
