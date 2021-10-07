@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { assets, AssetsProps } from '../../assets/assets';
+import { contentImages, ContentImagesProps } from '../../data/data';
 
 interface ContentBlockProps {
   image: string;
@@ -22,7 +22,7 @@ export const ContentBlock: React.FC<ContentBlockProps> = ({
       <img
         className="c-content-block__image"
         alt={image}
-        src={(assets as AssetsProps)[image]?.src}
+        src={(contentImages as ContentImagesProps)[image]?.src}
       />
     </div>
   );

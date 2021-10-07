@@ -1,31 +1,29 @@
+import React from 'react';
+
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
 import contact from '../assets/contact.svg';
 import googleplay from '../assets/google-play-badge.png';
 import icons from '../assets/icons.png';
-import ifaw from '../assets/ifaw.png';
 import impact from '../assets/impact.svg';
-import justdiggit from '../assets/justdiggit.png';
 import moneyone from '../assets/money-one.svg';
 import moneytwo from '../assets/money-two.svg';
-import oceancleanup from '../assets/oceancleanup.png';
+import nonprofitsticker from '../assets/nonprofit-sticker.svg';
 import oneplace from '../assets/oneplace.svg';
 import phones from '../assets/phones.png';
-import saveachildsheart from '../assets/saveachildsheart.png';
-import sunday from '../assets/sunday.png';
 import taxes from '../assets/taxes.svg';
 import time from '../assets/time.svg';
-import tjommie from '../assets/tjommie.png';
 import wallet from '../assets/wallet.svg';
-import wwf from '../assets/wwf.png';
 import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
 import { Wrapper } from '../components/Wrapper/Wrapper';
+import { brandItems } from '../data/data';
 import { Base } from '../templates/Base';
 
 interface UspImages {
@@ -89,21 +87,19 @@ const Index: NextPage = () => {
     },
   ];
 
-  const brandItems = [
-    { id: '1', href: '#', src: oceancleanup },
-    { id: '2', href: '#', src: wwf },
-    { id: '3', href: '#', src: justdiggit },
-    { id: '4', href: '#', src: ifaw },
-    { id: '5', href: '#', src: sunday },
-    { id: '6', href: '#', src: tjommie },
-    { id: '7', href: '#', src: saveachildsheart },
-  ];
-
   return (
     <Base>
       <Section bgColor="lightbeige" noPaddingBottom noPaddingTop>
         <Wrapper>
-          <div className="bg-hero">
+          <div className="bg-hero relative">
+            <div className="absolute top-0 -right-6 md:-right-4 z-20 w-[146px] h-[146px] md:h-[214px] md:w-[214px]">
+              <Image
+                alt="non-profit-desktop"
+                src={nonprofitsticker}
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
             <Hero />
           </div>
         </Wrapper>
@@ -123,9 +119,9 @@ const Index: NextPage = () => {
                 </strong>
               </h3>
               <p>
-                Goodplace is een <i>positive movement</i>. Een plek waar je als
-                gever op een makkelijke en leuke manier goede doelen kan steunen
-                en positieve updates krijgt.
+                Goodplace is een plek waar je als gever op een makkelijke en
+                leuke manier goede doelen kan steunen en positieve updates
+                krijgt.
               </p>
             </div>
             <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -165,7 +161,7 @@ const Index: NextPage = () => {
           <ContentBlock image="phoneswithtiger" imageFirst={false}>
             <div className="max-w-lg">
               <h3 className="mb-4">
-                <strong>Snel en makkelijk doneren</strong>
+                <strong>Doneren in één klik</strong>
               </h3>
               <p className="mb-8">
                 Doelen steunen die jij belangrijk vind moet eenvoudig zijn.
@@ -225,7 +221,9 @@ const Index: NextPage = () => {
               </p>
               <a
                 className="text-darkgreen hover:underline text-lg font-medium"
-                href="#"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
+                target="_blank"
+                rel="noreferrer"
               >
                 Aansluiten bij Goodplace ❯
               </a>
@@ -239,24 +237,32 @@ const Index: NextPage = () => {
         <Wrapper>
           <div className="text-center overflow-hidden">
             <h2 className="mb-10 text-darkgreen font-bold max-w-2xl m-auto">
-              Doe je mee met Goodplace’s <i>positive movement?</i>
+              Doe je mee met Goodplace?
             </h2>
             <div className="flex space-x-3 justify-center">
               <div>
-                <Image
-                  height={41}
-                  width={141}
-                  alt="googleplay"
-                  src={googleplay}
-                />
+                <Link href="/download" passHref>
+                  <a>
+                    <Image
+                      height={41}
+                      width={141}
+                      alt="googleplay"
+                      src={googleplay}
+                    />
+                  </a>
+                </Link>
               </div>
               <div>
-                <Image
-                  width={125}
-                  height={41}
-                  alt="apple-store"
-                  src={applestore}
-                />
+                <Link href="/download" passHref>
+                  <a>
+                    <Image
+                      width={125}
+                      height={41}
+                      alt="apple-store"
+                      src={applestore}
+                    />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="mt-10 -mb-48">

@@ -8,7 +8,7 @@ type MetaProps = {
     title: string;
     description: string;
     locale: string;
-  }
+  };
 };
 
 const Meta: React.FC<MetaProps> = ({ appConfig }) => {

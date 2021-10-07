@@ -3,18 +3,11 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import facebook from '../../assets/facebook.png';
-import instagram from '../../assets/instagram.png';
 import logo from '../../assets/logo.svg';
-import twitter from '../../assets/twitter.png';
+import { socialsItems } from '../../data/data';
+import { Socials } from '../Socials/Socials';
 
 export const Footer: React.FC = () => {
-  const socialItems = [
-    { id: '1', href: '#', src: instagram },
-    { id: '2', href: '#', src: facebook },
-    { id: '3', href: '#', src: twitter },
-  ];
-
   return (
     <footer className="c-footer">
       <div className="c-footer__logo">
@@ -59,17 +52,7 @@ export const Footer: React.FC = () => {
             <strong>Social Media</strong>
           </li>
           <li>
-            <div className="c-footer__socials">
-              {socialItems.map((item) => {
-                return (
-                  <Link key={item.id} href={item.href} passHref>
-                    <a>
-                      <Image width="30" height="30" alt="logo" src={item.src} />
-                    </a>
-                  </Link>
-                );
-              })}
-            </div>
+            <Socials socialsItems={socialsItems} />
           </li>
         </ul>
       </div>
@@ -77,11 +60,8 @@ export const Footer: React.FC = () => {
       <div className="c-footer__legal">
         <div>&copy; 2021 Goodplace. Alle rechten voorbehouden.</div>
         <div>
-          <Link href="#">
+          <Link href="/privacy">
             <a className="c-footer__legal-link">Privacy beleid</a>
-          </Link>
-          <Link href="#">
-            <a className="c-footer__legal-link">Algemene voorwaarden</a>
           </Link>
         </div>
       </div>

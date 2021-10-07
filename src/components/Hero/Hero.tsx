@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 import applestore from '../../assets/apple-store-badge.png';
 import googleplay from '../../assets/google-play-badge.png';
@@ -14,15 +15,32 @@ export const Hero: React.FC = () => {
           Goodplace, your place to do good<span className="c-hero__dot">.</span>
         </h1>
         <h2 className="c-hero__subtitle">
-          Geven is hier écht een
-          <br /> fluitje van een cent.
+          Doneren was nog nooit zo makkelijk!
         </h2>
         <div className="c-hero__download-links">
           <div>
-            <Image height={41} width={141} alt="googleplay" src={googleplay} />
+            <Link href="/download" passHref>
+              <a>
+                <Image
+                  height={41}
+                  width={141}
+                  alt="googleplay"
+                  src={googleplay}
+                />
+              </a>
+            </Link>
           </div>
           <div>
-            <Image width={125} height={41} alt="apple-store" src={applestore} />
+            <Link href="/download" passHref>
+              <a>
+                <Image
+                  width={125}
+                  height={41}
+                  alt="apple-store"
+                  src={applestore}
+                />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
