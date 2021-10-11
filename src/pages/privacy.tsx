@@ -11,8 +11,8 @@ const Privacy: NextPage = () => {
     <Base>
       <Section bgColor="lightgreen">
         <Wrapper>
-          <div className="md:w-2/3 space-y-6 md:space-y-4">
-            <h3 className="break-words">
+          <div className="md:w-2/3">
+            <h3 className="break-words mb-4">
               <strong>
                 Privacyverklaring van de website van Stichting Goodplace
                 Foundation (www.goodplace.foundation)
@@ -96,12 +96,11 @@ const Privacy: NextPage = () => {
                   stichting Goodplace Foundation wil je er tevens op wijzen dat
                   je de mogelijkheid hebt om een klacht in te dienen bij de
                   nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat
-                  kan via de volgende link:
+                  kan via de volgende link: <br />
                   <a
                     className="break-words underline"
                     href="https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons"
                   >
-                    {' '}
                     https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons.
                   </a>
                 </p>
@@ -158,18 +157,14 @@ const Privacy: NextPage = () => {
                 <h4>
                   <strong>Contactgegevens</strong>
                 </h4>
+                <ul className="mb-8 text-xl">
+                  <li>Stichting Goodplace Foundation</li>
+                  <li>Prinses Margrietplantsoen 33</li>
+                  <li>2595 AM Den Haag Nederland</li>
+                  <li>Telefoonnummer: +31 70 304 3665</li>
+                  <li>hello@goodplace.foundation</li>
+                </ul>
                 <p>
-                  Stichting Goodplace Foundation
-                  <br />
-                  Prinses Margrietplantsoen 33
-                  <br />
-                  2595 AM Den Haag Nederland
-                  <br />
-                  Telefoonnummer: +31 70 304 3665
-                  <br />
-                  hello@goodplace.foundation
-                  <br />
-                  <br />
                   Stichting Goodplace Foundation is geregistreerd onder
                   kvk-nummer 82244154.
                 </p>
