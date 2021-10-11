@@ -29,7 +29,10 @@ export const Footer: React.FC = () => {
           </li>
           <li>
             <a href="tel:+31 70 304 3665 ">+31 70 304 3665</a>
-            <br /> <a href="mailto:hallo@goodplace.nl">hallo@goodplace.nl</a>
+            <br />{' '}
+            <a href="mailto:hello@goodplace.foundation">
+              hello@goodplace.foundation
+            </a>
           </li>
           <li>
             Prinses Margrietplantsoen 33 <br /> 2595 AM Den Haag <br />{' '}
