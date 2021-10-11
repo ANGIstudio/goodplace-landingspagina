@@ -96,7 +96,7 @@ const Privacy: NextPage = () => {
                   stichting Goodplace Foundation wil je er tevens op wijzen dat
                   je de mogelijkheid hebt om een klacht in te dienen bij de
                   nationale toezichthouder, de Autoriteit Persoonsgegevens. Dat
-                  kan via de volgende link: <br />
+                  kan via de volgende link:&nbsp;
                   <a
                     className="break-words underline"
                     href="https://autoriteitpersoonsgegevens.nl/nl/contact-met-de-autoriteit-persoonsgegevens/tip-ons"
