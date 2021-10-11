@@ -13,14 +13,15 @@ import vriendensophia from '../assets/brands/vriendensophia.png';
 import warchild from '../assets/brands/warchild.png';
 import wildeganzen from '../assets/brands/wildeganzen.png';
 import wwf from '../assets/brands/wwf.png';
-import facebook from '../assets/facebook.svg';
 import gortemaker from '../assets/gortemaker.png';
 import gottenbos from '../assets/gottenbos.png';
 import instagram from '../assets/instagram.svg';
+import linkedin from '../assets/linkedin.svg';
 import peoplewithballoons from '../assets/peoplewithballoons.png';
 import phoneswithtiger from '../assets/phoneswithtiger.png';
 import sharingiscaring from '../assets/sharingiscaring.png';
 import twitter from '../assets/twitter.svg';
+import uhlenbeck from '../assets/uhlenbeck.png';
 import vandermarel from '../assets/vandermarel.png';
 import vanoosten from '../assets/vanoosten.png';
 
@@ -81,26 +82,25 @@ export const teamMembers: TeamMember[] = [
     description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen \n Entrepreneur / Founder Fox-IT`,
   },
   {
-    name: 'Joni Uhlenbeck',
-    id: 3,
-    img: vanoosten,
-    description:
-      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
-  },
-  {
     name: 'Yvo Gortemaker',
-    id: 4,
+    id: 3,
     img: gortemaker,
     description:
       'Digital Product Strategy, Entrepreneurship \n Founder Global Orange',
   },
-
   {
     name: 'Leopold van Oosten',
-    id: 5,
+    id: 4,
     img: vanoosten,
     description:
       'UX, Tech, Strategy, Entrepreneurship \n Founder Amsterdam Standard',
+  },
+  {
+    name: 'Joni Uhlenbeck',
+    id: 5,
+    img: uhlenbeck,
+    description:
+      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
   },
 ];
 
@@ -113,7 +113,7 @@ export interface SocialsProps {
 }
 
 export const socialsItems = [
-  { id: '1', href: '#', src: instagram },
-  { id: '2', href: '#', src: facebook },
-  { id: '3', href: '#', src: twitter },
+  { id: '1', href: '#', src: twitter },
+  { id: '2', href: '#', src: linkedin },
+  { id: '3', href: '#', src: instagram },
 ];

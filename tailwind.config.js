@@ -14,7 +14,7 @@ module.exports = {
         abouthero: "url('../src/assets/abouthero.png')",
       },
       colors: {
-        green: '#52B7AB',
+        green: '#42B4A7',
         beige: '#F4F2EC',
         lightbeige: '#f8f6f0',
         orange: '#FB6B47',
