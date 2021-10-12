@@ -82,6 +82,13 @@ export const teamMembers: TeamMember[] = [
     description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen \n Entrepreneur / Founder Fox-IT`,
   },
   {
+    name: 'Joni Uhlenbeck',
+    id: 5,
+    img: uhlenbeck,
+    description:
+      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
+  },
+  {
     name: 'Yvo Gortemaker',
     id: 3,
     img: gortemaker,
@@ -94,13 +101,6 @@ export const teamMembers: TeamMember[] = [
     img: vanoosten,
     description:
       'UX, Tech, Strategy, Entrepreneurship \n Founder Amsterdam Standard',
-  },
-  {
-    name: 'Joni Uhlenbeck',
-    id: 5,
-    img: uhlenbeck,
-    description:
-      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
   },
 ];
 
