@@ -71,7 +71,7 @@ const Index: NextPage = () => {
       title: 'Niks aan de Goodplace strijkstok',
       image: wallet,
       description:
-        'Goodplace is een stichting, en heeft dus geen winstoogmerk. Met een start donatie van diverse betrokkenen is Goodplace ontwikkeld, en het bestuur ontvangt ook geen salaris.',
+        'Goodplace is een stichting en heeft dus geen winstoogmerk. Met een start donatie van diverse betrokkenen is Goodplace ontwikkeld en het bestuur ontvangt ook geen salaris.',
     },
     {
       title: 'Belastingvrij geven',
@@ -83,7 +83,7 @@ const Index: NextPage = () => {
       title: 'Transparant over jaarcijfers',
       image: moneytwo,
       description:
-        'Meer lezen over de financiering van Goodplace? Dat kan! Wij streven er naar om zo transparant mogelijk te zijn over onze financien. De jaarcijfers van Goodplace worden daarom jaarlijks op onze website gepubliceerd.',
+        'Meer lezen over de financiering van Goodplace? Dat kan! Wij streven er naar om zo transparant mogelijk te zijn over onze financiën. De jaarcijfers van Goodplace worden daarom jaarlijks op onze website gepubliceerd.',
     },
   ];
 
@@ -164,12 +164,12 @@ const Index: NextPage = () => {
                 <strong>Doneren in één klik</strong>
               </h3>
               <p className="mb-8">
-                Doelen steunen die jij belangrijk vind moet eenvoudig zijn.
-                Daarom kun je Goodplace koppelen aan je favoriete betaal
-                methode. Of het nou gaat om eenmalig €15,- of juist een
-                maandelijkse bijdrage van €2,-. Het kan! En wanneer je toch voor
-                een maandelijks bijdrage gaat, kan je dat ook simpelweg met 1
-                druk op de knop stopzetten.
+                Doelen steunen die jij belangrijk vindt moet eenvoudig zijn.
+                Daarom kun je Goodplace koppelen aan je favoriete betaalmethode.
+                Of het nou gaat om eenmalig €15,- of juist een maandelijkse
+                bijdrage van €2,-. Het kan! En wanneer je toch voor een
+                maandelijks bijdrage gaat, kan je dat ook simpelweg met 1 druk
+                op de knop stopzetten.
               </p>
               <p className="mb-10">
                 <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
@@ -216,8 +216,8 @@ const Index: NextPage = () => {
                 Onze missie is even uitdagend als helder: het creëren van een
                 wereld waar mens en natuur floreren door het activeren van
                 miljoenen mensen. Goodplace heeft met zorg goede doelen
-                geselecteerd en breid deze graag uit. Weet jij een geweldig doel
-                dat zich bij Goodplace moet aansluiten?
+                geselecteerd en breidt deze graag uit. Weet jij een geweldig
+                doel dat zich bij Goodplace moet aansluiten?
               </p>
               <a
                 className="text-darkgreen hover:underline text-lg font-medium"
