@@ -11,13 +11,4 @@ module.exports = withBundleAnalyzer({
   },
   basePath: '',
   reactStrictMode: true,
-  async redirects() {
-    return [
-      {
-        source: '/qr/',
-        destination: '/',
-        permanent: true,
-      },
-    ];
-  },
 });
