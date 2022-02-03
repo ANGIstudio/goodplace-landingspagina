@@ -14,7 +14,7 @@ const CookieStatement: NextPage = () => {
           <div className="md:w-2/3">
             <h3 className="break-words mb-4">
               <strong>
-                Cookiestatement van Stichting Goodplace Foundation
+                Cookieverklaring van Stichting Goodplace Foundation
               </strong>
             </h3>
           </div>
