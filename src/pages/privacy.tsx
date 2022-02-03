@@ -2,7 +2,9 @@
 import React from 'react';
 
 import { NextPage } from 'next';
+import Link from 'next/link';
 
+import policy from '../assets/policy.png';
 import { Section } from '../components/Section/Section';
 import { Td } from '../components/Table/Td';
 import { Th } from '../components/Table/Th';
@@ -200,12 +202,11 @@ const Privacy: NextPage = () => {
                                 We verzamelen deze (Persoons)gegevens met behulp
                                 van cookies en/of vergelijkbare technieken.
                                 Onze&nbsp;
-                                <a
-                                  className="underline"
-                                  href="/cookiestatement"
-                                >
-                                  Cookieverklaring
-                                </a>
+                                <span className="underline">
+                                  <Link href="/cookiestatement">
+                                    Cookieverklaring
+                                  </Link>
+                                </span>
                                 &nbsp; beschrijft de doeleinden waarvoor deze
                                 gegevens worden verwerkt en de principes die ten
                                 grondslag liggen aan de verwerking van deze
@@ -549,6 +550,7 @@ const Privacy: NextPage = () => {
                       Uw rechten als betrokkene en onze contactgegevens
                     </strong>
                   </h4>
+                  <img src={policy.src} alt="" />
                   <p>
                     Je hebt altijd het recht om een klacht in te dienen bij een
                     toezichthoudende gegevensbeschermingsautoriteit als je van
