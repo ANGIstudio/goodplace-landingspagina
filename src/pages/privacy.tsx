@@ -77,7 +77,7 @@ const Privacy: NextPage = () => {
               <div>
                 <h4 className="mt-4">
                   <strong>
-                    4. Welke Persoonsgegevens verzamelen en verwerken wij als
+                    Welke Persoonsgegevens verzamelen en verwerken wij als
                     Verwerkings-verantwoordelijke?
                   </strong>
                 </h4>
