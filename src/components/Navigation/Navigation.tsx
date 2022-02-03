@@ -53,6 +53,19 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
               </Link>
             </li>
             <li className="c-navigation__desktop-item">
+              <Link href="/support">
+                <a
+                  className={
+                    router.pathname === '/support'
+                      ? 'c-navigation__link-active'
+                      : ''
+                  }
+                >
+                  FAQ
+                </a>
+              </Link>
+            </li>
+            <li className="c-navigation__desktop-item">
               <Button
                 tag="link"
                 href="/download"
@@ -75,6 +88,19 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                     }
                   >
                     Wie zijn wij?
+                  </a>
+                </Link>
+              </li>
+              <li className="c-navigation__mobile-item">
+                <Link href="/support">
+                  <a
+                    className={
+                      router.pathname === '/support'
+                        ? 'c-navigation__link-active'
+                        : ''
+                    }
+                  >
+                    FAQ
                   </a>
                 </Link>
               </li>
