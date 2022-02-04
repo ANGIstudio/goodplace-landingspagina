@@ -19,7 +19,7 @@ const Privacy: NextPage = () => {
           <div className="md:w-2/3">
             <h3 className="break-words mb-4">
               <strong>
-                Privacyverklaring van de App van Stichting Goodplace Foundation
+                Privacyverklaring van Stichting Goodplace Foundation
               </strong>
             </h3>
             <div className="space-y-8">
