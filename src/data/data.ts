@@ -20,7 +20,6 @@ import linkedin from '../assets/linkedin.svg';
 import peoplewithballoons from '../assets/peoplewithballoons.png';
 import phoneswithtiger from '../assets/phoneswithtiger.png';
 import sharingiscaring from '../assets/sharingiscaring.png';
-import twitter from '../assets/twitter.svg';
 import uhlenbeck from '../assets/uhlenbeck.png';
 import vandermarel from '../assets/vandermarel.png';
 import vanoosten from '../assets/vanoosten.png';
@@ -113,7 +112,14 @@ export interface SocialsProps {
 }
 
 export const socialsItems = [
-  { id: '1', href: '#', src: twitter },
-  { id: '2', href: '#', src: linkedin },
-  { id: '3', href: '#', src: instagram },
+  {
+    id: '2',
+    href: 'https://www.linkedin.com/company/goodplacefoundation/',
+    src: linkedin,
+  },
+  {
+    id: '3',
+    href: 'https://www.instagram.com/goodplacefoundation/',
+    src: instagram,
+  },
 ];
