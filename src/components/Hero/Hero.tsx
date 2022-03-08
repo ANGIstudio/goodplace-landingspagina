@@ -19,7 +19,10 @@ export const Hero: React.FC = () => {
         </h2>
         <div className="c-hero__download-links">
           <div>
-            <Link href="/download" passHref>
+            <Link
+              href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
+              passHref
+            >
               <a>
                 <Image
                   height={41}
@@ -31,7 +34,10 @@ export const Hero: React.FC = () => {
             </Link>
           </div>
           <div>
-            <Link href="/download" passHref>
+            <Link
+              href="https://apps.apple.com/nl/app/goodplace/id1573545734"
+              passHref
+            >
               <a>
                 <Image
                   width={125}
