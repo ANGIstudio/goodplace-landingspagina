@@ -139,6 +139,44 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
+                  <strong>
+                    Hoe kan ik een donatie laten terugstorten als ik me bedenk?
+                  </strong>
+                </h4>
+                <p>
+                  Als je van gedachten verandert en je wil je donatie graag
+                  teruggestort krijgen, kan dat natuurlijk. Neem binnen 8 weken
+                  contact met ons op via{' '}
+                  <a href="mailto:hello@goodplace.foundation">
+                    hello@goodplace.foundation
+                  </a>{' '}
+                  en we gaan het voor je regelen.
+                </p>
+              </div>
+              <div>
+                <h4 className="mt-4">
+                  <strong>
+                    Hoe kan ik de donateurs (vrienden) van mijn aangemaakte
+                    actie voor het delen van een update of resultaat, opnieuw
+                    bereiken?
+                  </strong>
+                </h4>
+                <p>
+                  In de Goodplace app kun je zelf verschillende acties aanmaken
+                  om geld op te halen. Stel je gaat een marathon lopen en je
+                  hebt daarvoor een actie aangemaakt in onze app. Dan is het
+                  natuurlijk leuk om achteraf aan je donateurs te laten weten,
+                  dat je de marathon hebt gehaald! Hoe kun je dat doen? Als je
+                  eenmaal een actie hebt aangemaakt, kun je dit altijd
+                  aanpassen. Dit doe je door een aanvullende tekst toe te voegen
+                  en eventueel een nieuwe foto te uploaden (jij die die de
+                  finish van de marathon haalt). Als je de aangepaste actie
+                  vervolgens opslaat, komt het bij alle donateurs van jouw actie
+                  terecht. Ze zien jouw update dan bovenaan hun tijdlijn.
+                </p>
+              </div>
+              <div>
+                <h4 className="mt-4">
                   <strong>Staat jouw vraag er niet tussen?</strong>
                 </h4>
                 <p>
