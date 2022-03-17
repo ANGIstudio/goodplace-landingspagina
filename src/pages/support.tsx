@@ -147,7 +147,10 @@ const Support: NextPage = () => {
                   Als je van gedachten verandert en je wil je donatie graag
                   teruggestort krijgen, kan dat natuurlijk. Neem binnen 8 weken
                   contact met ons op via{' '}
-                  <a href="mailto:hello@goodplace.foundation">
+                  <a
+                    href="mailto:hello@goodplace.foundation"
+                    className="underline"
+                  >
                     hello@goodplace.foundation
                   </a>{' '}
                   en we gaan het voor je regelen.
