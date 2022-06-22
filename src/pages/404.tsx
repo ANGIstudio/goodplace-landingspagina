@@ -3,11 +3,11 @@ import React, { useEffect } from 'react';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 
-import { Section } from '../../components/Section/Section';
-import { Wrapper } from '../../components/Wrapper/Wrapper';
-import { Base } from '../../templates/Base';
+import { Section } from '../components/Section/Section';
+import { Wrapper } from '../components/Wrapper/Wrapper';
+import { Base } from '../templates/Base';
 
-const TabSlug: NextPage = () => {
+const FourOhFour: NextPage = () => {
   const router = useRouter();
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const TabSlug: NextPage = () => {
   );
 };
 
-export default TabSlug;
+export default FourOhFour;
