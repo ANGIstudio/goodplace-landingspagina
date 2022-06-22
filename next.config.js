@@ -11,28 +11,4 @@ module.exports = withBundleAnalyzer({
   },
   basePath: '',
   reactStrictMode: true,
-  async redirects() {
-    return [
-      {
-        source: '/tab',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/tab/:slug',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/tabs',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/tabs/:slug',
-        destination: '/',
-        permanent: true,
-      },
-    ];
-  },
 });
