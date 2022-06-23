@@ -7,7 +7,7 @@ import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
-const Qr: NextPage = () => {
+const FourOhFour: NextPage = () => {
   const router = useRouter();
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const Qr: NextPage = () => {
   );
 };
 
-export default Qr;
+export default FourOhFour;
