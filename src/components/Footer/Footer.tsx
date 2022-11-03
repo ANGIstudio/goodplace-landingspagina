@@ -28,8 +28,6 @@ export const Footer: React.FC = () => {
             <strong>Kom in contact</strong>
           </li>
           <li>
-            <a href="tel:+31 70 304 3665 ">+31 70 304 3665</a>
-            <br />{' '}
             <a href="mailto:hello@goodplace.foundation">
               hello@goodplace.foundation
             </a>
