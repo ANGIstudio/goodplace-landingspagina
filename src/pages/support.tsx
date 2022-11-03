@@ -120,9 +120,9 @@ const Support: NextPage = () => {
                   afdeling via{' '}
                   <a
                     className="underline"
-                    href="mailto:hello@goodplace.foundation"
+                    href="mailto:team@goodplace.foundation"
                   >
-                    hello@goodplace.foundation
+                    team@goodplace.foundation
                   </a>
                   .
                 </p>
@@ -148,10 +148,10 @@ const Support: NextPage = () => {
                   teruggestort krijgen, kan dat natuurlijk. Neem binnen 8 weken
                   contact met ons op via{' '}
                   <a
-                    href="mailto:hello@goodplace.foundation"
+                    href="mailto:team@goodplace.foundation"
                     className="underline"
                   >
-                    hello@goodplace.foundation
+                    team@goodplace.foundation
                   </a>{' '}
                   en we gaan het voor je regelen.
                 </p>
@@ -186,9 +186,9 @@ const Support: NextPage = () => {
                   Neem neem dan contact op met onze support afdeling via{' '}
                   <a
                     className="underline"
-                    href="mailto:hello@goodplace.foundation"
+                    href="mailto:team@goodplace.foundation"
                   >
-                    hello@goodplace.foundation
+                    team@goodplace.foundation
                   </a>
                   .
                 </p>
