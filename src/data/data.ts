@@ -16,6 +16,7 @@ import wwf from '../assets/brands/wwf.png';
 import gortemaker from '../assets/gortemaker.png';
 import gottenbos from '../assets/gottenbos.png';
 import instagram from '../assets/instagram.svg';
+import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
 import peoplewithballoons from '../assets/peoplewithballoons.png';
 import phoneswithtiger from '../assets/phoneswithtiger.png';
@@ -121,5 +122,10 @@ export const socialsItems = [
     id: '3',
     href: 'https://www.instagram.com/goodplacefoundation/',
     src: instagram,
+  },
+  {
+    id: '4',
+    href: 'https://www.facebook.com/goodplacefoundation/',
+    src: facebook,
   },
 ];
