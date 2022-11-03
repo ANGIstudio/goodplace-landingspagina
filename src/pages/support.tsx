@@ -24,8 +24,8 @@ const Support: NextPage = () => {
                 <p>
                   Goodplace is een stichting en bestaat uit een{' '}
                   <Link href="/about/">
-                    <a>klein team</a>
-                  </Link>
+                    <a className="underline">klein team</a>
+                  </Link>{' '}
                   van betrokken ondernemers, die dit niet doen voor eigen
                   verdiensten. Er is dus geen winstoogmerk en het bestuur
                   ontvangt geen salaris. De Goodplace app is ontwikkeld met
@@ -92,7 +92,7 @@ const Support: NextPage = () => {
                 <p>
                   Goodplace breidt graag de goede doelen in de app uit! Meld je{' '}
                   <Link href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0">
-                    <a>hier</a>
+                    <a className="underline">hier</a>
                   </Link>{' '}
                   aan als goed doel.
                 </p>
