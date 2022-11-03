@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { NextPage } from 'next';
+import Link from 'next/link';
 
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
@@ -22,8 +23,10 @@ const Support: NextPage = () => {
                 </h4>
                 <p>
                   Goodplace is een stichting en bestaat uit een{' '}
-                  <a className="underline" href="/about/">klein team</a> van
-                  betrokken ondernemers, die dit niet doen voor eigen
+                  <Link href="/about/">
+                    <a>klein team</a>
+                  </Link>
+                  van betrokken ondernemers, die dit niet doen voor eigen
                   verdiensten. Er is dus geen winstoogmerk en het bestuur
                   ontvangt geen salaris. De Goodplace app is ontwikkeld met
                   donaties van diverse betrokkenen.
@@ -31,9 +34,7 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Niks aan de Goodplace strijkstok
-                  </strong>
+                  <strong>Niks aan de Goodplace strijkstok</strong>
                 </h4>
                 <p>
                   Via Goodplace gaat jouw volledige donatie naar het goede doel,
@@ -46,9 +47,7 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Voor en door goede doelen
-                  </strong>
+                  <strong>Voor en door goede doelen</strong>
                 </h4>
                 <p>
                   Om de Goodplace app in de lucht te houden en te kunnen
@@ -64,9 +63,7 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    De weg van jouw donatie
-                  </strong>
+                  <strong>De weg van jouw donatie</strong>
                 </h4>
                 <p>
                   Als je via onze app doneert gaat jouw donatie direct naar het
@@ -79,9 +76,7 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Welke goede doelen doen er mee?
-                  </strong>
+                  <strong>Welke goede doelen doen er mee?</strong>
                 </h4>
                 <p>
                   Vanaf de start doen er 15 goede doelen mee. Dit zijn zowel
@@ -92,31 +87,23 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Hoe kan ik mij aanmelden als goed doel?
-                  </strong>
+                  <strong>Hoe kan ik mij aanmelden als goed doel?</strong>
                 </h4>
                 <p>
-                  Goodplace breidt graag de goede doelen in de app uit! Meld
-                  je{' '}
-                  <a
-                     href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                     className="underline"
-                  >
-                    hier
-                  </a>{' '}
+                  Goodplace breidt graag de goede doelen in de app uit! Meld je{' '}
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0">
+                    <a>hier</a>
+                  </Link>{' '}
                   aan als goed doel.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Kan ik ook eenmalig een donatie doen?
-                  </strong>
+                  <strong>Kan ik ook eenmalig een donatie doen?</strong>
                 </h4>
                 <p>
-                  De app is zo gemaakt dat je altijd met één swipe een
-                  eenmalige donatie kan doen. Het is natuurlijk ook mogelijk om
+                  De app is zo gemaakt dat je altijd met één swipe een eenmalige
+                  donatie kan doen. Het is natuurlijk ook mogelijk om
                   maandelijks te doneren. Ook dit regel je met één klik.
                 </p>
               </div>
@@ -127,15 +114,13 @@ const Support: NextPage = () => {
                   </strong>
                 </h4>
                 <p>
-                  Je kunt altijd onmiddellijk stoppen met doneren. Met één
-                  klik stop je bijvoorbeeld een periodieke donatie.
+                  Je kunt altijd onmiddellijk stoppen met doneren. Met één klik
+                  stop je bijvoorbeeld een periodieke donatie.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Waar kan ik mijn periodieke donaties stoppen?
-                  </strong>
+                  <strong>Waar kan ik mijn periodieke donaties stoppen?</strong>
                 </h4>
                 <p>
                   Onder de knop “donaties” rechtsonder in de app straat een
@@ -171,9 +156,9 @@ const Support: NextPage = () => {
                 <p>
                   Bij Goodplace stellen we de gever centraal. Onderdeel daarvan
                   is dat we zorgvuldig met jullie gegevens omgaan! Deze worden
-                  niet aan derden ter beschikking gesteld. Eventuele communicatie
-                  van de goede doelen loopt dus altijd via de Goodplace app,
-                  zodat jij het kan lezen wanneer jij dat wil.
+                  niet aan derden ter beschikking gesteld. Eventuele
+                  communicatie van de goede doelen loopt dus altijd via de
+                  Goodplace app, zodat jij het kan lezen wanneer jij dat wil.
                 </p>
               </div>
               <div>
@@ -186,8 +171,8 @@ const Support: NextPage = () => {
                 <p>
                   Als je opnieuw wilt inloggen of registreren krijg je een link
                   via je email. Het is belangrijk dat je die email opent op de
-                  telefoon waarop je de app hebt geïnstalleerd. Als je dan op
-                  de link klikt zal je direct naar de app gaan en kan je gebruik
+                  telefoon waarop je de app hebt geïnstalleerd. Als je dan op de
+                  link klikt zal je direct naar de app gaan en kan je gebruik
                   maken van alle mogelijkheden. De link is een beperkte tijd
                   geldig. Als de link is verlopen, kan je een nieuwe aanvragen
                   via de app.
@@ -219,10 +204,10 @@ const Support: NextPage = () => {
                   dat je de marathon hebt gehaald! Hoe kun je dat doen? Als je
                   eenmaal een actie hebt aangemaakt, kun je de actie later
                   aanpassen. Dit doe je door een aanvullende tekst toe te voegen
-                  en eventueel een nieuwe foto te uploaden (jij die de
-                  finish van de marathon haalt). Als je de aangepaste actie
-                  vervolgens opslaat, komt het bij alle donateurs van jouw actie
-                  terecht. Ze zien jouw update dan bovenaan hun tijdlijn.
+                  en eventueel een nieuwe foto te uploaden (jij die de finish
+                  van de marathon haalt). Als je de aangepaste actie vervolgens
+                  opslaat, komt het bij alle donateurs van jouw actie terecht.
+                  Ze zien jouw update dan bovenaan hun tijdlijn.
                 </p>
               </div>
               <div>
