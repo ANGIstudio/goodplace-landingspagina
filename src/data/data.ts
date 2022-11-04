@@ -125,7 +125,7 @@ export const socialsItems = [
   },
   {
     id: '4',
-    href: 'https://www.facebook.com/goodplacefoundation/',
+    href: 'https://www.facebook.com/profile.php?id=100078787633106',
     src: facebook,
   },
 ];
