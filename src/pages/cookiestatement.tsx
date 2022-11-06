@@ -163,9 +163,9 @@ const CookieStatement: NextPage = () => {
                 <strong>E:</strong>{' '}
                 <a
                   className="underline"
-                  href="mailto:hello@goodplace.foundation"
+                  href="mailto:team@goodplace.foundation"
                 >
-                  hello@goodplace.foundation{' '}
+                  team@goodplace.foundation{' '}
                 </a>
                 <br />
                 <strong>W:</strong>{' '}

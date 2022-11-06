@@ -71,7 +71,13 @@ const Index: NextPage = () => {
       title: 'Niks aan de Goodplace strijkstok',
       image: wallet,
       description:
-        'Goodplace is een stichting en heeft dus geen winstoogmerk. Met een start donatie van diverse betrokkenen is Goodplace ontwikkeld en het bestuur ontvangt ook geen salaris.',
+        'Via Goodplace gaat jouw volledige donatie naar het goede doel, zodat zij het geld zo goed naar eigen invulling kunnen besteden. Goodplace is een stichting en heeft dus geen winstoogmerk. Zo ontvangt het bestuur geen salaris, krijgt Goodplace kortingen via partnerships en bestaat ons team grotendeels uit vrijwilligers.',
+    },
+    {
+      title: 'Bijdrage goede doelen',
+      image: wallet,
+      description:
+        'Om de Goodplace app in de lucht te houden en te kunnen doorontwikkelen, vragen wij een bijdrage van goede doelen om gebruik te maken van ons platform. Goede doelen geven geld uit aan marketing om nieuwe donateurs te werven (denk aan huis-aan-huis post, social media ads, etc). Wanneer ze onze app hiervoor willen gebruiken, vragen we ze een bijdrage om ons platform te ondersteunen. Deze bijdrage is 5% van het totaalbedrag aan donaties dat het betreffende goede doel via ons platform ontvangt.',
     },
     {
       title: 'Belastingvrij geven',
