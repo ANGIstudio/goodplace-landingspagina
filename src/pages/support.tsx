@@ -51,14 +51,16 @@ const Support: NextPage = () => {
                 </h4>
                 <p>
                   Om de Goodplace app in de lucht te houden en te kunnen
-                  doorontwikkelen, vragen wij een bijdrage van goede doelen om
-                  gebruik te maken van ons platform. Goede doelen geven geld uit
-                  aan marketing om nieuwe donateurs te werven (denk aan
-                  huis-aan-huis post, social media ads, etc). Wanneer ze onze
-                  app hiervoor willen gebruiken, vragen we ze een bijdrage om
-                  ons platform te ondersteunen. Deze bijdrage is 5% van het
-                  totaalbedrag aan donaties dat het betreffende goede doel via
-                  ons platform ontvangt.
+                  doorontwikkelen, gaan wij in de toekomst een bijdrage aan
+                  goede doelen vragen om gebruik te maken van ons platform.
+                  Goede doelen geven geld uit aan marketing om nieuwe donateurs
+                  te werven (denk aan huis-aan-huis post, social media ads,
+                  etc). Wanneer ze onze app hiervoor willen gebruiken, vragen we
+                  t.z.t. een bijdrage om ons platform te ondersteunen. Deze
+                  bijdrage is maximaal 5% van het totaalbedrag aan donaties dat
+                  het betreffende goede doel via ons platform ontvangt. Voor nu
+                  is het gebruik van de app voor alle goede doelen gratis, omdat
+                  we nog vroeg in de ontwikkeling zijn.
                 </p>
               </div>
               <div>
