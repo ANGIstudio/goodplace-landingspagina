@@ -11,13 +11,4 @@ module.exports = withBundleAnalyzer({
   },
   basePath: '',
   reactStrictMode: true,
-  async redirects() {
-    return [
-      {
-        source: '/charity-application/',
-        destination: 'https://forms.gle/b9Bvk3xo4rZhazT96',
-        permanent: false
-      }
-    ];
-  },
 });
