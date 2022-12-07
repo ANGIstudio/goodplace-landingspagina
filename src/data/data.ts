@@ -120,7 +120,7 @@ export const socialsItems = [
   },
   {
     id: '3',
-    href: 'https://instagram.com/goodplace.foundation'
+    href: 'https://instagram.com/goodplace.foundation',
     src: instagram,
   },
   {
