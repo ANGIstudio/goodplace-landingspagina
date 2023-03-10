@@ -37,12 +37,12 @@ const Support: NextPage = () => {
                   <strong>Niks aan de Goodplace strijkstok</strong>
                 </h4>
                 <p>
-                  Via Goodplace gaat jouw volledige donatie naar het goede doel,
-                  zodat zij het geld zo goed naar eigen invulling kunnen
-                  besteden. Goodplace is een stichting en heeft dus geen
-                  winstoogmerk. Zo ontvangt het bestuur geen salaris, krijgt
-                  Goodplace kortingen via partnerships en bestaat ons team
-                  grotendeels uit vrijwilligers.
+                  Via Goodplace gaat een zo groot mogelijk deel van jouw donatie
+                  direct naar het goede doel, zodat zij het geld naar eigen
+                  inzicht kunnen besteden. Goodplace is een stichting en heeft
+                  dus geen winstoogmerk. Zo ontvangt het bestuur geen salaris,
+                  krijgt Goodplace kortingen via partnerships en bestaat ons
+                  team grotendeels uit vrijwilligers.
                 </p>
               </div>
               <div>
@@ -51,16 +51,13 @@ const Support: NextPage = () => {
                 </h4>
                 <p>
                   Om de Goodplace app in de lucht te houden en te kunnen
-                  doorontwikkelen, gaan wij in de toekomst een bijdrage aan
-                  goede doelen vragen om gebruik te maken van ons platform.
-                  Goede doelen geven geld uit aan marketing om nieuwe donateurs
-                  te werven (denk aan huis-aan-huis post, social media ads,
-                  etc). Wanneer ze onze app hiervoor willen gebruiken, vragen we
-                  t.z.t. een bijdrage om ons platform te ondersteunen. Deze
-                  bijdrage is maximaal 5% van het totaalbedrag aan donaties dat
-                  het betreffende goede doel via ons platform ontvangt. Voor nu
-                  is het gebruik van de app voor alle goede doelen gratis, omdat
-                  we nog vroeg in de ontwikkeling zijn.
+                  doorontwikkelen, vragen wij een bijdrage aan goede doelen in
+                  ruil voor het gebruik van ons platform. Goede doelen geven
+                  geld uit aan marketing om nieuwe donateurs te werven (denk aan
+                  huis-aan-huis post, social media ads, etc). Wanneer ze onze
+                  app hiervoor willen gebruiken, vragen we een bijdrage van
+                  maximaal 5% van het totaalbedrag aan donaties dat het
+                  betreffende goede doel via ons platform ontvangt.
                 </p>
               </div>
               <div>
@@ -188,28 +185,6 @@ const Support: NextPage = () => {
                     team@goodplace.foundation
                   </a>
                   .
-                </p>
-              </div>
-              <div>
-                <h4 className="mt-4">
-                  <strong>
-                    Hoe kan ik de donateurs (vrienden) van mijn aangemaakte
-                    actie voor het delen van een update of resultaat, opnieuw
-                    bereiken?
-                  </strong>
-                </h4>
-                <p>
-                  In de Goodplace app kun je zelf verschillende acties aanmaken
-                  om geld op te halen. Stel je gaat een marathon lopen en je
-                  hebt daarvoor een actie aangemaakt in onze app. Dan is het
-                  natuurlijk leuk om achteraf aan je donateurs te laten weten,
-                  dat je de marathon hebt gehaald! Hoe kun je dat doen? Als je
-                  eenmaal een actie hebt aangemaakt, kun je de actie later
-                  aanpassen. Dit doe je door een aanvullende tekst toe te voegen
-                  en eventueel een nieuwe foto te uploaden (jij die de finish
-                  van de marathon haalt). Als je de aangepaste actie vervolgens
-                  opslaat, komt het bij alle donateurs van jouw actie terecht.
-                  Ze zien jouw update dan bovenaan hun tijdlijn.
                 </p>
               </div>
               <div>
