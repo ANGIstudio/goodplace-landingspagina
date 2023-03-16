@@ -55,9 +55,10 @@ const Support: NextPage = () => {
                   ruil voor het gebruik van ons platform. Goede doelen geven
                   geld uit aan marketing om nieuwe donateurs te werven (denk aan
                   huis-aan-huis post, social media ads, etc). Wanneer ze onze
-                  app hiervoor willen gebruiken, vragen we een bijdrage van
-                  maximaal 5% van het totaalbedrag aan donaties dat het
-                  betreffende goede doel via ons platform ontvangt.
+                  app hiervoor willen gebruiken, vragen we een bijdrage uit het
+                  marketingbudget ter hoogte van maximaal 5% van het
+                  totaalbedrag aan donaties dat het betreffende goede doel via
+                  ons platform ontvangt.
                 </p>
               </div>
               <div>
