@@ -12,7 +12,7 @@ import { Brands } from '../components/Brands/Brands';
 import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import { teamMembers, brandItems } from '../data/data';
+import { teamMembers, brandItems, raadVanAdvies } from '../data/data';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
@@ -91,6 +91,36 @@ const About: NextPage = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
             {teamMembers.map((member) => {
+              return (
+                <div
+                  key={member.id}
+                  className="flex flex-col sm:flex-row md:items-center w-full space-y-6 md:space-y-0 sm:space-x-6 mb-6 md:mb-0"
+                >
+                  <div className="m-auto sm:m-0">
+                    <Image src={member.img} alt={member.name} />
+                  </div>
+                  <div>
+                    <div className="space-y-6 max-w-xs">
+                      <p className="whitespace-pre-line text-base">
+                        <strong>{member.name}</strong>
+                        <br />
+                        {member.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+
+         <h3 className="mb-8 mt-8">
+           <strong>Raad van Advies</strong>
+         </h3>
+
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
+            {raadVanAdvies.map((member) => {
               return (
                 <div
                   key={member.id}

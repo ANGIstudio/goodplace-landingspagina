@@ -24,6 +24,10 @@ import sharingiscaring from '../assets/sharingiscaring.png';
 import uhlenbeck from '../assets/uhlenbeck.png';
 import vandermarel from '../assets/vandermarel.png';
 import vanoosten from '../assets/vanoosten.png';
+import dehaan from '../assets/dehaan.png';
+import vandervlist from '../assets/vandervlist.png';
+import vandewall from '../assets/vandewall.png';
+import butcher from '../assets/butcher.png';
 
 export interface ContentImagesProps {
   [index: string]: StaticImageData | undefined;
@@ -73,14 +77,48 @@ export const teamMembers: TeamMember[] = [
     id: 1,
     img: gottenbos,
     description:
-      'Shaper & Getting things done \n Founder Biners / Investeerder',
+      'Founder \n Financiën',
   },
   {
     name: 'Menno van der Marel',
     id: 2,
     img: vandermarel,
-    description: `Impact maken met slimme innovaties \n Goede ideeën moeten echt een kans krijgen \n Entrepreneur / Founder Fox-IT`,
+    description: `Founder \n Operatie & Gebruikerservaring`,
   },
+  {
+    name: 'Noortje de Haan',
+    id: 6,
+    img: dehaan,
+    description: `Founder \n PR & Branding`,
+  },
+    {
+    name: 'Dominique van der Vlist',
+    id: 7,
+    img: vandervlist,
+    description: `Founder \n Marketing & Data`,
+  },
+  {
+    name: 'Jeremy Butcher',
+    id: 8,
+    img: butcher,
+    description: `Founder \n Product`,
+  },
+  {
+    name: 'Anouk Vandewall',
+    id: 9,
+    img: vandewall,
+    description: `Goede doelen relaties`,
+  }
+];
+
+interface RaadVanAdvies {
+  name: string;
+  id: number;
+  img: StaticImageData;
+  description: string;
+}
+
+export const raadVanAdvies: RaadVanAdvies[] = [
   {
     name: 'Joni Uhlenbeck',
     id: 5,
