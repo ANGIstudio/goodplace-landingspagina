@@ -113,11 +113,9 @@ const About: NextPage = () => {
             })}
           </div>
 
-
-         <h3 className="mb-8 mt-8">
-           <strong>Raad van Advies</strong>
-         </h3>
-
+          <h3 className="mb-8 mt-8">
+            <strong>Raad van Advies</strong>
+          </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
             {raadVanAdvies.map((member) => {
