@@ -4,7 +4,7 @@ module.exports = {
   darkMode: false,
   theme: {
     fontFamily: {
-      jost: ['Jost', 'sans-serif'],
+      jost: ['Raleway', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
@@ -19,7 +19,7 @@ module.exports = {
         lightbeige: '#f8f6f0',
         orange: '#FB6B47',
         darkgreen: '#0B7C68',
-        lightgreen: '#F7FBF9',
+        lightgreen: '#D8F3E5',
         black: '#171717',
         grey: '#7E7E7E',
         lightgrey: '#9D9D9D',

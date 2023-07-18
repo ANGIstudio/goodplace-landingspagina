@@ -2,11 +2,15 @@
   @apply flex md:flex-row flex-col py-16 md:py-4 justify-between md:space-x-6 md:items-center overflow-hidden relative;
 
   &__text {
-    @apply md:flex md:flex-col md:justify-center w-3/4 md:w-1/2 space-y-3 md:space-y-8 pb-4 md:pb-0;
+    @apply md:flex md:flex-col md:justify-center w-4/5 md:w-1/2 space-y-2 md:space-y-2 pb-2 md:pb-2;
+  }
+
+  &__brandtitle {
+    @apply text-green font-semibold break-words;
   }
 
   &__title {
-    @apply text-darkgreen font-semibold break-words;
+    @apply text-green font-bold break-words pb-3;
   }
 
   &__dot {
@@ -14,7 +18,7 @@
   }
 
   &__subtitle {
-    @apply text-green font-light pb-4;
+    @apply text-green font-medium pb-8;
   }
 
   &__download-links {

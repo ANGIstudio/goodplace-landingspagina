@@ -95,17 +95,10 @@ const Index: NextPage = () => {
 
   return (
     <Base>
-      <Section bgColor="lightbeige" noPaddingBottom noPaddingTop>
+      <Section bgColor="lightgreen" noPaddingBottom noPaddingTop>
         <Wrapper>
           <div className="bg-hero relative">
-            <div className="absolute top-0 -right-6 md:-right-4 z-20 w-[146px] h-[146px] md:h-[214px] md:w-[214px]">
-              <Image
-                alt="non-profit-desktop"
-                src={nonprofitsticker}
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
+
             <Hero />
           </div>
         </Wrapper>
@@ -239,7 +232,7 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom bgImage="bg-people">
+      <Section bgColor="beige" noPaddingBottom bgImage="bg-hero">
         <Wrapper>
           <div className="text-center overflow-hidden">
             <h2 className="mb-10 text-darkgreen font-bold max-w-2xl m-auto">
