@@ -6,7 +6,7 @@ import klabu from '../assets/brands/klabu.png';
 import mf from '../assets/brands/mf.png';
 import oceancleanup from '../assets/brands/ocean.png';
 import saveachildsheart from '../assets/brands/savechildsheart.png';
-import stichtingaap from '../assets/brands/stichtingaap.png';
+import jarigejob from '../assets/brands/jarigejob.png';
 import sunday from '../assets/brands/sunday.png';
 import tjommie from '../assets/brands/tjommie.png';
 import vriendensophia from '../assets/brands/vriendensophia.png';
@@ -54,7 +54,7 @@ export const brandItems = [
   { id: '5', src: tjommie },
   { id: '6', src: warchild },
   { id: '7', src: oceancleanup },
-  { id: '8', src: stichtingaap },
+  { id: '8', src: jarigejob },
   { id: '9', src: mf },
   { id: '10', src: saveachildsheart },
   { id: '11', src: cruyff },
