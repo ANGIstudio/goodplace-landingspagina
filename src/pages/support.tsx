@@ -10,87 +10,65 @@ import { Base } from '../templates/Base';
 const Support: NextPage = () => {
   return (
     <Base>
-      <Section bgColor="lightbeige">
+      <Section bgColor="white">
         <Wrapper>
-          <div className="md:w-2/3">
-            <h3 className="break-words mb-4">
-              <strong>Veelgestelde vragen</strong>
-            </h3>
+
+          <div className="text-darkgreen max-w-5xl m-auto">
             <div className="space-y-8">
-              <div>
-                <h4 className="mt-4">
-                  <strong>Wat is het verdienmodel van Goodplace?</strong>
+            <div>
+                <h4 className="mt-4 mb-4">
+                  Waarom Goodplace?
                 </h4>
                 <p>
-                  Goodplace is een stichting en bestaat uit een{' '}
-                  <Link href="/about/">
-                    <a className="underline">klein team</a>
-                  </Link>{' '}
-                  van betrokken ondernemers, die dit niet doen voor eigen
-                  verdiensten. Er is dus geen winstoogmerk en het bestuur
-                  ontvangt geen salaris. De Goodplace app is ontwikkeld met
-                  donaties van diverse betrokkenen.
+                Er zijn veel mensen die graag goede doelen willen steunen maar dit nu niet doen, bijvoorbeeld omdat
+                het opzeggen van terugkerende donaties bij goede doelen lastig is, omdat ze geen ongewenste telefoontjes en post willen krijgen, of
+                omdat ze niet te veel willen betalen voor marketing (betaalde deurcollectanten, advertentiekosten etc. kunnen oplopen tot meer dan 10% van de donatie-opbrengst).
+
+                Er is daardoor onbenut donatie-geld bij mensen die we graag willen activeren. Zo kunnen we  de wereld gezamenlijk beter maken! <br /> <br />
+
+                Met de stichting Goodplace willen we filantropie stimuleren en dit doen we door de gever centraal te stellen. Er blijkt vraag naar ėėn centrale plek waar je kunt doneren zonder gedoe: een overzichtelijke app waarmee je flexibel en vrijblijvend geld kunt geven aan goede doelen.
+
+                </p>
+              </div>
+
+              <div>
+                <h4 className="mt-4 mb-4">
+                  Hoe werkt de Goodplace app?
+                </h4>
+                <p>
+                Als je via onze app doneert gaat jouw donatie direct naar het betalingsaccount van het goede doel.
+                Op dit moment is Mollie onze betalingspartner, wat betekent dat het geld vanuit jouw bankrekening door
+                Mollie direct naar het account van de goede doelen wordt gestort. Vervolgens heeft het goede doel zelf de
+                vrijheid om te bepalen waar ze het geld aan besteden. Om gebruik te kunnen maken van Goodplace hebben
+                wij alleen je naam, emailadres en machtiging nodig.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="mt-4 mb-4">
+                  Wat is het verdienmodel van Goodplace?
+                </h4>
+                <p>
+                  Goodplace is een stichting en bestaat uit een klein team van betrokken ondernemers, die dit niet doen voor eigen verdiensten. Er is dus geen commercieel winstoogmerk en het bestuur ontvangt geen salaris.
+                  Om Goodplace mogelijk te maken rekenen we nu maximaal 5% van het donatiebedrag. Dit percentage verlagen we zodra we genoeg gebruikers hebben om kostendekkend te kunnen zijn. Hoe meer donateurs we hebben hoe lager dit percentage kan worden.Ook zijn we naast onze partners Goede Doelen Nederland, Warchild en Kika ook in gesprek met het bedrijfsleven om samen Goodplace tot een succes te maken.
+                  Ons eerste financiële jaarverslag is vanaf september 2023 op deze site te vinden.
+
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Niks aan de Goodplace strijkstok</strong>
+                  Welke goede doelen doen er mee?
                 </h4>
                 <p>
-                  Via Goodplace gaat een zo groot mogelijk deel van jouw donatie
-                  direct naar het goede doel, zodat zij het geld naar eigen
-                  inzicht kunnen besteden. Goodplace is een stichting en heeft
-                  dus geen winstoogmerk. Zo ontvangt het bestuur geen salaris,
-                  krijgt Goodplace kortingen via partnerships en bestaat ons
-                  team grotendeels uit vrijwilligers.
+                  Vanaf de start werken we intensief samen met partners Warchild & Kika en inmiddels ook met branche organisatie Goede Doelen Nederland en Geef.nl. Inmiddels doen er 21 goede doelen mee. Dit zijn zowel kleine als grote goede doelen met ANBI en/of CBF status. Er volgen er natuurlijk nog meer…
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Voor en door goede doelen</strong>
+                  Hoe meld ik mij aan als goed doel?
                 </h4>
                 <p>
-                  Om de Goodplace app in de lucht te houden en te kunnen
-                  doorontwikkelen, vragen wij een bijdrage aan goede doelen in
-                  ruil voor het gebruik van ons platform. Goede doelen geven
-                  geld uit aan marketing om nieuwe donateurs te werven (denk aan
-                  huis-aan-huis post, social media ads, etc). Wanneer ze onze
-                  app hiervoor willen gebruiken, vragen we een bijdrage uit het
-                  marketingbudget ter hoogte van maximaal 5% van het
-                  totaalbedrag aan donaties dat het betreffende goede doel via
-                  ons platform ontvangt.
-                </p>
-              </div>
-              <div>
-                <h4 className="mt-4">
-                  <strong>De weg van jouw donatie</strong>
-                </h4>
-                <p>
-                  Als je via onze app doneert gaat jouw donatie direct naar het
-                  betalingsaccount van het goede doel. Op dit moment is Mollie
-                  onze betalingspartner, wat betekent dat het geld vanuit jouw
-                  bankrekening door Mollie direct naar het account van de goede
-                  doelen wordt gestort. Vervolgens heeft het goede doel zelf de
-                  vrijheid om te bepalen waar ze het geld aan besteden.
-                </p>
-              </div>
-              <div>
-                <h4 className="mt-4">
-                  <strong>Welke goede doelen doen er mee?</strong>
-                </h4>
-                <p>
-                  Vanaf de start doen er 15 goede doelen mee. Dit zijn zowel
-                  kleine als grote goede doelen uit de segmenten Natuur,
-                  Gezondheid en Hulp (zie ook onderaan de website). Maar er gaan
-                  nog veel meer doelen meedoen!
-                </p>
-              </div>
-              <div>
-                <h4 className="mt-4">
-                  <strong>Hoe kan ik mij aanmelden als goed doel?</strong>
-                </h4>
-                <p>
-                  Goodplace breidt graag de goede doelen in de app uit! Meld je{' '}
+                  Goodplace breidt graag de goede doelen in de app uit! Meld je {' '}
                   <Link href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0">
                     <a className="underline">hier</a>
                   </Link>{' '}
@@ -99,108 +77,68 @@ const Support: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Kan ik ook eenmalig een donatie doen?</strong>
+                  Kan ik ook eenmalig een donatie doen?
                 </h4>
                 <p>
-                  De app is zo gemaakt dat je altijd met één swipe een eenmalige
-                  donatie kan doen. Het is natuurlijk ook mogelijk om
-                  maandelijks te doneren. Ook dit regel je met één klik.
+                  De app is zo gemaakt dat je altijd eenvoudig een eenmalige donatie kan doen. Het is natuurlijk ook mogelijk om maandelijks te doneren. Ook dit regel je met één klik.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Kan ik makkelijk stoppen met doneren als ik dat wil?
-                  </strong>
+                  Kan ik makkelijk stoppen met doneren als ik dat wil?
                 </h4>
                 <p>
-                  Je kunt altijd onmiddellijk stoppen met doneren. Met één klik
-                  stop je bijvoorbeeld een periodieke donatie.
+                  Je kunt altijd onmiddellijk stoppen met doneren. Met één klik stop je bijvoorbeeld een periodieke donatie.
+
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Waar kan ik mijn periodieke donaties stoppen?</strong>
+                  Hoe kan ik mijn donatie stopzetten?
                 </h4>
                 <p>
-                  Onder de knop “donaties” rechtsonder in de app straat een
-                  overzicht van je periodieke giften. Klik op de drie puntjes
-                  rechts van de betreffende donatie en bevestig je annulering.
+                  Onder “donaties” in het menu in de app straat een overzicht van je giften. Klik op de drie puntjes rechts van de betreffende donatie en bevestig je annulering.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Hoe kan ik een donatie laten terugstorten als ik me bedenk?
-                  </strong>
+                  Kan ik een donatie ook laten terugstorten als ik me bedenk?
                 </h4>
                 <p>
-                  Als je van gedachten verandert en je wil je donatie graag
-                  teruggestort krijgen, kan dat natuurlijk. Neem dan binnen 8
-                  weken contact met ons op via{' '}
-                  <a
-                    href="mailto:team@goodplace.foundation"
-                    className="underline"
-                  >
-                    team@goodplace.foundation
-                  </a>{' '}
-                  en we gaan het voor je regelen.
+                  Als je van gedachten verandert en je wil je donatie graag teruggestort krijgen, kan dat natuurlijk. Neem dan binnen 8 weken contact met ons op via team@goodplace.foundation en we gaan het voor je regelen.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    Worden mijn persoonsgegevens doorgegeven aan derden?
-                  </strong>
+                  Worden mijn persoonsgegevens doorgegeven aan derden?
                 </h4>
                 <p>
-                  Bij Goodplace stellen we de gever centraal. Onderdeel daarvan
-                  is dat we zorgvuldig met jullie gegevens omgaan! Deze worden
-                  niet aan derden ter beschikking gesteld. Eventuele
-                  communicatie van de goede doelen loopt dus altijd via de
-                  Goodplace app, zodat jij het kan lezen wanneer jij dat wil.
+                  Bij Goodplace stellen we de gever centraal. Onderdeel daarvan is dat we zorgvuldig met jullie gegevens omgaan! Deze worden niet aan derden ter beschikking gesteld. Eventuele communicatie van de goede doelen loopt dus altijd via de Goodplace app, zodat jij het kan lezen wanneer jij dat wil.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>
-                    De (magic)-link werkt niet om in te loggen of te
-                    registreren. Wat moet ik doen?
-                  </strong>
+                  De (magic)-link werkt niet om in te loggen of te registreren. Wat moet ik doen?
                 </h4>
                 <p>
-                  Als je opnieuw wilt inloggen of registreren krijg je een link
-                  via je email. Het is belangrijk dat je die email opent op de
-                  telefoon waarop je de app hebt geïnstalleerd. Als je dan op de
-                  link klikt zal je direct naar de app gaan en kan je gebruik
-                  maken van alle mogelijkheden. De link is een beperkte tijd
-                  geldig. Als de link is verlopen, kan je een nieuwe aanvragen
-                  via de app.
-                  <br /> <br />
-                  Lukt dit toch niet neem dan contact op met onze support
-                  afdeling via{' '}
-                  <a
-                    href="mailto:team@goodplace.foundation"
-                    className="underline"
-                  >
-                    team@goodplace.foundation
-                  </a>
-                  .
+                  Als je opnieuw wilt inloggen of registreren krijg je een link via je email. Het is belangrijk dat je die email opent op de telefoon waarop je de app hebt geïnstalleerd. Als je dan op de link klikt zal je direct naar de app gaan en kan je gebruik maken van alle mogelijkheden. De link is een beperkte tijd geldig. Als de link is verlopen, kan je een nieuwe aanvragen via de app.
+                  Lukt dit toch niet neem dan contact op met onze support afdeling via team@goodplace.foundation.
                 </p>
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Staat jouw vraag er niet tussen?</strong>
+                Hoe kan ik bijdragen aan het succes van Goodplace?
                 </h4>
                 <p>
-                  Neem neem dan contact op met onze support afdeling via{' '}
-                  <a
-                    className="underline"
-                    href="mailto:team@goodplace.foundation"
-                  >
-                    team@goodplace.foundation
-                  </a>
-                  .
+                  Bij Goodplace staat de gever staat centraal. Daarom werken we regelmatig samen met donateurs om concepten te toetsen en feedback & ideeen te verzamelen. Stuur een mail naar team@goodplace.com als je input hebt en/of onderdeel wilt uitmaken van de testgroep. Dan hoor je binnenkort van ons!
+                </p>
+              </div>
+              <div>
+                <h4 className="mt-4">
+                  Staat jouw vraag er niet tussen?
+                </h4>
+                <p>
+                  Neem dan contact op met onze support afdeling via team@goodplace.foundation.
                 </p>
               </div>
             </div>

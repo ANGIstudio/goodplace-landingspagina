@@ -25,7 +25,7 @@ export const Usp: React.FC<UspProps> = ({ usp, variant }) => {
       <p>
         <strong>{usp.title}</strong>
       </p>
-      <p>{usp.description}</p>
+      <p className="ml-20 mr-20">{usp.description}</p>
     </div>
   );
 };

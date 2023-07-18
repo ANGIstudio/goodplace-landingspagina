@@ -3,7 +3,7 @@ import React from 'react';
 import cn from 'classnames';
 
 interface SectionProps {
-  bgColor?: 'beige' | 'lightgreen' | 'lightbeige';
+  bgColor?: 'beige' | 'lightgreen' | 'lightbeige' | 'green' | 'orange' | 'darkgreen';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
   bgImage?: 'bg-people' | 'bg-hero' | 'bg-arrow' | 'bg-abouthero';

@@ -11,7 +11,7 @@ import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
 
-const Download: NextPage = () => {
+const howitworks: NextPage = () => {
   return (
     <Base>
       <Section bgColor="lightbeige">
@@ -64,4 +64,4 @@ const Download: NextPage = () => {
   );
 };
 
-export default Download;
+export default howitworks;

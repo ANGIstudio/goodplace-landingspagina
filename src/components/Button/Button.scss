@@ -19,11 +19,15 @@
   }
 
   &--green {
-    @apply bg-green text-white hover:bg-green/80;
+    @apply bg-darkgreen text-white hover:bg-darkgreen/80;
   }
 
   &--beige {
     @apply bg-beige text-white;
+  }
+
+  &--orange {
+    @apply bg-white text-orange border border-orange hover:bg-orange/80 hover:text-beige;
   }
 
 }

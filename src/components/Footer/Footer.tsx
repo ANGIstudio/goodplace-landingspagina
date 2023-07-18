@@ -19,7 +19,11 @@ export const Footer: React.FC = () => {
             <strong>Menu</strong>
           </li>
           <li>
-            <Link href="/about">Over&nbsp;Goodplace</Link>
+            <Link href="/">Home</Link> <br />
+            <Link href="/about">Over&nbsp;Goodplace</Link> <br />
+            <Link href="/howitworks">Hoe&nbsp;werkt&nbsp;het?</Link> <br />
+            <Link href="/support">FAQ</Link> <br />
+            <Link href="/charities">Goede&nbsp;Doelen</Link>
           </li>
         </ul>
 
@@ -44,7 +48,8 @@ export const Footer: React.FC = () => {
           </li>
           <li>
             Non profit organisatie <br />
-            RSIN 862391891
+            RSIN 862391891 <br />
+            KvK 82244154
           </li>
         </ul>
 
@@ -59,7 +64,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="c-footer__legal">
-        <div>&copy; 2021 Goodplace. Alle rechten voorbehouden.</div>
+        <div>&copy; 2023 Goodplace. Alle rechten voorbehouden.</div>
         <div>
           <Link href="/privacy">
             <a className="c-footer__legal-link">Privacy beleid</a>

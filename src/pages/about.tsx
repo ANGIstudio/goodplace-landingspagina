@@ -23,9 +23,9 @@ const About: NextPage = () => {
           <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
             <div className="md:max-w-lg">
               <h2 className="mb-4 font-bold text-darkgreen">
-                Leuk om kennis te maken
+                Missie
               </h2>
-              <p className="text-green">
+              <p className="text-darkgreen">
                 Samen met jou vergroten we maatschappelijke betrokkenheid. We
                 maken doneren voor iedereen leuk en laagdrempelig, door mensen
                 eenvoudig en positief bij goede doelen en projecten te
@@ -41,43 +41,6 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section>
-        <Wrapper>
-          <ContentBlock image="peoplewithballoons" imageFirst>
-            <div className="max-w-lg mt-4">
-              <h3 className="mb-4">
-                <strong>Doneren moet juist leuk zijn</strong>
-              </h3>
-              <p>
-                Wij wilden wel graag doneren aan onze favoriete goede doelen,
-                maar zaten er niet op te wachten om vervolgens gebeld te worden
-                of magazines thuis te krijgen. Geld geven moet toch ook zonder
-                gedoe kunnen? Dat was voor ons de inspiratie om Goodplace te
-                beginnen.
-              </p>
-            </div>
-          </ContentBlock>
-        </Wrapper>
-      </Section>
-
-      <Section bgColor="lightgreen">
-        <Wrapper>
-          <div className="md:text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h3 className="mb-4">
-                <strong>Partners</strong>
-              </h3>
-              <p>
-                We zijn ontzettend trots om te mogen samenwerken met deze mooie
-                goede doelen in de sectoren natuur, gezondheid en hulp. Deze
-                partners zijn met zorg geselecteerd en we hopen binnenkort nog
-                veel meer mooie samenwerkingen te sluiten.
-              </p>
-            </div>
-            <Brands brandItems={brandItems} />
-          </div>
-        </Wrapper>
-      </Section>
 
       <Section>
         <Wrapper>
@@ -143,50 +106,45 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom bgImage="bg-arrow">
+      <Section bgColor="darkgreen">
         <Wrapper>
-          <div className="sm:flex overflow-hidden">
-            <div>
-              <h2 className="mb-8 text-darkgreen font-bold max-w-2xl">
-                Doe je mee met Goodplace?
-              </h2>
-              <div className="mb-8 flex space-x-3">
-                <div>
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
-                    passHref
-                  >
-                    <a>
-                      <Image
-                        height={41}
-                        width={141}
-                        alt="googleplay"
-                        src={googleplay}
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div className=" max-w-xs">
-                  <Link
-                    href="https://apps.apple.com/nl/app/goodplace/id1573545734"
-                    passHref
-                  >
-                    <a>
-                      <Image
-                        width={125}
-                        height={41}
-                        alt="apple-store"
-                        src={applestore}
-                      />
-                    </a>
-                  </Link>
-                </div>
+          <div className="text-center overflow-hidden">
+            <h2 className="mb-10 text-lightgreen font-bold max-w-2xl m-auto">
+              Doe je mee met Goodplace?
+            </h2>
+            <div className="flex space-x-3 justify-center">
+              <div>
+                <Link
+                  href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
+                  passHref
+                >
+                  <a>
+                    <Image
+                      height={41}
+                      width={141}
+                      alt="googleplay"
+                      src={googleplay}
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div>
+                <Link
+                  href="https://apps.apple.com/nl/app/goodplace/id1573545734"
+                  passHref
+                >
+                  <a>
+                    <Image
+                      width={125}
+                      height={41}
+                      alt="apple-store"
+                      src={applestore}
+                    />
+                  </a>
+                </Link>
               </div>
             </div>
 
-            <div className="-mb-24 sm:-mb-48">
-              <Image src={phones} alt="phones" />
-            </div>
           </div>
         </Wrapper>
       </Section>
