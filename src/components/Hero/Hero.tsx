@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
     <div className="c-hero">
       <div className="c-hero__text">
         <h1 className="c-hero__title">
-          Goodplace, your place to do good<span className="c-hero__dot">.</span>
+          Goodplace, dé donatie app<span className="c-hero__dot">.</span>
         </h1>
         <h2 className="c-hero__subtitle">
           Doneren was nog nooit zo makkelijk!
