@@ -23,7 +23,9 @@ export const Footer: React.FC = () => {
             <Link href="/about">Over&nbsp;Goodplace</Link> <br />
             <Link href="/howitworks">Hoe&nbsp;werkt&nbsp;het?</Link> <br />
             <Link href="/support">FAQ</Link> <br />
-            <Link href="/charities"><p className="text-base text-white">Goede&nbsp;Doelen</p></Link>
+            <Link href="/charities">
+              <p className="text-base text-white">Goede&nbsp;Doelen</p>
+            </Link>
           </li>
         </ul>
 

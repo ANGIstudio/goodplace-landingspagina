@@ -7,49 +7,47 @@ import Link from 'next/link';
 import applestore from '../assets/apple-store-badge.png';
 import googleplay from '../assets/google-play-badge.png';
 import imageframe from '../assets/imageframe.png';
-import phones from '../assets/phones.png';
-import { Brands } from '../components/Brands/Brands';
-import { ContentBlock } from '../components/ContentBlock/ContentBlock';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import { teamMembers, brandItems, raadVanAdvies } from '../data/data';
+import { teamMembers, raadVanAdvies } from '../data/data';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
   return (
     <Base>
-        <Section bgColor="darkgreen">
+      <Section bgColor="darkgreen">
         <Wrapper>
-        <div className="mb-8">
-          <h2 className="mb-4 mt-0 font-black text-lightgreen text-5xl">
-            Goed doen met 1 druk op de knop.
-          </h2>
-          <h3 className="text-lightgreen">
-          Met Goodplace maken we doneren makkelijk en overzichtelijk.
-          </h3>
-        </div>
-        <div className="text-right">
-        <h2 className="mb-0 mt-4 font-bold text-lightgreen text-4xl">
-                Ons verhaal
-              </h2>
-              <p className="text-lightgreen">
-                OneFit was founded in 2013 in The Netherlands by Serge Brabander and Camille Richardson. Two guys who liked going to the gym but got bored being signed up at the same place. They believed that workouts should adjust to the flexible schedules of modern city life and be more diverse, easy and fun.
-                In the summer of 2019, OneFit joined forces with Urban Sports Club, making it the largest flexible sports membership provider in Europe (The Netherlands, Belgium, France, Spain, Portugal, Germany, Italy).
-              </p>
-        </div>
+          <div className="mb-8">
+            <h2 className="mb-4 mt-0 font-black text-lightgreen text-5xl">
+              Goed doen met 1 druk op de knop.
+            </h2>
+            <h3 className="text-lightgreen">
+              Met Goodplace maken we doneren makkelijk en overzichtelijk.
+            </h3>
+          </div>
+          <div className="text-right">
+            <h2 className="mb-0 mt-4 font-bold text-lightgreen text-4xl">
+              Ons verhaal
+            </h2>
+            <p className="text-lightgreen">
+              OneFit was founded in 2013 in The Netherlands by Serge Brabander
+              and Camille Richardson. Two guys who liked going to the gym but
+              got bored being signed up at the same place. They believed that
+              workouts should adjust to the flexible schedules of modern city
+              life and be more diverse, easy and fun. In the summer of 2019,
+              OneFit joined forces with Urban Sports Club, making it the largest
+              flexible sports membership provider in Europe (The Netherlands,
+              Belgium, France, Spain, Portugal, Germany, Italy).
+            </p>
+          </div>
         </Wrapper>
       </Section>
-
-
-
 
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
             <div className="md:max-w-lg">
-              <h2 className="mb-4 font-bold text-darkgreen">
-                Onze missie
-              </h2>
+              <h2 className="mb-4 font-bold text-darkgreen">Ons doel</h2>
               <p className="text-darkgreen">
                 Samen met jou vergroten we maatschappelijke betrokkenheid. We
                 maken doneren voor iedereen leuk en laagdrempelig, door mensen
@@ -66,16 +64,13 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-        <Section bgColor="orange">
+      <Section bgColor="orange">
         <Wrapper>
-        <div className="text-center">
-              <h2 className="font-black text-lightbeige">
-                Vacatures
-              </h2>
-            </div>
+          <div className="text-center">
+            <h2 className="font-black text-lightbeige">Vacatures</h2>
+          </div>
         </Wrapper>
       </Section>
-
 
       <Section>
         <Wrapper>
@@ -179,7 +174,6 @@ const About: NextPage = () => {
                 </Link>
               </div>
             </div>
-
           </div>
         </Wrapper>
       </Section>
