@@ -11,9 +11,9 @@ import { Base } from '../templates/Base';
 const CookieStatement: NextPage = () => {
   return (
     <Base>
-      <Section bgColor="lightgreen">
+      <Section bgColor="lightbeige">
         <Wrapper>
-          <div className="md:w-2/3">
+          <div>
             <h3 className="break-words mb-4">
               <strong>
                 Cookieverklaring van Stichting Goodplace Foundation

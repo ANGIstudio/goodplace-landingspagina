@@ -36,13 +36,14 @@ const Index: NextPage = () => {
       title: 'Je zit nergens aan vast',
       image: target,
       description:
-        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt.',
+        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame en post.',
     },
     {
       title: 'Alles op één plek geregeld',
       image: target,
       description:
-        'Je doneert overzichtelijk vanuit één enkele app aan jouw favoriete goede doelen.',
+
+        'Je doneert vanuit één enkele app aan jouw favoriete goede doelen. Ontdek nieuwe goede doelen, en blijf op de hoogte van wat zij met jouw donatiegeld bereiken. Zo houd je ook nog eens overzicht over wat je geeft, en waar je geld naartoe gaat.',
     },
   ];
 
@@ -63,20 +64,19 @@ const Index: NextPage = () => {
         <Brands brandItems={brandItems} />
       </Wrapper>
 
-      <Section bgColor="lightgreen">
+      <Section bgColor="darkgreen">
         <Wrapper>
           <div className="text-center">
             <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h4 className="mb-4 text-darkgreen font-black text-5xl">
-                  Doneren zonder <br />
-                  drempels
+              <h4 className="mb-4 text-lightgreen font-black text-5xl">
+                  Doneren <br />
+                  zonder drempels
               </h4>
-              <p className="text-darkgreen font-medium text-xl">
-                Onze missie is om jou in control te laten zijn over jouw donaties. Alles overzichtelijk en flexibel geregeld vanuit één simpele app.
-                Doneren is nog nooit zo makkelijk geweest.
+              <p className="text-lightgreen font-medium text-xl">
+                Ons doel is om jou in control te laten zijn over jouw donaties. Alles overzichtelijk en flexibel geregeld vanuit één simpele app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:ml-20 md:mr-20 pt-10 text-darkgreen text-lg font-medium">
+            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:ml-10 md:mr-10 pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
@@ -86,7 +86,38 @@ const Index: NextPage = () => {
       </Section>
 
 
-      <Section>
+      <Section bgColor="lightgreen">
+        <Wrapper>
+          <div className="text-center text-darkgreen">
+            <div className="mb-8 md:mb-16 max-w-lg m-auto">
+              <h4 className="mb-12 text-darkgreen text-5xl">
+                  Goede <br />
+                  Doelen
+              </h4>
+              <p className="mb-16 text-darkgreen font-medium">
+              Wij zijn continu bezig met het uitbreiden van ons aanbod aan goede doelen.
+              Groot of klein, lokaal actief of wereldwijd: we sluiten niemand uit.
+              Als donateur moet jij zelf kunnen bepalen aan wie je doneert.
+              <br />
+              Ben jij, of ken jij een goed doel dat partner moet worden bij Goodplace?
+              </p>
+              <Button
+                tag="link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
+                label="Meld een nieuw goed doel aan!"
+                variant="green"
+                size="M"
+              />
+              <p className="mb-3 mt-8 text-darkgreen font-medium">
+              Aanmelden van nieuwe goede doelen kan vanuit goede doelen zelf, of vanuit de donateur.
+              </p>
+
+            </div>
+          </div>
+        </Wrapper>
+      </Section>
+
+        <Section bgColor="white">
         <Wrapper>
           <div className="text-center">
             <div className="mb-8 md:mb-16 max-w-2xl m-auto">
@@ -120,39 +151,11 @@ const Index: NextPage = () => {
       </Section>
 
 
-      <Section bgColor="green">
-        <Wrapper>
-          <div className="text-center text-darkgreen">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h4 className="mb-12 text-darkgreen">
-                  Goede <br />
-                  Doelen
-              </h4>
-              <p className="mb-16 text-darkgreen">
-              Elk CBF- of ANBI-erkend goed doel kan zich bij ons aanmelden. Groot of klein, lokaal actief of wereldwijd.
-              <br />
-              Ben jij, of ken jij een goed doel dat partner moet worden bij Goodplace?
-              </p>
-              <Button
-                tag="link"
-                href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                label="Meld een nieuw goed doel aan!"
-                variant="green"
-                size="M"
-              />
-              <p className="mb-3 mt-8 text-darkgreen">
-              Aanmelden van nieuwe goede doelen kan vanuit goede doelen zelf, of vanuit de donateur.
-              </p>
 
-            </div>
-          </div>
-        </Wrapper>
-      </Section>
-
-      <Section bgColor="darkgreen">
+      <Section bgColor="lightbeige">
         <Wrapper>
           <div className="text-center overflow-hidden">
-            <h2 className="mb-10 text-lightgreen font-bold max-w-2xl m-auto">
+            <h2 className="mb-10 text-orange font-bold max-w-2xl m-auto text-4xl">
               Doe je mee met Goodplace?
             </h2>
             <div className="flex space-x-3 justify-center">

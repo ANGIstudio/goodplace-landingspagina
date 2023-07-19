@@ -16,6 +16,8 @@ const Support: NextPage = () => {
           <div className="text-darkgreen max-w-5xl m-auto">
             <div className="space-y-8">
             <div>
+                <h4 className="text-green text-2xl">Veelgestelde vragen
+                </h4>
                 <h4 className="mt-4 mb-4">
                   Waarom Goodplace?
                 </h4>
