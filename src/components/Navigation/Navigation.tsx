@@ -107,7 +107,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
               <li className="c-navigation__mobile-item">
                 <Button
                   tag="link"
-                  href="/hoehetwerkt"
+                  href="/howitworks"
                   label="Hoe het werkt"
                   variant="green"
                   size="M"

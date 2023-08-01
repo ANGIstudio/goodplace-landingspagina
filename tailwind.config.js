@@ -12,6 +12,9 @@ module.exports = {
         people: "url('../src/assets/bgpeople.png')",
         arrow: "url('../src/assets/bg-arrow.png')",
         abouthero: "url('../src/assets/abouthero.png')",
+        howitworks1: "url('../src/assets/howto_background_1.png')",
+        howitworks2: "url('../src/assets/howto_background_2.png')",
+        howitworks3: "url('../src/assets/howto_background_3.png')",
       },
       colors: {
         green: '#BEE9D2',

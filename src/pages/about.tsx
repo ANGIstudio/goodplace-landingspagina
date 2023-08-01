@@ -17,27 +17,44 @@ const About: NextPage = () => {
     <Base>
       <Section bgColor="darkgreen">
         <Wrapper>
-          <div className="mb-8">
+          <div className="mb-12">
             <h2 className="mb-4 mt-0 font-black text-lightgreen text-5xl">
               Goed doen met 1 druk op de knop.
             </h2>
-            <h3 className="text-lightgreen">
-              Met Goodplace maken we doneren makkelijk en overzichtelijk.
+            <h3 className="text-lightgreen font-medium">
+              Doneren moet makkelijk en overzichtelijk zijn.
             </h3>
           </div>
           <div className="text-right">
-            <h2 className="mb-0 mt-4 font-bold text-lightgreen text-4xl">
+            <h2 className="mb-0 font-extrabold text-lightgreen text-4xl">
               Ons verhaal
             </h2>
-            <p className="text-lightgreen">
-              OneFit was founded in 2013 in The Netherlands by Serge Brabander
-              and Camille Richardson. Two guys who liked going to the gym but
-              got bored being signed up at the same place. They believed that
-              workouts should adjust to the flexible schedules of modern city
-              life and be more diverse, easy and fun. In the summer of 2019,
-              OneFit joined forces with Urban Sports Club, making it the largest
-              flexible sports membership provider in Europe (The Netherlands,
-              Belgium, France, Spain, Portugal, Germany, Italy).
+            <p className="text-lightgreen font-light">
+              Goodplace werd opgericht in 2021 door twee generaties ondernemers
+              met een gezamenlijke missie: een betere wereld voor mens, dier en
+              natuur.
+              <br />
+              Noortje en Dominique zijn van de generatie die zich geconfronteerd
+              voelt met een wereld die wellicht in hun leven al grotendeels
+              onleefbaar wordt. De urgentie om een steentje bij te dragen en
+              impact te maken voelden zij zeker, maar toch doneerden zij niet
+              zoveel aan goede doelen als ze eigenlijk wilden. Ze misten een
+              overzichtelijke en makkelijke manier om hun donaties te regelen,
+              precies zoals ze gewend waren bij het bestellen van eten of het
+              boeken van hun sportklasjes: “Er zijn zóveel problemen in de
+              wereld, en zoveel organisaties, klein en groot, die allemaal goede
+              dingen doen. We zagen door de bomen het bos niet meer.”
+              <br />
+              Frank, Menno en Jeremy hebben het inmiddels “gemaakt” in hun
+              carrière, en vonden het tijd zich meer in te zetten voor de
+              maatschappij. Ook zij voelden weerstand bij de huidige manier van
+              doneren: doneren werd voor hen een “moetje” en was niet meer leuk.
+              Zij stoorden zich ook steeds meer aan colportage, of
+              ‘straatverkopers’, een kostbaar marketingkanaal voor goede doelen
+              waardoor minder geld op de juiste plek terechtkomt. Ze zochten een
+              digitaal alternatief waarbij de donateur doneren weer als iets
+              positiefs kon zien: “Ook doneren kan dopamine losmaken bij
+              mensen.”
             </p>
           </div>
         </Wrapper>
@@ -46,17 +63,31 @@ const About: NextPage = () => {
       <Section bgColor="lightgreen">
         <Wrapper>
           <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-            <div className="md:max-w-lg">
+            <div className="">
               <h2 className="mb-4 font-bold text-darkgreen">Ons doel</h2>
               <p className="text-darkgreen">
-                Samen met jou vergroten we maatschappelijke betrokkenheid. We
-                maken doneren voor iedereen leuk en laagdrempelig, door mensen
-                eenvoudig en positief bij goede doelen en projecten te
-                betrekken.
+                Onze missie is om meer impact te creëren voor de wereld, door
+                doneren aan goede doelen meer flexibel, overzichtelijk en leuk
+                te maken. Wij geloven dat iedereen impact kan maken en positieve
+                verandering teweeg kan brengen, en dat dat zo simpel mogelijk
+                moet zijn.
+                <br />
+                Ons doel is om mensen te inspireren en aan te moedigen om
+                bewuste gevers te worden. Door een platform te creëren dat de
+                brug slaat tussen iedereen die goed wil doen en de goede doelen,
+                willen we een positieve impact creëren op belangrijke
+                maatschappelijke thema’s, van oorlog, klimaat en onderwijs tot
+                de LGBTQIA+ beweging en eenzame ouderen. Transparantie,
+                flexibiliteit, overzicht en gemak zijn hierbij onze
+                belangrijkste kernwaarden.
+                <br />
+                Goodplace is er enerzijds om bestaande drempels bij doneren weg
+                te nemen. Anderzijds willen we dat jij kunt geven aan dingen die
+                jou persoonlijk raken.
               </p>
             </div>
             <img
-              className="w-full md:w-1/2 mt-8"
+              className="w-full md:w-1/5 mt-8"
               alt="awd"
               src={imageframe.src}
             />
@@ -64,15 +95,21 @@ const About: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="orange">
+      <Section>
         <Wrapper>
           <div className="text-center">
-            <h2 className="font-black text-lightbeige">Vacatures</h2>
+            <h2 className="font-black text-orange">Wil jij helpen?</h2>
+            <p className="text-orange">
+              Ben jij enthousiast over wat we doen en wil jij graag helpen? Laat
+              het ons weten! We zijn altijd op zoek naar mensen die mee denken,
+              feedback hebben of extra handjes. Stuur ons een mail naar
+              team@goodplace.foundation of stuur ons een dm op de socials!
+            </p>
           </div>
         </Wrapper>
       </Section>
 
-      <Section>
+      <Section bgColor="lightgreen">
         <Wrapper>
           <h3 className="mb-4">
             <strong>Team</strong>

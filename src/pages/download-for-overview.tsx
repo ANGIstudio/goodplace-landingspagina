@@ -30,8 +30,8 @@ const Download: NextPage = () => {
                 deze pagina bracht.
               </p>
               <p className="mb-8">
-                Heb je de app nog niet? Download hem dan met één van de
-                onderstaande knoppen!
+                Heb je de app nog niet? Download hem dan in de App- of
+                Playstore!
               </p>
               <div className="mb-8 flex space-x-3">
                 <div>

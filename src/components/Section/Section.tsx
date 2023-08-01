@@ -12,7 +12,14 @@ interface SectionProps {
     | 'darkgreen';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
-  bgImage?: 'bg-people' | 'bg-hero' | 'bg-arrow' | 'bg-abouthero';
+  bgImage?:
+    | 'bg-people'
+    | 'bg-hero'
+    | 'bg-arrow'
+    | 'bg-abouthero'
+    | 'bg-howitworks1'
+    | 'bg-howitworks2'
+    | 'bg-howitworks3';
 }
 
 export const Section: React.FC<SectionProps> = ({
