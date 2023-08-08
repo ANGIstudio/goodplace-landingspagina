@@ -32,42 +32,39 @@ const Index: NextPage = () => {
         'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame en post.',
     },
     {
-      title: 'Alles op één plek geregeld',
+      title: 'Al je donaties vanuit één app',
       image: target,
       description:
-        'Je doneert vanuit één enkele app aan jouw favoriete goede doelen. Ontdek nieuwe goede doelen, en blijf op de hoogte van wat zij met jouw donatiegeld bereiken. Zo houd je ook nog eens overzicht over wat je geeft, en waar je geld naartoe gaat.',
+        'Kies jouw favoriete goede doelen in de Goodplace marketplace, en houd overzicht over je maandelijkse donatie uitgaven.',
     },
   ];
 
   return (
     <Base>
       <Section bgColor="lightgreen" noPaddingBottom noPaddingTop>
-        <div className="bg-hero relative">
+        <div className="bg-abouthero md:pb-32 pb-24">
           <Wrapper>
             <Hero />
           </Wrapper>
         </div>
       </Section>
 
-      <Wrapper>
-        <Brands brandItems={brandItems} />
-      </Wrapper>
 
-      <Section bgColor="darkgreen">
+      <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h4 className="mb-4 text-lightgreen font-black text-5xl">
+          <div className="text-center h-screen -mb-10 md:-mt-24 -mt-16">
+            <div className="mb-8 md:mb-16 max-w-xl m-auto">
+              <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
                 zonder drempels
-              </h4>
-              <p className="text-lightgreen font-medium text-xl">
+              </h2>
+              <p className="text-lightgreen font-semibold md:text-xl text-lg">
                 Ons doel is om jou in control te laten zijn over jouw donaties.
                 Alles overzichtelijk en flexibel geregeld vanuit één simpele
                 app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:ml-10 md:mr-10 pt-10 text-lightgreen text-lg font-medium">
+            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
@@ -76,22 +73,18 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="lightgreen">
+      <Section>
         <Wrapper>
-          <div className="text-center text-darkgreen">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h4 className="mb-12 text-darkgreen text-5xl">
+          <div className="text-center text-darkgreen md:-mt-44 -mt-24">
+            <div className="mb-8 md:mb-24 max-w-xl m-auto">
+              <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
                 Goede <br />
                 Doelen
-              </h4>
-              <p className="mb-16 text-darkgreen font-medium">
+              </h2>
+              <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
                 Wij zijn continu bezig met het uitbreiden van ons aanbod aan
                 goede doelen. Groot of klein, lokaal actief of wereldwijd: we
-                sluiten niemand uit. Als donateur moet jij zelf kunnen bepalen
-                aan wie je doneert.
-                <br />
-                Ben jij, of ken jij een goed doel dat partner moet worden bij
-                Goodplace?
+                sluiten niemand uit. Mis je een goed doel in ons aanbod?
               </p>
 
               <Button
@@ -101,37 +94,35 @@ const Index: NextPage = () => {
                 variant="green"
                 size="M"
               />
-
-              <p className="mb-3 mt-8 text-darkgreen font-medium">
-                Aanmelden van nieuwe goede doelen kan vanuit goede doelen zelf,
-                of vanuit de donateur.
-              </p>
             </div>
           </div>
         </Wrapper>
+        <Wrapper>
+          <Brands brandItems={brandItems} />
+        </Wrapper>
       </Section>
 
-      <Section>
+      <Section bgImage="bg-feedback">
         <Wrapper>
           <div className="text-center">
-            <div className="mb-8 md:mb-16 max-w-2xl m-auto">
-              <h4 className="mb-8 text-darkgreen font-black text-5xl">
+            <div className="md:mb-8 mb-2 mt-16 max-w-2xl m-auto">
+              <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
                 <div className="mb-3 h-24 w-24 mx-auto">
                   <Image alt="heart" src={heart} />
                 </div>
                 We love <br />
                 feedback
-              </h4>
-              <p className="mb-8 pl-2 text-darkgreen">
+              </h2>
+              <p className="text-darkgreen font-medium md:text-xl text-lg mb-9 md:mb-12">
                 Waarom? Omdat we niet alleen willen goed-doen, maar het ook
                 graag goed willen doen. Jouw stem is nou precies de steen die
                 bijdraagt om doneren smooth en makkelijk te kunnen maken. Zo
                 komen we samen naar een betere wereld: niet voor, maar mét
                 elkaar.
               </p>
-              <p className="mb-8">
+              <p>
                 <a
-                  className="text-darkgreen hover:underline text-lg font-bold"
+                  className="text-darkgreen hover:underline hover:text-darkorange md:text-2xl font-extrabold text-xl"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSeL05GNqomTjzLAj1Jtb2Ey8CwvHVThYUKj9QfPGIfqpclEZQ/viewform?usp=sf_link"
                   target="_blank"
                   rel="noreferrer"
@@ -144,11 +135,12 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section bgColor="lightbeige">
+
+      <Section bgImage="bg-banner">
         <Wrapper>
           <div className="text-center overflow-hidden">
-            <h2 className="mb-10 text-orange font-bold max-w-2xl m-auto text-4xl">
-              Doe je mee met Goodplace?
+            <h2 className="mt-32 mb-10 text-darkgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+              Ontdek het nieuwe doneren
             </h2>
             <div className="flex space-x-3 justify-center">
               <div>

@@ -5,8 +5,20 @@
     @apply bg-beige;
   }
 
-  &--orange {
-    @apply bg-orange;
+  &--lightorange {
+    @apply bg-lightorange;
+  }
+
+  &--darkorange {
+    @apply bg-darkorange;
+  }
+
+  &--mediumorange {
+    @apply bg-mediumorange;
+  }
+
+  &--semidarkorange {
+    @apply bg-semidarkorange;
   }
 
 

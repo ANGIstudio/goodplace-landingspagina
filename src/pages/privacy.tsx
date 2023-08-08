@@ -14,7 +14,7 @@ import { Base } from '../templates/Base';
 const Privacy: NextPage = () => {
   return (
     <Base>
-      <Section bgColor="lightbeige">
+      <Section bgColor="lightgreen">
         <Wrapper>
           <div>
             <h3 className="break-words mb-4">

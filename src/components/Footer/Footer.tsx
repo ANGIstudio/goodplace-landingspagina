@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
             <Link href="/howitworks">Hoe&nbsp;werkt&nbsp;het?</Link> <br />
             <Link href="/support">FAQ</Link> <br />
             <Link href="/charities">
-              <p className="text-base text-white">Goede&nbsp;Doelen</p>
+              <p className="text-base text-green">Goede&nbsp;Doelen</p>
             </Link>
           </li>
         </ul>
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
             </a>
           </li>
           <li>
-            Prinses Margrietplantsoen 33 <br /> 2595 AM Den Haag <br />{' '}
+            Overschiestraat 182 <br /> 1062 XK Amsterdam <br />{' '}
             Nederland
           </li>
         </ul>

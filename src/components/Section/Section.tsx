@@ -8,8 +8,12 @@ interface SectionProps {
     | 'lightgreen'
     | 'lightbeige'
     | 'green'
-    | 'orange'
-    | 'darkgreen';
+    | 'lightorange'
+    | 'darkorange'
+    | 'semidarkorange'
+    | 'mediumorange'
+    | 'darkgreen'
+    ;
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
   bgImage?:
@@ -19,7 +23,11 @@ interface SectionProps {
     | 'bg-abouthero'
     | 'bg-howitworks1'
     | 'bg-howitworks2'
-    | 'bg-howitworks3';
+    | 'bg-howitworks3'
+    | 'bg-usps'
+    | 'bg-feedback'
+    | 'bg-missie'
+    | 'bg-banner';
 }
 
 export const Section: React.FC<SectionProps> = ({
