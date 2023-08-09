@@ -27,7 +27,7 @@ const About: NextPage = () => {
               <p className="text-darkgreen font-medium md:text-4xl text-2xl md:text-justify">
                 een betere
                 <strong>
-                  <em>wereld voor mens, dier en natuur.</em>
+                  <em> wereld voor mens, dier en natuur.</em>
                 </strong>
               </p>
             </div>
@@ -130,17 +130,16 @@ const About: NextPage = () => {
                 <p className="md:text-xl md:text-lg md:text-justify text-lightgreen font-medium text-base">
                   Ons doel is om mensen te inspireren en aan te moedigen om
                   bewuste gevers te worden. Door een platform te creëren dat de
-                  brug slaat tussen
+                  brug slaat tussen iedereen
                 </p>
               </div>
               <div>
                 <p className="md:text-xl md:text-lg text-base md:text-justify text-lightgreen font-medium">
-                  iedereen die goed wil doen en de goede doelen, willen we een
-                  positieve impact creëren op belangrijke maatschappelijke
-                  thema’s, van oorlog, klimaat en onderwijs tot de LGBTQIA+
-                  beweging en eenzame ouderen. Transparantie, flexibiliteit,
-                  overzicht en gemak zijn hierbij onze belangrijkste
-                  kernwaarden.
+                  die goed wil doen en de goede doelen, willen we een positieve
+                  impact creëren op belangrijke maatschappelijke thema’s, van
+                  oorlog, klimaat en onderwijs tot de LGBTQIA+ beweging en
+                  eenzame ouderen. Transparantie, flexibiliteit, overzicht en
+                  gemak zijn hierbij onze belangrijkste kernwaarden.
                   <br />
                   <br />
                   Goodplace is er enerzijds om bestaande drempels bij doneren

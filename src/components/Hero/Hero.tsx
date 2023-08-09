@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import applestore from '../../assets/apple-store-badge.png';
 import googleplay from '../../assets/google-play-badge.png';
-import phones from '../../assets/phones.png';
+import phones from '../../assets/phones.svg';
 
 export const Hero: React.FC = () => {
   return (
