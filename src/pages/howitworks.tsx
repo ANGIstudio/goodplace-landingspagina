@@ -34,7 +34,7 @@ const howitworks: NextPage = () => {
               </div>
             </div>
             <div className="md:w-3/5">
-              <div className="mb-8">
+              <div className="mb-8 md:w-full w-12">
                 <img alt="awd" src={nummer_1.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
@@ -53,7 +53,7 @@ const howitworks: NextPage = () => {
         <Wrapper>
           <div className="flex md:flex-row flex-col ml-8 lg:space-x-6 md:space-x-6 md:items-center overflow-hidden md:-mb-0 -mb-32 mb-12">
             <div className="w-4/5 md:w-3/5">
-              <div className="mb-8 mt-32">
+              <div className="mb-8 mt-32 md:w-full w-12">
                 <img alt="nummer_2" src={nummer_2.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
@@ -95,7 +95,7 @@ const howitworks: NextPage = () => {
               </div>
             </div>
             <div className="w-4/5 md:w-3/5">
-              <div className="mb-8 md:mt-2 mt-16">
+              <div className="mb-8 md:mt-2 mt-24 md:w-full w-12">
                 <img alt="awd" src={nummer_3.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
