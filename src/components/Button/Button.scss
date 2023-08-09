@@ -19,7 +19,7 @@
   }
 
   &--green {
-    @apply bg-green text-white hover:bg-green/80;
+    @apply bg-darkgreen text-white font-medium hover:bg-darkorange;
   }
 
   &--beige {

@@ -48,7 +48,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                       : ''
                   }
                 >
-                  Wie zijn wij?
+                  Over ons
                 </a>
               </Link>
             </li>
@@ -68,8 +68,8 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
             <li className="c-navigation__desktop-item">
               <Button
                 tag="link"
-                href="/download"
-                label="Download"
+                href="/howitworks"
+                label="Hoe het werkt"
                 variant="green"
                 size="M"
               />
@@ -107,8 +107,8 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
               <li className="c-navigation__mobile-item">
                 <Button
                   tag="link"
-                  href="/download"
-                  label="Download"
+                  href="/howitworks"
+                  label="Hoe het werkt"
                   variant="green"
                   size="M"
                 />

@@ -5,6 +5,23 @@
     @apply bg-beige;
   }
 
+  &--lightorange {
+    @apply bg-lightorange;
+  }
+
+  &--darkorange {
+    @apply bg-darkorange;
+  }
+
+  &--mediumorange {
+    @apply bg-mediumorange;
+  }
+
+  &--semidarkorange {
+    @apply bg-semidarkorange;
+  }
+
+
   &--lightbeige {
     @apply bg-lightbeige;
   }
@@ -12,6 +29,15 @@
   &--lightgreen {
     @apply bg-lightgreen;
   }
+
+  &--darkgreen {
+    @apply bg-darkgreen;
+  }
+
+    &--green {
+    @apply bg-green;
+  }
+
 
   &--no-bottom {
     @apply pb-0;

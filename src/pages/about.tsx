@@ -1,191 +1,152 @@
 import React from 'react';
 
 import { NextPage } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
 
-import applestore from '../assets/apple-store-badge.png';
-import googleplay from '../assets/google-play-badge.png';
-import imageframe from '../assets/imageframe.png';
-import phones from '../assets/phones.png';
-import { Brands } from '../components/Brands/Brands';
-import { ContentBlock } from '../components/ContentBlock/ContentBlock';
+import founders1 from '../assets/dominique_noortje.png';
+import founders2 from '../assets/menno_frank_jeremy.png';
+import adviesraad from '../assets/yoni_yvo_leo.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import { teamMembers, brandItems, raadVanAdvies } from '../data/data';
 import { Base } from '../templates/Base';
 
 const About: NextPage = () => {
   return (
     <Base>
-      <Section noPaddingTop bgColor="lightgreen">
+      <Section bgColor="lightgreen">
         <Wrapper>
-          <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
-            <div className="md:max-w-lg">
-              <h2 className="mb-4 font-bold text-darkgreen">
-                Leuk om kennis te maken
+          <div className="text-darkgreen">
+            <div className="m-auto items-center max-w-lg">
+              <h2 className="mb-2 text-darkgreen font-black md:text-5xl text-4xl">
+                Ons <br />
+                verhaal
               </h2>
-              <p className="text-green">
-                Samen met jou vergroten we maatschappelijke betrokkenheid. We
-                maken doneren voor iedereen leuk en laagdrempelig, door mensen
-                eenvoudig en positief bij goede doelen en projecten te
-                betrekken.
+              <p className="text-darkgreen mb-2 md:text-justify font-medium md:text-xl text-lg">
+                Goodplace werd opgericht in 2021 door twee generaties
+                ondernemers met een gezamenlijke missie:
+              </p>
+              <p className="text-darkgreen font-medium md:text-4xl text-2xl md:text-justify">
+                een betere
+                <strong>
+                  <em> wereld voor mens, dier en natuur.</em>
+                </strong>
               </p>
             </div>
-            <img
-              className="w-full md:w-1/2 mt-8"
-              alt="awd"
-              src={imageframe.src}
-            />
           </div>
-        </Wrapper>
-      </Section>
-
-      <Section>
-        <Wrapper>
-          <ContentBlock image="peoplewithballoons" imageFirst>
-            <div className="max-w-lg mt-4">
-              <h3 className="mb-4">
-                <strong>Doneren moet juist leuk zijn</strong>
-              </h3>
-              <p>
-                Wij wilden wel graag doneren aan onze favoriete goede doelen,
-                maar zaten er niet op te wachten om vervolgens gebeld te worden
-                of magazines thuis te krijgen. Geld geven moet toch ook zonder
-                gedoe kunnen? Dat was voor ons de inspiratie om Goodplace te
-                beginnen.
+          <div className="flex md:flex-row flex-col md:justify-center items-center lg:ml-42 md:space-x-12 overflow-hidden md:mt-2 mt-8">
+            <div className="-mt-4 mb-4">
+              <img alt="founders_noortje_dominique" src={founders1.src} />
+            </div>
+            <div className="md:w-2/5 md:-mt-16 -mt-4">
+              <p className="text-darkgreen pb-4 font-medium md:text-xl text-lg md:text-justify">
+                Noortje en Dominique zijn van de generatie die zich
+                geconfronteerd voelt met een wereld die wellicht in hun leven al
+                grotendeels onleefbaar wordt. De urgentie om een steentje bij te
+                dragen en impact te maken voelden zij zeker, maar toch voelden
+                zij zich tegengehouden te doneren aan goede doelen.
+                <br />
+                <br />
+                Ze misten een <strong>overzichtelijke</strong> en
+                <strong> makkelijke</strong> manier om hun donaties te regelen,
+                precies zoals ze gewend waren bij het bestellen van eten of het
+                boeken van hun sportklasjes: “Er zijn zóveel problemen in de
+                wereld, en zoveel organisaties, klein en groot, die allemaal
+                goede dingen doen. We zagen door de bomen het bos niet meer.”
               </p>
             </div>
-          </ContentBlock>
+          </div>
+          <div className="flex md:flex-row flex-col-reverse justify-center md:space-x-12 overflow-hidden">
+            <div className="md:w-2/5">
+              <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
+                <em>”We zagen door de bomen het bos niet meer”</em>
+              </p>
+              <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
+                Frank, Menno en Jeremy hebben het inmiddels ’gemaakt’ in hun
+                carrière, en vonden het tijd zich meer in te zetten voor de
+                maatschappij. Ook zij voelden weerstand bij de huidige manier
+                van doneren: doneren werd voor hen een “moetje” en was niet meer
+                leuk.
+                <br />
+                <br />
+                Zij stoorden zich ook steeds meer aan colportage, of
+                ‘straatverkopers’, een kostbaar marketingkanaal voor goede
+                doelen waardoor significant minder geld op de juiste plek
+                terechtkomt. Ze zochten een digitaal alternatief waarbij de
+                donateur doneren weer als iets positiefs kon zien:
+                <strong>
+                  “Een donatie zou ook een dopamine-shot moeten losmaken”
+                </strong>
+              </p>
+            </div>
+            <div>
+              <img alt="founders_menno_frank_jeremy" src={founders2.src} />
+            </div>
+          </div>
         </Wrapper>
       </Section>
 
       <Section bgColor="lightgreen">
         <Wrapper>
-          <div className="md:text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h3 className="mb-4">
-                <strong>Partners</strong>
-              </h3>
-              <p>
-                We zijn ontzettend trots om te mogen samenwerken met deze mooie
-                goede doelen in de sectoren natuur, gezondheid en hulp. Deze
-                partners zijn met zorg geselecteerd en we hopen binnenkort nog
-                veel meer mooie samenwerkingen te sluiten.
-              </p>
-            </div>
-            <Brands brandItems={brandItems} />
+          <div className="m-auto items-center max-w-lg">
+            <h2 className="mb-2 text-darkgreen font-black break-words lg:text-5xl md:text-3xl">
+              Raad <br />
+              van Advies
+            </h2>
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
+              Al vanaf het begin zijn Yoni, Leopold en Yvo bij Goodplace
+              betrokken. Zij zijn onze belangrijkste ambassadeurs en staan
+              altijd klaar om zich in te zetten voor Goodplace.
+            </p>
+          </div>
+          <div className="flex w-full justify-center items-center mt-8 lg:ml-4">
+            <img alt="raad van advies" src={adviesraad.src} />
           </div>
         </Wrapper>
       </Section>
 
-      <Section>
+      <Section bgImage="bg-missie">
         <Wrapper>
-          <h3 className="mb-4">
-            <strong>Team</strong>
-          </h3>
-          <p className="mb-8 md:w-1/2">
-            Wij zijn een klein team van betrokken ondernemers en doen dit niet
-            voor eigen verdiensten. We geloven helemaal in het concept om de
-            gever centraal te stellen.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
-            {teamMembers.map((member) => {
-              return (
-                <div
-                  key={member.id}
-                  className="flex flex-col sm:flex-row md:items-center w-full space-y-6 md:space-y-0 sm:space-x-6 mb-6 md:mb-0"
-                >
-                  <div className="m-auto sm:m-0">
-                    <Image src={member.img} alt={member.name} />
-                  </div>
-                  <div>
-                    <div className="space-y-6 max-w-xs">
-                      <p className="whitespace-pre-line text-base">
-                        <strong>{member.name}</strong>
-                        <br />
-                        {member.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          <h3 className="mb-8 mt-8">
-            <strong>Raad van Advies</strong>
-          </h3>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-24">
-            {raadVanAdvies.map((member) => {
-              return (
-                <div
-                  key={member.id}
-                  className="flex flex-col sm:flex-row md:items-center w-full space-y-6 md:space-y-0 sm:space-x-6 mb-6 md:mb-0"
-                >
-                  <div className="m-auto sm:m-0">
-                    <Image src={member.img} alt={member.name} />
-                  </div>
-                  <div>
-                    <div className="space-y-6 max-w-xs">
-                      <p className="whitespace-pre-line text-base">
-                        <strong>{member.name}</strong>
-                        <br />
-                        {member.description}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </Wrapper>
-      </Section>
-
-      <Section bgColor="beige" noPaddingBottom bgImage="bg-arrow">
-        <Wrapper>
-          <div className="sm:flex overflow-hidden">
-            <div>
-              <h2 className="mb-8 text-darkgreen font-bold max-w-2xl">
-                Doe je mee met Goodplace?
+          <div className="lg:mb-32">
+            <div className="text-lightgreen">
+              <h2 className="text-lightgreen md:mb-20 md:mb-12 mb-2 font-black break-words lg:text-5xl md:text-3xl text-center md:mt-0 -mt-8">
+                Onze <br />
+                missie
               </h2>
-              <div className="mb-8 flex space-x-3">
-                <div>
-                  <Link
-                    href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
-                    passHref
-                  >
-                    <a>
-                      <Image
-                        height={41}
-                        width={141}
-                        alt="googleplay"
-                        src={googleplay}
-                      />
-                    </a>
-                  </Link>
-                </div>
-                <div className=" max-w-xs">
-                  <Link
-                    href="https://apps.apple.com/nl/app/goodplace/id1573545734"
-                    passHref
-                  >
-                    <a>
-                      <Image
-                        width={125}
-                        height={41}
-                        alt="apple-store"
-                        src={applestore}
-                      />
-                    </a>
-                  </Link>
-                </div>
-              </div>
             </div>
-
-            <div className="-mb-24 sm:-mb-48">
-              <Image src={phones} alt="phones" />
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 md:mx-12 mx-0 md:mb-12">
+              <div>
+                <p className="text-lightgreen font-extrabold md:text-3xl text-xl text-center">
+                  <em>
+                    ”We creëren meer impact voor de wereld door doneren
+                    flexibel, overzichtelijk en leuk te maken.”
+                  </em>
+                </p>
+                <br />
+                <p className="md:text-xl md:text-justify text-lightgreen md:font-bold font-bold text-base">
+                  Wij geloven dat iedereen impact kan maken en positieve
+                  verandering teweeg kan brengen, en dat dat zo simpel mogelijk
+                  moet zijn. <br />
+                  <br />
+                </p>
+                <p className="md:text-lg md:text-justify text-lightgreen font-medium text-base">
+                  Ons doel is om mensen te inspireren en aan te moedigen om
+                  bewuste gevers te worden. Door een platform te creëren dat de
+                  brug slaat tussen iedereen
+                </p>
+              </div>
+              <div>
+                <p className="md:text-lg text-base md:text-justify text-lightgreen font-medium">
+                  die goed wil doen en de goede doelen, willen we een positieve
+                  impact creëren op belangrijke maatschappelijke thema’s, van
+                  oorlog, klimaat en onderwijs tot de LGBTQIA+ beweging en
+                  eenzame ouderen. Transparantie, flexibiliteit, overzicht en
+                  gemak zijn hierbij onze belangrijkste kernwaarden.
+                  <br />
+                  <br />
+                  Goodplace is er enerzijds om bestaande drempels bij doneren
+                  weg te nemen. Anderzijds willen we dat jij kunt geven aan
+                  dingen die jou persoonlijk raken.
+                </p>
+              </div>
             </div>
           </div>
         </Wrapper>

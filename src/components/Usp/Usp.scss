@@ -4,7 +4,7 @@
   @apply max-w-lg;
 
   &__image {
-    @apply mb-4 h-24 w-24 mx-auto;
+    @apply mb-4 md:h-16 md:w-16 h-10 w-10 mx-auto;
   }
 
   &--primary {

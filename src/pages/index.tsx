@@ -5,20 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
-import contact from '../assets/contact.svg';
 import googleplay from '../assets/google-play-badge.png';
-import icons from '../assets/icons.png';
-import impact from '../assets/impact.svg';
-import moneyone from '../assets/money-one.svg';
-import moneytwo from '../assets/money-two.svg';
-import nonprofitsticker from '../assets/nonprofit-sticker.svg';
-import oneplace from '../assets/oneplace.svg';
-import phones from '../assets/phones.png';
-import taxes from '../assets/taxes.svg';
-import time from '../assets/time.svg';
-import wallet from '../assets/wallet.svg';
+import heart from '../assets/heart.svg';
+import target from '../assets/target.svg';
 import { Brands } from '../components/Brands/Brands';
-import { ContentBlock } from '../components/ContentBlock/ContentBlock';
+import { Button } from '../components/Button/Button';
 import { Hero } from '../components/Hero/Hero';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
@@ -35,102 +26,44 @@ interface UspImages {
 const Index: NextPage = () => {
   const uspImages: UspImages[] = [
     {
-      title: 'Geven wanneer jij wilt',
-      image: time,
+      title: 'Je zit nergens aan vast',
+      image: target,
       description:
-        'Doneer eenvoudig en  vrijblijvend aan de doelen die jij belangrijk vindt.',
+        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame en post.',
     },
     {
-      title: 'Geen ongewenst contact',
-      image: contact,
+      title: 'Al je donaties vanuit één app',
+      image: target,
       description:
-        'Geen ongewenste telefoontjes, post en e-mails van de doelen die je steunt.',
-    },
-    {
-      title: 'Alles op 1 plek',
-      image: oneplace,
-      description:
-        'Eenvoudig overzicht in je donaties aan verschillende goede doelen.',
-    },
-    {
-      title: 'Zicht op je impact',
-      image: impact,
-      description:
-        'Via de app ontvang je positieve berichten van de resultaten van jouw donaties.',
-    },
-  ];
-
-  const howDoesItWorkUsp: UspImages[] = [
-    {
-      title: '100% naar het goede doel',
-      image: moneyone,
-      description:
-        'Als je een donatie doet via Goodplace dan gaat het volledige bedrag regelrecht naar het goede doel.',
-    },
-    {
-      title: 'Niks aan de Goodplace strijkstok',
-      image: wallet,
-      description:
-        'Via Goodplace gaat jouw volledige donatie naar het goede doel, zodat zij het geld zo goed naar eigen invulling kunnen besteden. Goodplace is een stichting en heeft dus geen winstoogmerk. Zo ontvangt het bestuur geen salaris, krijgt Goodplace kortingen via partnerships en bestaat ons team grotendeels uit vrijwilligers.',
-    },
-    {
-      title: 'Bijdrage goede doelen',
-      image: wallet,
-      description:
-        'Om de Goodplace app in de lucht te houden en te kunnen doorontwikkelen, vragen wij een bijdrage van goede doelen om gebruik te maken van ons platform. Goede doelen geven geld uit aan marketing om nieuwe donateurs te werven (denk aan huis-aan-huis post, social media ads, etc). Wanneer ze onze app hiervoor willen gebruiken, vragen we ze een bijdrage om ons platform te ondersteunen. Deze bijdrage is 5% van het totaalbedrag aan donaties dat het betreffende goede doel via ons platform ontvangt.',
-    },
-    {
-      title: 'Belastingvrij geven',
-      image: taxes,
-      description:
-        'Je ontvangt jaarlijks een overzicht van al je donaties zodat je met belastingvoordeel kunt doneren. Afhankelijk van jouw inkomen is jouw totale donatie van dat jaar belasting aftrekbaar en betaal je dus minder inkomstenbelasting. ',
-    },
-    {
-      title: 'Transparant over jaarcijfers',
-      image: moneytwo,
-      description:
-        'Meer lezen over de financiering van Goodplace? Dat kan! Wij streven er naar om zo transparant mogelijk te zijn over onze financiën. De jaarcijfers van Goodplace worden daarom jaarlijks op onze website gepubliceerd.',
+        'Kies jouw favoriete goede doelen in de Goodplace marketplace, en houd overzicht over je maandelijkse donatie uitgaven.',
     },
   ];
 
   return (
     <Base>
-      <Section bgColor="lightbeige" noPaddingBottom noPaddingTop>
-        <Wrapper>
-          <div className="bg-hero relative">
-            <div className="absolute top-0 -right-6 md:-right-4 z-20 w-[146px] h-[146px] md:h-[214px] md:w-[214px]">
-              <Image
-                alt="non-profit-desktop"
-                src={nonprofitsticker}
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
+      <Section bgColor="darkgreen" noPaddingBottom noPaddingTop>
+        <div className="bg-abouthero md:pb-32">
+          <Wrapper>
             <Hero />
-          </div>
-        </Wrapper>
+          </Wrapper>
+        </div>
       </Section>
 
-      <Wrapper>
-        <Brands brandItems={brandItems} />
-      </Wrapper>
-
-      <Section bgColor="lightgreen">
+      <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h3 className="mb-4">
-                <strong>
-                  Samen zorgen we voor een Goodplace op deze aarde
-                </strong>
-              </h3>
-              <p>
-                Goodplace is een plek waar je als gever op een makkelijke en
-                leuke manier goede doelen kan steunen en positieve updates
-                krijgt.
+          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-4">
+            <div className="mb-8 md:mb-16 max-w-xl md:m-auto mx-0">
+              <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
+                Doneren <br />
+                zonder drempels
+              </h2>
+              <p className="text-lightgreen font-semibold md:text-xl text-lg">
+                Ons doel is om jou in control te laten zijn over jouw donaties.
+                Alles overzichtelijk en flexibel geregeld vanuit één simpele
+                app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 -mx-8 md:pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
@@ -141,109 +74,71 @@ const Index: NextPage = () => {
 
       <Section>
         <Wrapper>
-          <ContentBlock image="sharingiscaring" imageFirst>
-            <div className="max-w-lg">
-              <h3 className="mb-4">
-                <strong>Sharing is caring</strong>
-              </h3>
-              <p className="mb-8">
-                Je favoriete goede doel nóg meer steunen? Je kunt eenvoudig je
-                vrienden uitnodigen om ook een kleine bijdrage te doneren. In de
-                app zie je in één overzicht wat jullie gezamenlijke impact is
-                geweest. Laat dat balletje maar rollen!
+          <div className="text-center text-darkgreen md:-mt-44 -mt-24">
+            <div className="mb-8 md:mb-24 max-w-xl m-auto">
+              <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
+                Goede <br />
+                Doelen
+              </h2>
+              <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
+                Wij zijn continu bezig met het uitbreiden van ons aanbod aan
+                goede doelen. Groot of klein, lokaal actief of wereldwijd: we
+                sluiten niemand uit. Mis je een goed doel in ons aanbod?
               </p>
-              <p>
-                Je kunt natuurlijk ook een post waar je ontzettend vrolijk van
-                wordt met je vrienden delen.
-                <i> Happiness is sweetest when shared.</i>
-              </p>
-            </div>
-          </ContentBlock>
-        </Wrapper>
-      </Section>
 
-      <Section>
-        <Wrapper>
-          <ContentBlock image="phoneswithtiger" imageFirst={false}>
-            <div className="max-w-lg">
-              <h3 className="mb-4">
-                <strong>Doneren in één klik</strong>
-              </h3>
-              <p className="mb-8">
-                Doelen steunen die jij belangrijk vindt moet eenvoudig zijn.
-                Daarom kun je Goodplace koppelen aan je favoriete betaalmethode.
-                Of het nou gaat om eenmalig €15,- of juist een maandelijkse
-                bijdrage van €2,-. Het kan! En wanneer je toch voor een
-                maandelijks bijdrage gaat, kan je dat ook simpelweg met 1 druk
-                op de knop stopzetten.
-              </p>
-              <p className="mb-10">
-                <i>Eigenlijk wel zo vanzelfsprekend toch?</i>
-              </p>
-              <div>
-                <Image width={408} height={81} alt="icons" src={icons} />
-              </div>
-            </div>
-          </ContentBlock>
-        </Wrapper>
-      </Section>
-
-      <Section bgColor="lightgreen">
-        <Wrapper>
-          <div className="text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h3 className="mb-4">
-                <strong>Hoe werkt geven via Goodplace precies?</strong>
-              </h3>
-              <p>
-                Belangrijk dat jouw bijdrage aan een goed doel, ook echt daar
-                terecht komt.
-              </p>
-            </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 md:gap-8">
-              {howDoesItWorkUsp.map((usp) => (
-                <Usp key={usp.title} usp={usp} variant="secondary" />
-              ))}
-            </div>
-          </div>
-        </Wrapper>
-      </Section>
-
-      <Section>
-        <Wrapper>
-          <div className="text-center">
-            <div className="mb-8 md:mb-16 max-w-lg m-auto">
-              <h3 className="mb-4">
-                <strong>
-                  Prachtige goede doelen met nog mooiere doelstellingen
-                </strong>
-              </h3>
-              <p className="mb-3">
-                Onze missie is even uitdagend als helder: het creëren van een
-                wereld waar mens en natuur floreren door het activeren van
-                miljoenen mensen. Goodplace heeft met zorg goede doelen
-                geselecteerd en breidt deze graag uit. Weet jij een geweldig
-                doel dat zich bij Goodplace moet aansluiten?
-              </p>
-              <a
-                className="text-darkgreen hover:underline text-lg font-medium"
+              <Button
+                tag="link"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Aansluiten bij Goodplace ❯
-              </a>
+                label="Meld een nieuw goed doel aan!"
+                variant="green"
+                size="M"
+              />
             </div>
-            <Brands brandItems={brandItems} />
+          </div>
+        </Wrapper>
+        <Wrapper>
+          <Brands brandItems={brandItems} />
+        </Wrapper>
+      </Section>
+
+      <Section bgImage="bg-feedback">
+        <Wrapper>
+          <div className="text-center">
+            <div className="md:mb-8 mb-2 mt-16 max-w-2xl m-auto">
+              <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
+                <div className="mb-3 h-24 w-24 mx-auto">
+                  <Image alt="heart" src={heart} />
+                </div>
+                We love <br />
+                feedback
+              </h2>
+              <p className="text-darkgreen font-medium md:text-xl text-lg mb-9 md:mb-12">
+                Waarom? Omdat we niet alleen willen goed-doen, maar het ook
+                graag goed willen doen. Jouw stem is nou precies de steen die
+                bijdraagt om doneren smooth en makkelijk te kunnen maken. Zo
+                komen we samen naar een betere wereld: niet voor, maar mét
+                elkaar.
+              </p>
+              <p>
+                <a
+                  className="text-darkgreen hover:underline hover:text-darkorange md:text-2xl font-extrabold text-xl"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeL05GNqomTjzLAj1Jtb2Ey8CwvHVThYUKj9QfPGIfqpclEZQ/viewform?usp=sf_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Deel je feedback :)
+                </a>
+              </p>
+            </div>
           </div>
         </Wrapper>
       </Section>
 
-      <Section bgColor="beige" noPaddingBottom bgImage="bg-people">
+      <Section bgImage="bg-banner">
         <Wrapper>
           <div className="text-center overflow-hidden">
-            <h2 className="mb-10 text-darkgreen font-bold max-w-2xl m-auto">
-              Doe je mee met Goodplace?
+            <h2 className="mt-32 mb-10 text-darkgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+              Ontdek het nieuwe doneren
             </h2>
             <div className="flex space-x-3 justify-center">
               <div>
@@ -276,9 +171,6 @@ const Index: NextPage = () => {
                   </a>
                 </Link>
               </div>
-            </div>
-            <div className="mt-10 -mb-48">
-              <Image src={phones} alt="phones" />
             </div>
           </div>
         </Wrapper>

@@ -13,7 +13,7 @@ const CookieStatement: NextPage = () => {
     <Base>
       <Section bgColor="lightgreen">
         <Wrapper>
-          <div className="md:w-2/3">
+          <div>
             <h3 className="break-words mb-4">
               <strong>
                 Cookieverklaring van Stichting Goodplace Foundation

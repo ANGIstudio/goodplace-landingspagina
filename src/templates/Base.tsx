@@ -10,11 +10,11 @@ import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
 
 const Base: React.FC = ({ children }) => (
-  <div className="antialiased text-black font-jost">
+  <div className="antialiased text-darkgreen font-jost">
     <Meta appConfig={AppConfig} />
     <Navigation logo={logo} mobilelogo={mobilelogo} />
     {children}
-    <Section noPaddingBottom>
+    <Section noPaddingBottom bgColor="green">
       <Wrapper>
         <Footer />
       </Wrapper>

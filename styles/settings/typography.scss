@@ -1,20 +1,20 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
 
 h1 {
- @apply text-4xl leading-9 lg:text-8xl lg:leading-10;
+ @apply text-5xl leading-8 lg:text-7xl lg:leading-9;
 }
 
 h2 {
-  @apply text-3xl leading-8 lg:text-5xl lg:leading-9;
+  @apply text-3xl leading-8 lg:text-4xl lg:leading-8;
 }
 
 h3 {
-  @apply text-3xl leading-8;
+  @apply md:text-2xl text-xl leading-6;
 }
 
 h4 {
-  @apply text-xl;
+  @apply font-black text-3xl mb-4;
 }
 
 h5 {
@@ -26,5 +26,5 @@ h6 {
 }
 
 p {
-  @apply text-xl;
+  @apply leading-7 text-xl break-words;
 }

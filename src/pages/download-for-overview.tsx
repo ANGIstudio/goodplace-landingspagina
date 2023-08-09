@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 import applestore from '../assets/apple-store-badge.png';
 import googleplay from '../assets/google-play-badge.png';
-import peoplewithballoons from '../assets/peoplewithballoons.png';
+import phones from '../assets/phones.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
@@ -14,7 +14,7 @@ import { Base } from '../templates/Base';
 const Download: NextPage = () => {
   return (
     <Base>
-      <Section bgColor="lightbeige">
+      <Section bgColor="lightgreen">
         <Wrapper>
           <div className="grid md:grid-cols-2 md:items-center gap-10">
             <div className="max-w-lg order-2 md:order-1">
@@ -30,8 +30,8 @@ const Download: NextPage = () => {
                 deze pagina bracht.
               </p>
               <p className="mb-8">
-                Heb je de app nog niet? Download hem dan met één van de
-                onderstaande knoppen!
+                Heb je de app nog niet? Download hem dan in de App- of
+                Playstore!
               </p>
               <div className="mb-8 flex space-x-3">
                 <div>
@@ -67,7 +67,7 @@ const Download: NextPage = () => {
               </div>
             </div>
             <div className="order-1 md:order-2 m-auto md:m-0 w-2/3 md:w-full">
-              <Image alt="peoplewithballons" src={peoplewithballoons} />
+              <Image alt="phones" src={phones} />
             </div>
           </div>
         </Wrapper>

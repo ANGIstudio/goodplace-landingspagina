@@ -4,7 +4,7 @@ module.exports = {
   darkMode: false,
   theme: {
     fontFamily: {
-      jost: ['Jost', 'sans-serif'],
+      jost: ['Raleway', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
@@ -12,17 +12,29 @@ module.exports = {
         people: "url('../src/assets/bgpeople.png')",
         arrow: "url('../src/assets/bg-arrow.png')",
         abouthero: "url('../src/assets/abouthero.png')",
+        howitworks1: "url('../src/assets/howto_background_1.png')",
+        howitworks2: "url('../src/assets/howto_background_2.png')",
+        howitworks3: "url('../src/assets/howto_background_3.png')",
+        usps: "url('../src/assets/usps.png')",
+        feedback: "url('../src/assets/feedback.png')",
+        missie: "url('../src/assets/missie.png')",
+        banner: "url('../src/assets/banner.png')",
       },
       colors: {
-        green: '#42B4A7',
+
         beige: '#F4F2EC',
-        lightbeige: '#f8f6f0',
-        orange: '#FB6B47',
-        darkgreen: '#0B7C68',
-        lightgreen: '#F7FBF9',
+        lightbeige: '#F8F6F1',
         black: '#171717',
         grey: '#7E7E7E',
         lightgrey: '#9D9D9D',
+        lightgreen: '#D8F3E5',
+        mediumgreen: '#D8F3E5',
+        green: '#BEE9D2',
+        darkgreen: '#52B7AB',
+        lightorange: '#FBEDDC',
+        mediumorange: '#FFD8BB',
+        semidarkorange: '#FAC299',
+        darkorange: '#FB6B47',
       },
       lineHeight: {
         3: '14px',
