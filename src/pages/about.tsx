@@ -107,12 +107,12 @@ const About: NextPage = () => {
         <Wrapper>
           <div className="lg:mb-32">
             <div className="text-lightgreen">
-              <h2 className="text-lightgreen md:mb-20 md:mb-12 mb-2 font-black break-words lg:text-5xl md:text-3xl text-center">
+              <h2 className="text-lightgreen md:mb-20 md:mb-12 mb-2 font-black break-words lg:text-5xl md:text-3xl text-center md:mt-0 -mt-8">
                 Onze <br />
                 missie
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 md:mx-12 mx-4 md:mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 md:mx-12 mx-0 md:mb-12">
               <div>
                 <p className="text-lightgreen font-extrabold md:text-3xl text-xl text-center">
                   <em>
