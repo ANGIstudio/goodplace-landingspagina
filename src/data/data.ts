@@ -13,29 +13,16 @@ import vriendensophia from '../assets/brands/vriendensophia.png';
 import warchild from '../assets/brands/warchild.png';
 import wildeganzen from '../assets/brands/wildeganzen.png';
 import wwf from '../assets/brands/wwf.png';
-import gortemaker from '../assets/gortemaker.png';
-import gottenbos from '../assets/gottenbos.png';
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
-import peoplewithballoons from '../assets/peoplewithballoons.png';
-import phoneswithtiger from '../assets/phoneswithtiger.png';
 import sharingiscaring from '../assets/sharingiscaring.png';
-import uhlenbeck from '../assets/uhlenbeck.png';
-import vandermarel from '../assets/vandermarel.png';
-import vanoosten from '../assets/vanoosten.png';
-import dehaan from '../assets/dehaan.png';
-import vandervlist from '../assets/vandervlist.png';
-import vandewall from '../assets/vandewall.png';
-import butcher from '../assets/butcher.png';
 
 export interface ContentImagesProps {
   [index: string]: StaticImageData | undefined;
 }
 
 export const contentImages: ContentImagesProps = {
-  phoneswithtiger,
-  peoplewithballoons,
   sharingiscaring,
 };
 
@@ -62,84 +49,6 @@ export const brandItems = [
   { id: '13', src: kika },
   { id: '14', src: ifaw },
   { id: '15', src: klabu },
-];
-
-interface TeamMember {
-  name: string;
-  id: number;
-  img: StaticImageData;
-  description: string;
-}
-
-export const teamMembers: TeamMember[] = [
-  {
-    name: 'Frank Gottenbos',
-    id: 1,
-    img: gottenbos,
-    description:
-      'Founder \n Financiën',
-  },
-  {
-    name: 'Menno van der Marel',
-    id: 2,
-    img: vandermarel,
-    description: `Founder \n Operatie & Gebruikerservaring`,
-  },
-  {
-    name: 'Noortje de Haan',
-    id: 6,
-    img: dehaan,
-    description: `Founder \n PR & Branding`,
-  },
-    {
-    name: 'Dominique van der Vlist',
-    id: 7,
-    img: vandervlist,
-    description: `Founder \n Marketing & Data`,
-  },
-  {
-    name: 'Jeremy Butcher',
-    id: 8,
-    img: butcher,
-    description: `Founder \n Product`,
-  },
-  {
-    name: 'Anouk Vandewall',
-    id: 9,
-    img: vandewall,
-    description: `Goede doelen relaties`,
-  }
-];
-
-interface RaadVanAdvies {
-  name: string;
-  id: number;
-  img: StaticImageData;
-  description: string;
-}
-
-export const raadVanAdvies: RaadVanAdvies[] = [
-  {
-    name: 'Joni Uhlenbeck',
-    id: 5,
-    img: uhlenbeck,
-    description:
-      'Innovatieve en sociale ondernemer \n Altijd bezig met de wereld van morgen \n CEO De Roos Advocaten',
-  },
-  {
-    name: 'Yvo Gortemaker',
-    id: 3,
-    img: gortemaker,
-    description:
-      'Digital Product Strategy, Entrepreneurship \n Founder Global Orange',
-  },
-  {
-    name: 'Leopold van Oosten',
-    id: 4,
-    img: vanoosten,
-    description:
-      'UX, Tech, Strategy, Entrepreneurship \n Founder Amsterdam Standard',
-  },
 ];
 
 export interface SocialsProps {

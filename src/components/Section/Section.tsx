@@ -12,8 +12,7 @@ interface SectionProps {
     | 'darkorange'
     | 'semidarkorange'
     | 'mediumorange'
-    | 'darkgreen'
-    ;
+    | 'darkgreen';
   noPaddingBottom?: boolean;
   noPaddingTop?: boolean;
   bgImage?:

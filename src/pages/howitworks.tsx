@@ -51,7 +51,7 @@ const howitworks: NextPage = () => {
 
       <Section bgImage="bg-howitworks2">
         <Wrapper>
-          <div className="flex md:flex-row flex-col ml-8 lg:space-x-6 md:space-x-6 md:items-center overflow-hidden md:-mb-0 -mb-32 mb-16">
+          <div className="flex md:flex-row flex-col ml-8 lg:space-x-6 md:space-x-6 md:items-center overflow-hidden md:-mb-0 -mb-32 mb-12">
             <div className="w-4/5 md:w-3/5">
               <div className="mb-8 mt-32">
                 <img alt="nummer_2" src={nummer_2.src} />
@@ -82,8 +82,8 @@ const howitworks: NextPage = () => {
 
       <Section noPaddingBottom noPaddingTop bgImage="bg-howitworks3">
         <Wrapper>
-          <div className="flex md:flex-row flex-col-reverse ml-8 md:py-4 lg:space-x-32 md:space-x-16 md:space-y-16 overflow-hidden md:-mt-16 md:pb-4 md:-mb-16 md:-mt-12 -mt-32">
-            <div className="-mb-64 md:mb-28 max-w-md relative">
+          <div className="flex md:flex-row flex-col-reverse ml-8 md:py-4 lg:space-x-32 md:space-x-16 md:space-y-16 overflow-hidden md:-mt-16 md:pb-4 md:-mb-16 md:-mt-24 -mt-32">
+            <div className="-mb-28 md:mb-20 max-w-md w-4/5 relative">
               <img alt="discover_and_choose_charity" src={screen_3.src} />
               <div className="absolute top-1/3 -right-3/4 w-[132px] h-[132px] md:h-[256px] md:w-[256px]">
                 <Image

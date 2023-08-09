@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
             </a>
           </li>
           <li>
-            Overschiestraat 182 <br /> 1062 XK Amsterdam <br />{' '}
+            Overschiestraat 182 <br /> 1062 XK Amsterdam <br />
             Nederland
           </li>
         </ul>

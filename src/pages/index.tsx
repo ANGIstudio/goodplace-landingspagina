@@ -49,7 +49,6 @@ const Index: NextPage = () => {
         </div>
       </Section>
 
-
       <Section bgImage="bg-usps">
         <Wrapper>
           <div className="text-center h-screen -mb-10 md:-mt-24 -mt-16">
@@ -134,7 +133,6 @@ const Index: NextPage = () => {
           </div>
         </Wrapper>
       </Section>
-
 
       <Section bgImage="bg-banner">
         <Wrapper>

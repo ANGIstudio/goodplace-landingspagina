@@ -17,7 +17,9 @@ const Support: NextPage = () => {
                 <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
                   Veelgestelde vragen
                 </h2>
-                <h4 className="mt-10 mb-1 md:text-3xl text-2xl md:text-3xl text-2xl">Waarom Goodplace?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl md:text-3xl text-2xl">
+                  Waarom Goodplace?
+                </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
                     Goodplace is er om drempels die mensen ervaren bij doneren
@@ -33,7 +35,9 @@ const Support: NextPage = () => {
                   geven aan wat zij zelf belangrijk vinden. Zo kunnen we de
                   wereld gezamenlijk beter maken!
                 </p>
-                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">Waar komt mijn donatie terecht?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Waar komt mijn donatie terecht?
+                </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
                     Een donatie bij Goodplace gaat direct naar het
@@ -65,7 +69,9 @@ const Support: NextPage = () => {
                   voor Goodplace. Er is geen commercieel winstoogmerk en het
                   bestuur ontvangt geen salaris.
                 </p>
-                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">Welke goede doelen mogen in de app?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Welke goede doelen mogen in de app?
+                </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
                     Elk goed doel met een CBF keurmerk of ANBI status mag zich
@@ -106,7 +112,9 @@ const Support: NextPage = () => {
                 <p className="text-lg mt-4">
                   Met één klik stop je bijvoorbeeld een periodieke donatie.
                 </p>
-                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">Hoe kan ik mijn donatie stopzetten?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Hoe kan ik mijn donatie stopzetten?
+                </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
                     Stopzetten van een donatie kan gemakkelijk in de app.
@@ -185,7 +193,9 @@ const Support: NextPage = () => {
                   </a>
                   , of mail naar team@goodplace.foundation.
                 </p>
-                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">Staat jouw vraag er niet tussen?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Staat jouw vraag er niet tussen?
+                </h4>
                 <p className="md:text-xl text-lg">
                   Neem dan contact op met onze support afdeling via
                   <strong> team@goodplace.foundation</strong>.
