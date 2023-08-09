@@ -51,8 +51,8 @@ const Index: NextPage = () => {
 
       <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center h-screen -mb-10 md:-mt-24 -mt-4">
-            <div className="mb-8 md:mb-16 max-w-xl m-auto">
+          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-4">
+            <div className="mb-8 md:mb-16 max-w-xl md:m-auto mx-0">
               <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
                 zonder drempels
@@ -63,7 +63,7 @@ const Index: NextPage = () => {
                 app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 md:pt-10 text-lightgreen text-lg font-medium">
+            <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 -mx-8 md:pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
