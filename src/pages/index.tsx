@@ -41,8 +41,8 @@ const Index: NextPage = () => {
 
   return (
     <Base>
-      <Section bgColor="lightgreen" noPaddingBottom noPaddingTop>
-        <div className="bg-abouthero md:pb-32 pb-24">
+      <Section bgColor="darkgreen" noPaddingBottom noPaddingTop>
+        <div className="bg-abouthero md:pb-32">
           <Wrapper>
             <Hero />
           </Wrapper>
@@ -51,7 +51,7 @@ const Index: NextPage = () => {
 
       <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center h-screen -mb-10 md:-mt-24 -mt-16">
+          <div className="text-center h-screen -mb-10 md:-mt-24 -mt-4">
             <div className="mb-8 md:mb-16 max-w-xl m-auto">
               <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
@@ -63,7 +63,7 @@ const Index: NextPage = () => {
                 app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 pt-10 text-lightgreen text-lg font-medium">
+            <div className="space-y-8 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 md:pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}

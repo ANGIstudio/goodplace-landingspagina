@@ -105,36 +105,36 @@ const About: NextPage = () => {
 
       <Section bgImage="bg-missie">
         <Wrapper>
-          <div className="md:mb-24">
+          <div className="lg:mb-32">
             <div className="text-lightgreen">
-              <h2 className="text-lightgreen md:mb-20 mb-8 font-black break-words lg:text-5xl md:text-3xl text-center">
+              <h2 className="text-lightgreen md:mb-20 md:mb-12 mb-2 font-black break-words lg:text-5xl md:text-3xl text-center">
                 Onze <br />
                 missie
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-x-12 md:mt-4 md:mx-32 md:mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 mx-12 md:mb-12">
               <div>
-                <p className="text-lightgreen font-extrabold md:text-3xl text-2xl text-center">
+                <p className="text-lightgreen font-extrabold md:text-3xl text-xl text-center">
                   <em>
                     ”We creëren meer impact voor de wereld door doneren
                     flexibel, overzichtelijk en leuk te maken.”
                   </em>
                 </p>
                 <br />
-                <p className="md:text-xl text-lg md:text-justify text-lightgreen font-bold">
+                <p className="md:text-xl md:text-justify text-lightgreen md:font-bold font-bold text-base">
                   Wij geloven dat iedereen impact kan maken en positieve
                   verandering teweeg kan brengen, en dat dat zo simpel mogelijk
                   moet zijn. <br />
                   <br />
                 </p>
-                <p className="md:text-xl md:text-lg md:text-justify text-lightgreen font-medium text-base">
+                <p className="md:text-lg md:text-justify text-lightgreen font-medium text-base">
                   Ons doel is om mensen te inspireren en aan te moedigen om
                   bewuste gevers te worden. Door een platform te creëren dat de
                   brug slaat tussen iedereen
                 </p>
               </div>
               <div>
-                <p className="md:text-xl md:text-lg text-base md:text-justify text-lightgreen font-medium">
+                <p className="md:text-lg text-base md:text-justify text-lightgreen font-medium">
                   die goed wil doen en de goede doelen, willen we een positieve
                   impact creëren op belangrijke maatschappelijke thema’s, van
                   oorlog, klimaat en onderwijs tot de LGBTQIA+ beweging en

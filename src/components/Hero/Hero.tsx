@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import applestore from '../../assets/apple-store-badge.png';
 import googleplay from '../../assets/google-play-badge.png';
-import phones from '../../assets/phones.svg';
+import phones from '../../assets/phones.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -49,8 +49,8 @@ export const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="c-hero__image">
-        <img className="c-content-block__image" alt="phones" src={phones.src} />
+      <div className="order-1 md:order-2 m-auto md:m-0 md:w-1/2">
+        <Image alt="phones" src={phones} />
       </div>
     </div>
   );
