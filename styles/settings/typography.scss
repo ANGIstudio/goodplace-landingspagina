@@ -6,11 +6,11 @@ h1 {
 }
 
 h2 {
-  @apply text-3xl leading-8 lg:text-4xl lg:leading-9;
+  @apply text-3xl leading-8 lg:text-4xl lg:leading-8;
 }
 
 h3 {
-  @apply md:text-2xl text-xl leading-7;
+  @apply md:text-2xl text-xl leading-6;
 }
 
 h4 {
@@ -26,5 +26,5 @@ h6 {
 }
 
 p {
-  @apply text-xl;
+  @apply leading-7 text-xl break-words;
 }

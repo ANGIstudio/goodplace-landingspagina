@@ -50,7 +50,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       <div className="c-hero__image">
-        <img className="c-content-block__image" alt="awd" src={phones.src} />
+        <img className="c-content-block__image" alt="phones" src={phones.src} />
       </div>
     </div>
   );

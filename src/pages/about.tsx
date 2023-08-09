@@ -20,11 +20,11 @@ const About: NextPage = () => {
                 Ons <br />
                 verhaal
               </h2>
-              <p className="text-darkgreen mb-2 text-justify font-medium md:text-xl text-lg">
+              <p className="text-darkgreen mb-2 md:text-justify font-medium md:text-xl text-lg">
                 Goodplace werd opgericht in 2021 door twee generaties
                 ondernemers met een gezamenlijke missie:
               </p>
-              <p className="text-darkgreen font-medium md:text-4xl text-2xl text-justify">
+              <p className="text-darkgreen font-medium md:text-4xl text-2xl md:text-justify">
                 een betere
                 <strong>
                   <em>wereld voor mens, dier en natuur.</em>
@@ -37,7 +37,7 @@ const About: NextPage = () => {
               <img alt="founders_noortje_dominique" src={founders1.src} />
             </div>
             <div className="md:w-2/5 md:-mt-16 -mt-4">
-              <p className="text-darkgreen pb-4 font-medium md:text-xl text-lg text-justify">
+              <p className="text-darkgreen pb-4 font-medium md:text-xl text-lg md:text-justify">
                 Noortje en Dominique zijn van de generatie die zich
                 geconfronteerd voelt met een wereld die wellicht in hun leven al
                 grotendeels onleefbaar wordt. De urgentie om een steentje bij te
@@ -46,7 +46,7 @@ const About: NextPage = () => {
                 <br />
                 <br />
                 Ze misten een <strong>overzichtelijke</strong> en
-                <strong>makkelijke</strong> manier om hun donaties te regelen,
+                <strong> makkelijke</strong> manier om hun donaties te regelen,
                 precies zoals ze gewend waren bij het bestellen van eten of het
                 boeken van hun sportklasjes: “Er zijn zóveel problemen in de
                 wereld, en zoveel organisaties, klein en groot, die allemaal
@@ -56,10 +56,10 @@ const About: NextPage = () => {
           </div>
           <div className="flex md:flex-row flex-col-reverse justify-center md:space-x-12 overflow-hidden">
             <div className="md:w-2/5">
-              <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 text-justify">
+              <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
                 <em>”We zagen door de bomen het bos niet meer”</em>
               </p>
-              <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 text-justify">
+              <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
                 Frank, Menno en Jeremy hebben het inmiddels ’gemaakt’ in hun
                 carrière, en vonden het tijd zich meer in te zetten voor de
                 maatschappij. Ook zij voelden weerstand bij de huidige manier
@@ -73,7 +73,7 @@ const About: NextPage = () => {
                 terechtkomt. Ze zochten een digitaal alternatief waarbij de
                 donateur doneren weer als iets positiefs kon zien:
                 <strong>
-                  “Een donatie zou ook een dopamine-shot kunnen losmaken”
+                  “Een donatie zou ook een dopamine-shot moeten losmaken”
                 </strong>
               </p>
             </div>
@@ -91,7 +91,7 @@ const About: NextPage = () => {
               Raad <br />
               van Advies
             </h2>
-            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg text-justify">
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               Al vanaf het begin zijn Yoni, Leopold en Yvo bij Goodplace
               betrokken. Zij zijn onze belangrijkste ambassadeurs en staan
               altijd klaar om zich in te zetten voor Goodplace.
@@ -121,20 +121,20 @@ const About: NextPage = () => {
                   </em>
                 </p>
                 <br />
-                <p className="text-center md:text-xl text-lg text-justify text-lightgreen font-bold">
+                <p className="md:text-xl text-lg md:text-justify text-lightgreen font-bold">
                   Wij geloven dat iedereen impact kan maken en positieve
                   verandering teweeg kan brengen, en dat dat zo simpel mogelijk
                   moet zijn. <br />
                   <br />
                 </p>
-                <p className="text-center md:text-xl md:text-lg text-justify text-lightgreen font-medium text-base">
+                <p className="md:text-xl md:text-lg md:text-justify text-lightgreen font-medium text-base">
                   Ons doel is om mensen te inspireren en aan te moedigen om
                   bewuste gevers te worden. Door een platform te creëren dat de
                   brug slaat tussen
                 </p>
               </div>
               <div>
-                <p className="text-center md:text-xl md:text-lg text-base text-justify text-lightgreen font-medium">
+                <p className="md:text-xl md:text-lg text-base md:text-justify text-lightgreen font-medium">
                   iedereen die goed wil doen en de goede doelen, willen we een
                   positieve impact creëren op belangrijke maatschappelijke
                   thema’s, van oorlog, klimaat en onderwijs tot de LGBTQIA+
