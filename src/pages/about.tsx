@@ -112,7 +112,7 @@ const About: NextPage = () => {
                 missie
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 mx-12 md:mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-8 gap-x-12 md:mt-4 lg:mx-32 md:mx-12 mx-4 md:mb-12">
               <div>
                 <p className="text-lightgreen font-extrabold md:text-3xl text-xl text-center">
                   <em>
