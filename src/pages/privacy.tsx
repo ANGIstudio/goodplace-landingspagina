@@ -30,8 +30,8 @@ const Privacy: NextPage = () => {
                 <p>
                   Wij zijn Stichting Goodplace Foundation (
                   <strong>"Goodplace"</strong>). Wij bieden een online platform
-                  waarop gebruikers gemakkelijk kunnen doneren aan goede doelen
-                  en op een positieve manier op de hoogte blijven (het
+                  waarop gebruikers gemakkelijk, flexibel en overzichtelijk
+                  kunnen doneren aan goede doelen (het
                   <strong> "Platform"</strong>).
                 </p>
                 <p>

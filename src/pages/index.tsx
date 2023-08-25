@@ -7,7 +7,11 @@ import Link from 'next/link';
 import applestore from '../assets/apple-store-badge.png';
 import googleplay from '../assets/google-play-badge.png';
 import heart from '../assets/heart.svg';
+import circle from '../assets/aanmelden_goed_doel.svg';
+import aanmelden from '../assets/aanmelden_goed_doel2.svg';
 import target from '../assets/target.svg';
+import arrow_1 from '../assets/arrow_metrics_1.svg';
+import arrow_2 from '../assets/arrow_metrics_2.svg';
 import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
 import { Hero } from '../components/Hero/Hero';
@@ -29,13 +33,13 @@ const Index: NextPage = () => {
       title: 'Je zit nergens aan vast',
       image: target,
       description:
-        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame en post.',
+        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame of post vanuit het goede doel.',
     },
     {
       title: 'Al je donaties vanuit één app',
       image: target,
       description:
-        'Kies jouw favoriete goede doelen in de Goodplace marketplace, en houd overzicht over je maandelijkse donatie uitgaven.',
+        'Vind jouw favoriete goede doelen in ons aanbod en lees over wat zij doen. Houd overzicht over je lopende donaties, donaties uit het verleden, en over wat je uitgeeft aan goede doelen.',
     },
   ];
 
@@ -100,7 +104,6 @@ const Index: NextPage = () => {
           <Brands brandItems={brandItems} />
         </Wrapper>
       </Section>
-
       <Section bgImage="bg-feedback">
         <Wrapper>
           <div className="text-center">

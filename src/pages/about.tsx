@@ -4,7 +4,7 @@ import { NextPage } from 'next';
 
 import founders1 from '../assets/dominique_noortje.png';
 import founders2 from '../assets/menno_frank_jeremy.png';
-import adviesraad from '../assets/yoni_yvo_leo.png';
+import adviesraad from '../assets/joni_yvo_leo.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
@@ -41,7 +41,7 @@ const About: NextPage = () => {
                 Noortje en Dominique zijn van de generatie die zich
                 geconfronteerd voelt met een wereld die wellicht in hun leven al
                 grotendeels onleefbaar wordt. De urgentie om een steentje bij te
-                dragen en impact te maken voelden zij zeker, maar toch voelden
+                dragen en impact te maken, voelden zij zeker. Toch voelden
                 zij zich tegengehouden te doneren aan goede doelen.
                 <br />
                 <br />
@@ -57,11 +57,11 @@ const About: NextPage = () => {
           <div className="flex md:flex-row flex-col-reverse justify-center md:space-x-12 overflow-hidden">
             <div className="md:w-2/5">
               <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
-                <em>”We zagen door de bomen het bos niet meer”</em>
+                <em>”Doneren werd voor hen een <strong>moetje”</strong></em>
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
                 Frank, Menno en Jeremy hebben het inmiddels ’gemaakt’ in hun
-                carrière, en vonden het tijd zich meer in te zetten voor de
+                carrière. Ze vonden het tijd zich meer in te zetten voor de
                 maatschappij. Ook zij voelden weerstand bij de huidige manier
                 van doneren: doneren werd voor hen een “moetje” en was niet meer
                 leuk.
