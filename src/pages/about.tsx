@@ -3,8 +3,8 @@ import React from 'react';
 import { NextPage } from 'next';
 
 import founders1 from '../assets/dominique_noortje.png';
-import founders2 from '../assets/menno_frank_jeremy.png';
 import adviesraad from '../assets/joni_yvo_leo.png';
+import founders2 from '../assets/menno_frank_jeremy.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
@@ -41,8 +41,8 @@ const About: NextPage = () => {
                 Noortje en Dominique zijn van de generatie die zich
                 geconfronteerd voelt met een wereld die wellicht in hun leven al
                 grotendeels onleefbaar wordt. De urgentie om een steentje bij te
-                dragen en impact te maken, voelden zij zeker. Toch voelden
-                zij zich tegengehouden te doneren aan goede doelen.
+                dragen en impact te maken, voelden zij zeker. Toch voelden zij
+                zich tegengehouden te doneren aan goede doelen.
                 <br />
                 <br />
                 Ze misten een <strong>overzichtelijke</strong> en
@@ -57,7 +57,9 @@ const About: NextPage = () => {
           <div className="flex md:flex-row flex-col-reverse justify-center md:space-x-12 overflow-hidden">
             <div className="md:w-2/5">
               <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
-                <em>”Doneren werd voor hen een <strong>moetje”</strong></em>
+                <em>
+                  ”Doneren werd voor hen een <strong>moetje”</strong>
+                </em>
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
                 Frank, Menno en Jeremy hebben het inmiddels ’gemaakt’ in hun
