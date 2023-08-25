@@ -12,7 +12,7 @@ export const Socials: React.FC<SocialsProps> = ({ socialsItems }) => {
         return (
           <li key={item.id}>
             <Link href={item.href} passHref>
-              <a className="c-socials__link">
+              <a className="c-socials__link" target="_blank" rel="noreferrer">
                 <Image height={29} width={29} alt={item.id} src={item.src} />
               </a>
             </Link>

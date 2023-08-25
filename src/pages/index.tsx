@@ -29,13 +29,13 @@ const Index: NextPage = () => {
       title: 'Je zit nergens aan vast',
       image: target,
       description:
-        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame en post.',
+        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame of post vanuit het goede doel.',
     },
     {
       title: 'Al je donaties vanuit één app',
       image: target,
       description:
-        'Kies jouw favoriete goede doelen in de Goodplace marketplace, en houd overzicht over je maandelijkse donatie uitgaven.',
+        'Vind jouw favoriete goede doelen in ons aanbod en lees over wat zij doen. Houd overzicht over je lopende donaties, donaties uit het verleden, en over wat je uitgeeft aan goede doelen.',
     },
   ];
 
@@ -100,7 +100,6 @@ const Index: NextPage = () => {
           <Brands brandItems={brandItems} />
         </Wrapper>
       </Section>
-
       <Section bgImage="bg-feedback">
         <Wrapper>
           <div className="text-center">

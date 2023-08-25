@@ -24,8 +24,8 @@ export const Hero: React.FC = () => {
             >
               <a>
                 <Image
-                  height={41}
-                  width={141}
+                  height={48}
+                  width={161}
                   alt="googleplay"
                   src={googleplay}
                 />
@@ -39,8 +39,8 @@ export const Hero: React.FC = () => {
             >
               <a>
                 <Image
-                  width={125}
-                  height={41}
+                  width={161}
+                  height={48}
                   alt="apple-store"
                   src={applestore}
                 />

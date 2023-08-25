@@ -92,7 +92,9 @@ const Support: NextPage = () => {
                     Geef het aan ons door!
                   </a>
                 </p>
-                <h4 className="mt-4">Kan ik ook eenmalige donaties doen?</h4>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Kan ik ook eenmalige donaties doen?
+                </h4>
                 <p className="md:text-xl text-lg">
                   <strong>Ja, je kunt altijd eenmalig doneren.</strong>
                 </p>
@@ -128,7 +130,6 @@ const Support: NextPage = () => {
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Kan ik een donatie ook laten terugstorten als ik me bedenk?
                 </h4>
-                <br />
                 <p className="md:text-xl text-lg">
                   <strong>
                     Ja, een donatie kun je ook laten terugstorten.
