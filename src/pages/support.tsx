@@ -124,8 +124,9 @@ const Support: NextPage = () => {
                 </p>
                 <p className="text-lg mt-4">
                   Onder “donaties” in het menu in de app vind je een overzicht
-                  van je giften. Door op het kruisje rechtsboven de betreffende
-                  donatie te klikken, stop je je donatie per direct.
+                  van je giften. Door de betreffende donatie te klikken, kan je
+                  via de ‘edit’ functie (pen-icoontje) de donatie per direct
+                  stoppen.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Kan ik een donatie ook laten terugstorten als ik me bedenk?
