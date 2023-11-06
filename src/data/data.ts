@@ -16,6 +16,7 @@ import wwf from '../assets/brands/wwf.png';
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
+import whatsapp from '../assets/whatsapp.svg';
 import sharingiscaring from '../assets/sharingiscaring.png';
 
 export interface ContentImagesProps {
@@ -75,4 +76,9 @@ export const socialsItems = [
     href: 'https://www.facebook.com/profile.php?id=100078787633106',
     src: facebook,
   },
+{
+  id: '5',
+  href: 'https://wa.me/message/2WUXUEODY26DH1',
+  src: whatsapp,
+},
 ];

@@ -42,7 +42,7 @@ const Index: NextPage = () => {
   return (
     <Base>
       <Section bgColor="darkgreen" noPaddingBottom noPaddingTop>
-        <div className="bg-abouthero md:pb-32">
+        <div className="h-screen bg-abouthero bg-cover bg-no-repeat md:pb-32 mt-100px">
           <Wrapper>
             <Hero />
           </Wrapper>
@@ -51,7 +51,7 @@ const Index: NextPage = () => {
 
       <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-4">
+          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-4 h-screen">
             <div className="mb-8 md:mb-16 max-w-xl md:m-auto mx-0">
               <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
@@ -72,10 +72,10 @@ const Index: NextPage = () => {
         </Wrapper>
       </Section>
 
-      <Section>
+      <Section bgColor="white">
         <Wrapper>
-          <div className="text-center text-darkgreen md:-mt-44 -mt-24">
-            <div className="mb-8 md:mb-24 max-w-xl m-auto">
+          <div className="h-screen text-center text-darkgreen md:-mt-44 -mt-24 -mb-36">
+            <div className="mb-8 md:mb-24 max-w-xl m-auto mt-24">
               <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
                 Goede <br />
                 Doelen
@@ -94,16 +94,16 @@ const Index: NextPage = () => {
                 size="M"
               />
             </div>
+            <div className="mt-24">
+              <Brands brandItems={brandItems} />
+            </div>
           </div>
-        </Wrapper>
-        <Wrapper>
-          <Brands brandItems={brandItems} />
         </Wrapper>
       </Section>
       <Section bgImage="bg-feedback">
         <Wrapper>
-          <div className="text-center">
-            <div className="md:mb-8 mb-2 mt-16 max-w-2xl m-auto">
+          <div className="text-center h-screen mt-48 -mb-96">
+            <div className="md:mb-8 mb-2 mt-48 max-w-2xl m-auto">
               <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
                 <div className="mb-3 h-24 w-24 mx-auto">
                   <Image alt="heart" src={heart} />
@@ -136,7 +136,7 @@ const Index: NextPage = () => {
       <Section bgImage="bg-banner">
         <Wrapper>
           <div className="text-center overflow-hidden">
-            <h2 className="mt-32 mb-10 text-darkgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+            <h2 className="mt-48 mb-10 text-darkgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
               Ontdek het nieuwe doneren
             </h2>
             <div className="flex space-x-3 justify-center">

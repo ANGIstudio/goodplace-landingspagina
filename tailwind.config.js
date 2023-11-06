@@ -7,8 +7,13 @@ module.exports = {
       jost: ['Raleway', 'sans-serif'],
     },
     extend: {
+      spacing: {
+        '100px': '100px'
+      }, 
       backgroundImage: {
         hero: "url('../src/assets/herobackground.png')",
+        campaigntemplate: "url('../src/assets/campaign.jpeg')",
+        campaignhands: "url('../src/assets/campaign_hands.png')",
         people: "url('../src/assets/bgpeople.png')",
         arrow: "url('../src/assets/bg-arrow.png')",
         abouthero: "url('../src/assets/abouthero.png')",
@@ -21,7 +26,7 @@ module.exports = {
         banner: "url('../src/assets/banner.png')",
       },
       colors: {
-
+        white: '#FFFFFF',
         beige: '#F4F2EC',
         lightbeige: '#F8F6F1',
         black: '#171717',
