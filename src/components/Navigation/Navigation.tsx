@@ -24,7 +24,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <div className="c-navigation__logo">
           <Link href="/" passHref>
             <a>
-              <Image alt="logo" src={logo} priority />
+              <Image height={50} width={200} alt="logo" src={logo} priority />
             </a>
           </Link>
         </div>
@@ -32,7 +32,13 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
         <div className="c-navigation__mobile-logo">
           <Link href="/" passHref>
             <a>
-              <Image alt="logo" src={mobilelogo} priority />
+              <Image
+                height={50}
+                width={200}
+                alt="logo"
+                src={mobilelogo}
+                priority
+              />
             </a>
           </Link>
         </div>
@@ -87,7 +93,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                         : ''
                     }
                   >
-                    Wie zijn wij?
+                    Over ons
                   </a>
                 </Link>
               </li>

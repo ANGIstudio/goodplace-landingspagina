@@ -1,5 +1,9 @@
 .l-section {
-  @apply py-10 md:py-20 bg-no-repeat bg-top;
+  @apply py-10 md:py-20 bg-no-repeat bg-top bg-cover;
+
+  &--white {
+    @apply bg-white;
+  }
 
   &--beige {
     @apply bg-beige;

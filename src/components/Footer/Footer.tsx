@@ -11,7 +11,13 @@ export const Footer: React.FC = () => {
   return (
     <footer className="c-footer">
       <div className="c-footer__logo">
-        <Image objectFit="contain" alt="logo" src={logo} />
+        <Image
+          height={50}
+          width={160}
+          objectFit="contain"
+          alt="logo"
+          src={logo}
+        />
       </div>
       <div className="c-footer__content">
         <ul className="c-footer__list">

@@ -6,15 +6,15 @@
   }
 
   &__brandtitle {
-    @apply text-darkgreen font-bold break-words;
+    @apply text-darkestgreen font-bold break-words;
   }
 
   &__title {
-    @apply text-darkgreen font-black break-words pb-3;
+    @apply text-darkestgreen font-black break-words pb-3;
   }
 
   &__subtitle {
-    @apply text-darkgreen font-semibold pb-4 lg:mr-56;
+    @apply text-darkestgreen font-semibold pb-4 lg:mr-56;
   }
 
   &__download-links {

@@ -1,7 +1,7 @@
 export const AppConfig = {
   siteName: 'Goodplace',
-  title: 'Goodplace',
+  title: 'Goodplace - Dé donatie app.',
   description:
-    'Goodplace is een plek waar je als gever op een makkelijke en leuke manier goede doelen kan steunen en positieve updates krijgt.',
+    'Regel al je goede doelen donaties vanuit 1 app, zonder ergens aan vast te zitten. Goodplace maakt doneren flexibel, overzichtelijk en makkelijk.',
   locale: 'en',
 };

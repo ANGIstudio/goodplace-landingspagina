@@ -1,5 +1,5 @@
 .c-navigation {
-  @apply px-6 md:px-4 lg:px-12 py-6 sticky top-0 bg-lightgreen z-50;
+  @apply px-6 md:px-4 lg:px-12 py-6 sticky top-0 z-50;
 
   &__bar {
     @apply flex justify-between items-center;
@@ -26,7 +26,7 @@
   }
 
   &__desktop-item {
-    @apply pl-8 text-xl text-darkgreen font-medium hover:text-darkorange;
+    @apply pl-8 text-xl text-darkestgreen font-medium hover:text-darkorange;
   }
 
   &__mobile {
@@ -34,6 +34,6 @@
   }
 
   &__mobile-item {
-    @apply w-full mx-auto text-xl text-darkgreen font-medium hover:text-darkorange;
+    @apply w-full mx-auto text-xl text-darkestgreen font-medium hover:text-darkorange;
   }
 }
