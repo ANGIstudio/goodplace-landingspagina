@@ -5,6 +5,7 @@ import cn from 'classnames';
 interface SectionProps {
   bgColor?:
     | 'white'
+    | 'black'
     | 'beige'
     | 'lightgreen'
     | 'lightbeige'

@@ -1,22 +1,42 @@
 import React from 'react';
 
 import { NextPage } from 'next';
+import Image from 'next/image';
 
-import { Section } from '../components/Section/Section';
-import { Wrapper } from '../components/Wrapper/Wrapper';
-import { Base } from '../templates/Base';
+import { Section } from '../../components/Section/Section';
+import { Wrapper } from '../../components/Wrapper/Wrapper';
+import logo from '../../assets/goede_doelen/logo_wwf.png';
+import { Base } from '../../templates/Base';
 
-const Support: NextPage = () => {
+const Wwf: NextPage = () => {
   return (
     <Base>
-      <Section bgColor="lightgreen">
+        <Section noPaddingBottom noPaddingTop>
+          <div className="bg-banner_wwf bg-fixed bg-no-repeat bg-cover">
+        <div className=" bg-gradient-to-t from-black  to-transparent ">
+          
         <Wrapper>
-          <div className="text-darkgreen max-w-3xl m-auto">
+            <div className='flex md:flex-row flex-col flex-wrap pl-44 -mb-20 pt-96 justify-between'>
+              <div className="bg-white rounded-2xl shadow-xl">
+                <Image alt="wwf_logo" height={200} width={200} src={logo} />
+              </div>
+              <div className="pr-48 pt-8">
+                <h2 className="text-green font-black">Wereld Natuur Fonds</h2>
+              </div>
+            </div>
+          </Wrapper>
+        </div>
+        </div>
+      </Section>
+      <Section>
+        <div className="bg-hero rounded-3xl -mt-24">
+        <Wrapper>
+          <div className="text-darkgreen max-w-4xl m-auto bg-lightgreen">
             <div className="space-y-8">
               <div>
-                <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
-                  Veelgestelde vragen
-                </h2>
+                <h1 className="pt-48 mb-8 text-darkgreen font-black md:text-5xl text-4xl">
+                  Welkom bij Goodplace: Jouw makkelijke manier om het WWF te steunen!
+                </h1>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl md:text-3xl text-2xl">
                   Waarom Goodplace?
                 </h4>
@@ -67,9 +87,7 @@ const Support: NextPage = () => {
                   een klein team van betrokken ondernemers. Meer dan de helft
                   van het founders team zet zich op dit moment vrijwillig in
                   voor Goodplace. Er is geen commercieel winstoogmerk en het
-                  bestuur ontvangt geen salaris. Het doel is om dit percentage
-                  in de toekomst te verlagen: hoe meer donateurs bij Goodplace,
-                  hoe lager dit percentage kan zijn.
+                  bestuur ontvangt geen salaris.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Welke goede doelen mogen in de app?
@@ -208,9 +226,10 @@ const Support: NextPage = () => {
             </div>
           </div>
         </Wrapper>
+        </div>
       </Section>
     </Base>
   );
 };
 
-export default Support;
+export default Wwf;

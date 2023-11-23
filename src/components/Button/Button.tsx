@@ -6,7 +6,7 @@ import Link from 'next/link';
 interface ButtonProps {
   tag: 'a' | 'link' | 'button';
   label: string;
-  variant: 'green' | 'beige' | 'orange';
+  variant: 'green' | 'beige' | 'orange' | 'gradientgreen';
   size: 'S' | 'M' | 'L';
   newTab?: boolean;
   href?: string;
@@ -24,6 +24,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
     'o-button--green': variant === 'green',
     'o-button--orange': variant === 'orange',
     'o-button--beige': variant === 'beige',
+    'o-button--gradientgreen': variant === 'gradientgreen',
   });
 
   switch (tag) {

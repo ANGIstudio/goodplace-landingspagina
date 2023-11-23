@@ -32,10 +32,16 @@ const Index: NextPage = () => {
         'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame of post vanuit het goede doel.',
     },
     {
-      title: 'Al je donaties vanuit één app',
+      title: 'Al je donaties bij elkaar in één app',
       image: target,
       description:
         'Vind jouw favoriete goede doelen in ons aanbod en lees over wat zij doen. Houd overzicht over je lopende donaties, donaties uit het verleden, en over wat je uitgeeft aan goede doelen.',
+    },
+    {
+      title: 'Zoveel mogelijk geld naar het goede doel',
+      image: target,
+      description:
+        'Klassieke marketingbureaus voor goede doelen zijn vaak commercieel en kostbaar (tot wel €2,50 bij een donatie van 10 euro, oftewel 25%). Goodplace is een stichting zonder winstoogmerk, en kost maximaal €0.50 voor elke 10 euro donatie (5%).',
     },
   ];
 
@@ -51,7 +57,7 @@ const Index: NextPage = () => {
 
       <Section bgImage="bg-usps">
         <Wrapper>
-          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-4 h-screen">
+          <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-20">
             <div className="mb-8 md:mb-16 max-w-xl md:m-auto mx-0">
               <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
@@ -63,7 +69,7 @@ const Index: NextPage = () => {
                 app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-2 gap-0 md:mx-10 -mx-8 md:pt-10 text-lightgreen text-lg font-medium">
+            <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-3 lg:grid-cols-3 gap-10 -mx-8 md:pt-10 text-lightgreen text-lg font-medium">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
@@ -95,6 +101,9 @@ const Index: NextPage = () => {
               />
             </div>
             <div className="mt-24">
+              <h2 className="font-bold md:text-xl text-lg">
+                Een aantal van onze goede doelen:
+              </h2>
               <Brands brandItems={brandItems} />
             </div>
           </div>

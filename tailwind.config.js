@@ -8,12 +8,17 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '100px': '100px'
+        '105px': '104px'
       }, 
+      backgroundPosition: {
+        leftcustom: "left",
+      },
       backgroundImage: {
         hero: "url('../src/assets/herobackground.png')",
         campaigntemplate: "url('../src/assets/campaign.jpeg')",
         campaignhands: "url('../src/assets/campaign_hands.png')",
+        campaign_1: "url('../src/assets/Themacampagne_dec_23/campagnebeeld_1.png')",
+        campaign_2: "url('../src/assets/Themacampagne_dec_23/campagnebeeld_kind.png')",
         people: "url('../src/assets/bgpeople.png')",
         arrow: "url('../src/assets/bg-arrow.png')",
         abouthero: "url('../src/assets/abouthero.png')",
@@ -24,12 +29,13 @@ module.exports = {
         feedback: "url('../src/assets/feedback.png')",
         missie: "url('../src/assets/missie.png')",
         banner: "url('../src/assets/banner.png')",
+        banner_wwf: "url('../src/assets/goede_doelen/banner_wwf.jpg')",
       },
       colors: {
         white: '#FFFFFF',
         beige: '#F4F2EC',
         lightbeige: '#F8F6F1',
-        black: '#171717',
+        black: '#000000',
         grey: '#7E7E7E',
         lightgrey: '#9D9D9D',
         lightgreen: '#D8F3E5',
