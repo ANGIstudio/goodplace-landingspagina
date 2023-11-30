@@ -11,11 +11,14 @@ import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
 import bundel from '../assets/Themacampagne_dec_23/bundel.png';
 import target from '../assets/vink.png';
+import quote from '../assets/Themacampagne_dec_23/quote.png';
+import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
 import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation_campaign/Navigation_campaign';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
+import { brandItems } from '../data/data';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
@@ -53,7 +56,7 @@ const CampaignLatent: NextPage = () => {
       <Meta appConfig={AppConfig} />
       <Navigation logo={logo} mobilelogo={logo} />
       <Section noPaddingBottom noPaddingTop>
-        <div className="mb-6 bg-campaign_2 bg-fixed bg-cover bg-no-repeat h-screen -mt-105px">
+        <div className="mb-6 bg-campaign_1 bg-fixed bg-cover bg-no-repeat h-screen -mt-105px">
           <div className="bg-gradient-to-t from-black to-transparent h-screen -mt-105px">
             <div className="flex md:flex-row flex-col-reverse md:pt-48 pt-24 md:space-x-56 max-w-screen-2xl mx-auto px-6 md:px-4">
               <div className="md:pt-72 md:mt-72">
@@ -85,18 +88,20 @@ const CampaignLatent: NextPage = () => {
                 <div className="w-20 md:w-36 pb-8">
                   <Image alt="hands" src={icon_hands} />
                 </div>
-                <h1 className="text-white font-extrabold pb-3">Een kind</h1>
-                <h1 className="text-white font-extrabold mb-8">in nood</h1>
+                <h1 className="text-white font-extrabold pb-3">Jij de wil,</h1>
+                <h1 className="text-white font-extrabold mb-8">wij de weg.</h1>
 
-                <h3 className="text-white md:text-2xl md:max-w-lg max-w-sm sm:text-lg md:font-normal font-semibold text-medium leading-6">
-                  Helpen is makkelijker dan ooit. Bundel de kracht van meerdere
-                  goede doelen, en help kinderen beschermen en herstellen.
+                <h3 className="text-white md:text-xl md:max-w-lg max-w-sm sm:text-lg md:font-normal text-lg leading-6 md:text-justify">
+                  Voel je je overweldigd door wat er allemaal om ons heen 
+                  gebeurt? Jij bent de sleutel tot verandering! Bundel de 
+                  kracht van meerdere goede doelen, en help kinderen in nood. 
+                  Snel en gemakkelijk.  
                 </h3>
                 <div className="md:mt-12 mt-8 md:block hidden">
                   <Button
                     tag="link"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                    label="Probeer een bundel donatie"
+                    label="Probeer een bundel donatie in de app!"
                     variant="gradientgreen"
                     size="M"
                   />
@@ -105,7 +110,7 @@ const CampaignLatent: NextPage = () => {
                   <Button
                     tag="link"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                    label="Probeer een bundel donatie"
+                    label="Probeer een bundel donatie in de app!"
                     variant="gradientgreen"
                     size="S"
                   />
@@ -126,14 +131,14 @@ const CampaignLatent: NextPage = () => {
               <h2 className="font-bold italic md:text-5xl text-4xl mb-4">
                 5 goede doelen.
               </h2>
-              <p className="max-w-lg">
-                Wat is nu belangrijk, hoe maak ik het meeste impact, en wie doet
+              <p className="md:max-w-sm max-w-xs text-lg text-justify">
+                Wat is nu belangrijk, hoe maak ik de meeste impact, en wie doet
                 nou wat? Wij zetten het voor je op een rijtje. Kiezen is niet
                 meer nodig.
               </p>
 
-              <p className="pt-16 md:mt-10 font-bold">
-                Met een bundel donatie geef jij kinderen:
+              <p className="pt-16 md:mt-10 font-semibold">
+                Met een bundeldonatie geef jij kinderen in nood:
               </p>
             </div>
           </Wrapper>
@@ -173,9 +178,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="md:mt-12 mt-8 mb-4">
+            
               <Button
                 tag="link"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
@@ -184,11 +187,9 @@ const CampaignLatent: NextPage = () => {
                 size="M"
               />
 
-              <p className="max-w-sm mt-4 text-base">
+              <p className="md:max-w-sm max-w-xs mt-4 text-base text-justify">
                 Liever maandelijks doneren via deze bundel, of het werk van één
-                van deze organisaties steunen?
-              </p>
-              <p className="font-bold text-base">
+                van deze organisaties steunen? <span className="font-bold text-base">
                 <a
                   className=""
                   href="http://www.google.com"
@@ -197,6 +198,7 @@ const CampaignLatent: NextPage = () => {
                 >
                   Download de app.
                 </a>
+              </span>
               </p>
             </div>
           </Wrapper>
@@ -206,7 +208,7 @@ const CampaignLatent: NextPage = () => {
       <div className="bg-lightgreen">
         <Section>
           <Wrapper>
-            <div className="flex flex-col md:px-0 px-4">
+            <div className="flex flex-col md:px-0 md:max-w-5xl max-w-xs m-auto">
               <h2 className="font-black text-center md:text-5xl text-3xl">
                 Zo werkt Goodplace
               </h2>
@@ -242,11 +244,11 @@ const CampaignLatent: NextPage = () => {
           </Wrapper>
         </Section>
 
-        <div className="bg-darkestgreen">
+        <div className="bg-lightgreen">
           <Section>
             <Wrapper>
-              <div className="text-center overflow-hidden">
-                <h2 className="mb-10 text-lightgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+              <div className="text-center overflow-hidden md:-mt-12">
+                <h2 className="mb-10 text-darkestgreen font-extrabold md:text-3xl text-2xl max-w-2xl m-auto">
                   Ontdek het nieuwe doneren
                 </h2>
                 <div className="flex space-x-3 justify-center mx-auto md:px-96 md:mx-12 md:px-46 px-12">
@@ -275,7 +277,16 @@ const CampaignLatent: NextPage = () => {
             </Wrapper>
           </Section>
         </div>
-
+        <Section noPaddingBottom bgColor="white">
+          <Wrapper>
+          <div className="max-w-xl mx-auto mb-12">
+            <Image alt="quote" src={quote} />
+          </div>
+          <div>
+              <Brands brandItems={brandItems} />
+            </div>
+          </Wrapper>
+        </Section>
         <Section noPaddingBottom bgColor="green">
           <Wrapper>
             <Footer />

@@ -11,11 +11,15 @@ import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
 import bundel from '../assets/Themacampagne_dec_23/bundel.png';
 import target from '../assets/vink.png';
+import quote from '../assets/Themacampagne_dec_23/quote.png';
+import QR from '../assets/Themacampagne_dec_23/qr_bundel.png';
+import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
 import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation_campaign/Navigation_campaign';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
+import { brandItems } from '../data/data';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
@@ -54,13 +58,13 @@ const CampaignLatent: NextPage = () => {
       <Navigation logo={logo} mobilelogo={logo} />
       <Section noPaddingBottom noPaddingTop>
         <div className="mb-6 bg-campaign_1 bg-fixed bg-cover bg-no-repeat h-screen -mt-105px">
-          <div className="bg-gradient-to-t from-black via-transparent to-transparent h-screen -mt-105px">
-            <div className="flex md:flex-row flex-col-reverse md:pt-48 pt-24 md:space-x-56 max-w-screen-2xl mx-auto px-6 md:px-4">
-              <div className="md:pt-72 md:mt-72">
-                <div className="flex space-x-4 md:-ml-8 md:w-fit w-80 md:pt-0 pt-8">
+          <div className="bg-gradient-to-t from-black to-transparent h-screen -mt-105px">
+            <div className="flex lg:flex-row flex-col-reverse lg:pt-48 pt-24 lg:space-x-56 max-w-screen-2xl mx-auto px-6 lg:px-4">
+              <div className="lg:pt-72 lg:mt-72">
+                <div className="flex space-x-4 lg:-ml-8 md:ml-10 lg:w-fit w-80 lg:pt-0 pt-8">
                   <div>
                     <Link
-                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
+                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-functioneel"
                       passHref
                     >
                       <a>
@@ -70,7 +74,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                   <div>
                     <Link
-                      href="https://apps.apple.com/nl/app/goodplace/id1573545734"
+                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-functioneel&mt=8"
                       passHref
                     >
                       <a>
@@ -81,31 +85,26 @@ const CampaignLatent: NextPage = () => {
                 </div>
               </div>
 
-              <div className="md:pl-56 md:pt-8 sm:pt-36 pt-36">
+              <div className="lg:pl-56 md:pl-10 lg:pt-8 sm:pt-36 pt-36">
                 <div className="w-20 md:w-36 pb-8">
                   <Image alt="hands" src={icon_hands} />
                 </div>
-                <h1 className="text-white font-extrabold pb-3">Jij de wil,</h1>
+                <h1 className="text-white font-extrabold pb-4">Jij de wil,</h1>
                 <h1 className="text-white font-extrabold mb-8">wij de weg.</h1>
 
-                <h3 className="text-white md:text-xl md:max-w-xl max-w-sm sm:text-lg md:font-normal font-semibold text-medium leading-6">
-                  Voel je je overweldigd, en zie je door de bomen het bos niet 
-                  meer? Bundel de kracht van meerdere goede doelen, snel en 
-                  gemakkelijk. Jij bent de sleutel tot verandering!
+                <h3 className="text-white md:text-2xl md:max-w-lg max-w-sm sm:text-lg md:font-normal lg:font-normal text-medium leading-6">
+                  Voel je je overweldigd door wat er allemaal om ons heen 
+                  gebeurt? Jij bent de sleutel tot verandering! Bundel de 
+                  kracht van meerdere goede doelen, en help kinderen in nood. 
+                  Snel en gemakkelijk.  
                 </h3>
-                <div className="md:mt-12 mt-8 md:block hidden">
-                  <Button
-                    tag="link"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
-                    label="Probeer een bundel donatie in de app!"
-                    variant="gradientgreen"
-                    size="M"
-                  />
+                <div className="md:mt-8 lg:block hidden">
+                  <Image alt="QR" src={QR} />
                 </div>
                 <div className="md:mt-12 mt-8 md:hidden">
                   <Button
                     tag="link"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
+                    href="https://share.app.test.goodplace.foundation/UvPpcz2jHEdpbb9P9"
                     label="Probeer een bundel donatie in de app!"
                     variant="gradientgreen"
                     size="S"
@@ -120,21 +119,21 @@ const CampaignLatent: NextPage = () => {
       <div className="absolute bg-white mx-auto md:-mt-6 -mt-4 w-screen rounded-3xl">
         <Section>
           <Wrapper>
-            <div className=" md:ml-36 md:px-0">
+            <div className="lg:ml-36 md:ml-10 md:px-0">
               <h2 className="font-black md:text-5xl text-4xl mt-4">
                 Eén donatie,
               </h2>
               <h2 className="font-bold italic md:text-5xl text-4xl mb-4">
                 5 goede doelen.
               </h2>
-              <p className="max-w-lg">
-                Wat is nu belangrijk, hoe maak ik het meeste impact, en wie doet
+              <p className="md:max-w-sm max-w-xs text-lg text-justify">
+                Wat is nu belangrijk, hoe maak ik de meeste impact, en wie doet
                 nou wat? Wij zetten het voor je op een rijtje. Kiezen is niet
                 meer nodig.
               </p>
 
-              <p className="pt-16 md:mt-10 font-bold">
-                Met een bundel donatie geef jij kinderen:
+              <p className="pt-16 md:mt-10 font-semibold">
+                Met een bundeldonatie geef jij kinderen in nood:
               </p>
             </div>
           </Wrapper>
@@ -144,7 +143,7 @@ const CampaignLatent: NextPage = () => {
       <div className="bg-white">
         <Section>
           <Wrapper>
-            <div className=" md:ml-36 md:px md:mt-12">
+            <div className="lg:ml-36 md:ml-4 lg:px lg:mt-12 md:mt-16">
               <h2 className="font-black md:text-5xl text-4xl mt-4">
                 Eén donatie,
               </h2>
@@ -174,9 +173,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div className="md:mt-12 mt-8 mb-4">
+            
               <Button
                 tag="link"
                 href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
@@ -185,11 +182,9 @@ const CampaignLatent: NextPage = () => {
                 size="M"
               />
 
-              <p className="max-w-sm mt-4 text-base">
-                Liever maandelijks doneren via deze bundel, of het werk van één
-                van deze organisaties steunen?
-              </p>
-              <p className="font-bold text-base">
+              <p className="md:max-w-sm max-w-xs mt-4 text-base text-justify">
+                Maandelijks doneren aan deze bundel, of het werk van één
+                van deze organisaties steunen? Ook dat kan in de app! <span className="font-bold text-base">
                 <a
                   className=""
                   href="http://www.google.com"
@@ -198,6 +193,7 @@ const CampaignLatent: NextPage = () => {
                 >
                   Download de app.
                 </a>
+              </span>
               </p>
             </div>
           </Wrapper>
@@ -207,7 +203,7 @@ const CampaignLatent: NextPage = () => {
       <div className="bg-lightgreen">
         <Section>
           <Wrapper>
-            <div className="flex flex-col md:px-0 px-4">
+            <div className="flex flex-col md:px-0 lg:max-w-5xl md:max-w-2xl max-w-xs m-auto">
               <h2 className="font-black text-center md:text-5xl text-3xl">
                 Zo werkt Goodplace
               </h2>
@@ -215,7 +211,7 @@ const CampaignLatent: NextPage = () => {
                 Dé donatie app.
               </h3>
 
-              <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-3 gap-24 -mx-8 md:pt-24 pt-10 text-darkestgreen text-lg font-medium">
+              <div className="space-y-2 md:space-y-0 lg:grid lg:grid-cols-3 gap-24 -mx-8 md:pt-24 pt-10 text-darkestgreen text-lg font-medium">
                 {uspImages.map((usp) => (
                   <Usp key={usp.title} usp={usp} variant="primary" />
                 ))}
@@ -243,17 +239,17 @@ const CampaignLatent: NextPage = () => {
           </Wrapper>
         </Section>
 
-        <div className="bg-darkestgreen">
+        <div className="bg-lightgreen">
           <Section>
             <Wrapper>
-              <div className="text-center overflow-hidden">
-                <h2 className="mb-10 text-lightgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+              <div className="text-center overflow-hidden md:-mt-12">
+                <h2 className="mb-10 text-darkestgreen font-extrabold md:text-3xl text-2xl max-w-2xl m-auto">
                   Ontdek het nieuwe doneren
                 </h2>
-                <div className="flex space-x-3 justify-center mx-auto md:px-96 md:mx-12 md:px-46 px-12">
+                <div className="flex space-x-3 justify-center mx-auto lg:px-96 lg:mx-12 md:px-46 px-12">
                   <div>
                     <Link
-                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
+                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-functioneel"
                       passHref
                     >
                       <a>
@@ -263,7 +259,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                   <div>
                     <Link
-                      href="https://apps.apple.com/nl/app/goodplace/id1573545734"
+                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-functioneel&mt=8"
                       passHref
                     >
                       <a>
@@ -276,7 +272,16 @@ const CampaignLatent: NextPage = () => {
             </Wrapper>
           </Section>
         </div>
-
+        <Section noPaddingBottom bgColor="white">
+          <Wrapper>
+          <div className="max-w-xl mx-auto mb-">
+            <Image alt="quote" src={quote} />
+          </div>
+          <div>
+              <Brands brandItems={brandItems} />
+            </div>
+          </Wrapper>
+        </Section>
         <Section noPaddingBottom bgColor="green">
           <Wrapper>
             <Footer />
