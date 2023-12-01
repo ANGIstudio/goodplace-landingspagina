@@ -33,8 +33,8 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
           <Link href="/" passHref>
             <a>
               <Image
-                height={50}
-                width={200}
+                height={40}
+                width={150}
                 alt="logo"
                 src={mobilelogo}
                 priority

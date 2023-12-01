@@ -10,16 +10,16 @@ import icon_hands from '../assets/bundel_hands.png';
 import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
 import bundel from '../assets/Themacampagne_dec_23/bundel.png';
-import target from '../assets/vink.png';
 import quote from '../assets/Themacampagne_dec_23/quote.png';
+import target from '../assets/vink.png';
 import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
 import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation_campaign/Navigation_campaign';
 import { Section } from '../components/Section/Section';
 import { Usp } from '../components/Usp/Usp';
-import { brandItems } from '../data/data';
 import { Wrapper } from '../components/Wrapper/Wrapper';
+import { brandItems } from '../data/data';
 import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
 
@@ -91,14 +91,14 @@ const CampaignLatent: NextPage = () => {
                 <h1 className="text-white font-extrabold pb-3">Een kind</h1>
                 <h1 className="text-white font-extrabold mb-8">in nood</h1>
 
-                <h3 className="text-white md:text-2xl md:max-w-lg max-w-sm sm:text-lg md:font-normal lg:font-normal text-medium leading-6">
+                <h3 className="text-white md:text-2xl md:max-w-lg max-w-sm md:font-normal lg:font-normal text-base leading-6">
                   Helpen is makkelijker dan ooit. Bundel de kracht van meerdere
                   goede doelen, en help kinderen beschermen en herstellen.
                 </h3>
                 <div className="md:mt-12 mt-8 md:block hidden">
                   <Button
                     tag="link"
-                    href="https://app.goodplace.foundation/charity/52"
+                    href="https://share.app.goodplace.foundation/kind-in-nood-e"
                     label="Probeer een bundel donatie"
                     variant="gradientgreen"
                     size="M"
@@ -117,7 +117,7 @@ const CampaignLatent: NextPage = () => {
             </div>
           </div>
         </div>
-        </Section>
+      </Section>
 
       <div className="absolute bg-white mx-auto md:-mt-6 -mt-4 w-screen rounded-3xl">
         <Section>
@@ -176,7 +176,6 @@ const CampaignLatent: NextPage = () => {
                   </div>
                 </div>
               </div>
-            
               <Button
                 tag="link"
                 href="https://app.goodplace.foundation/charity/52"
@@ -187,17 +186,35 @@ const CampaignLatent: NextPage = () => {
 
               <p className="md:max-w-sm max-w-xs mt-4 text-base text-justify">
                 Liever maandelijks doneren via deze bundel, of het werk van één
-                van deze organisaties steunen? <span className="font-bold text-base">
-                <a
-                  className=""
-                  href="http://www.google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Download de app.
-                </a>
-              </span>
+                van deze organisaties steunen?
               </p>
+
+              <p className="md:max-w-sm max-w-xs mt-2 text-base text-justify font-bold">
+                Download de app.
+              </p>
+
+              <div className="flex space-x-4 lg:w-fit w-72 lg:pt-0">
+                <div>
+                  <Link
+                    href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-emotioneel "
+                    passHref
+                  >
+                    <a>
+                      <Image alt="googleplay" src={googleplay} />
+                    </a>
+                  </Link>
+                </div>
+                <div>
+                  <Link
+                    href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-emotioneel&mt=8"
+                    passHref
+                  >
+                    <a>
+                      <Image alt="apple-store" src={applestore} />
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </Wrapper>
         </Section>
@@ -277,10 +294,10 @@ const CampaignLatent: NextPage = () => {
         </div>
         <Section noPaddingBottom bgColor="white">
           <Wrapper>
-          <div className="max-w-xl mx-auto mb-">
-            <Image alt="quote" src={quote} />
-          </div>
-          <div>
+            <div className="max-w-xl mx-auto mb-">
+              <Image alt="quote" src={quote} />
+            </div>
+            <div>
               <Brands brandItems={brandItems} />
             </div>
           </Wrapper>

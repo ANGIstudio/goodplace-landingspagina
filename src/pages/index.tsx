@@ -38,10 +38,10 @@ const Index: NextPage = () => {
         'Vind jouw favoriete goede doelen in ons aanbod en lees over wat zij doen. Houd overzicht over je lopende donaties, donaties uit het verleden, en over wat je uitgeeft aan goede doelen.',
     },
     {
-      title: 'Zoveel mogelijk geld naar het goede doel',
+      title: 'Geen winstoogmerk',
       image: target,
       description:
-        'Klassieke marketingbureaus voor goede doelen zijn vaak commercieel en kostbaar (tot wel €2,50 bij een donatie van 10 euro, oftewel 25%). Goodplace is een stichting zonder winstoogmerk, en kost maximaal €0.50 voor elke 10 euro donatie (5%).',
+        'Wij zijn zelf een stichting en maken dus geen winst op jouw donatie. Zoveel mogelijk geld voor het goede doel dus.',
     },
   ];
 
@@ -58,18 +58,18 @@ const Index: NextPage = () => {
       <Section bgImage="bg-usps">
         <Wrapper>
           <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-20">
-            <div className="mb-8 md:mb-16 max-w-xl md:m-auto mx-0">
-              <h2 className="mb-8 text-lightgreen font-black md:text-5xl text-4xl">
+            <div className="mb-4 md:mb-16 max-w-xl md:m-auto mx-0">
+              <h2 className="md:mb-8 mb-4 text-lightgreen font-black md:text-5xl text-4xl">
                 Doneren <br />
                 zonder drempels
               </h2>
-              <p className="text-lightgreen font-semibold md:text-xl text-lg">
+              <p className="text-lightgreen font-semibold md:text-xl text-base">
                 Ons doel is om jou in control te laten zijn over jouw donaties.
                 Alles overzichtelijk en flexibel geregeld vanuit één simpele
                 app, zonder ergens aan vast te zitten.
               </p>
             </div>
-            <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-3 lg:grid-cols-3 gap-10 -mx-8 md:pt-10 text-lightgreen text-lg font-medium">
+            <div className="space-y-2 md:space-y-0 md:grid lg:grid-cols-3 gap-10 md:-mx-8 md:pt-10 text-lightgreen text-lg font-medium  md:max-w-7xl justify-center max-w-sm">
               {uspImages.map((usp) => (
                 <Usp key={usp.title} usp={usp} variant="primary" />
               ))}
