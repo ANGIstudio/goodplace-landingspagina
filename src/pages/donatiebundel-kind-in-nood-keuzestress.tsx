@@ -36,7 +36,7 @@ const CampaignLatent: NextPage = () => {
       title: 'Snel & makkelijk doneren',
       image: target,
       description:
-        'Doneren gaat gewoon via iDeal, registreren is niet nodig en je hoeft niet allerlei persoonsgegevens achter te laten.',
+        'Doneren gaat gewoon via iDEAL, registreren is niet nodig en je hoeft niet allerlei persoonsgegevens achter te laten.',
     },
     {
       title: 'Je zit nergens aan vast',
@@ -183,7 +183,7 @@ const CampaignLatent: NextPage = () => {
 
               <p className="md:max-w-sm max-w-xs mt-4 text-base text-justify">
                 Maandelijks doneren aan deze bundel, of het werk van één van
-                deze organisaties steunen? Ook dat kan in de app!
+                deze organisaties steunen? Ook dat kan in de app!{' '}
                 <span className="font-bold text-base">
                   <a
                     className=""

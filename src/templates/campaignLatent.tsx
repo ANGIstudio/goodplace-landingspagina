@@ -35,7 +35,7 @@ const CampaignLatent: NextPage = () => {
       title: 'Snel & makkelijk doneren',
       image: target,
       description:
-        'Doneren gaat gewoon via iDeal, registreren is niet nodig en je hoeft niet allerlei persoonsgegevens achter te laten.',
+        'Doneren gaat gewoon via iDEAL, registreren is niet nodig en je hoeft niet allerlei persoonsgegevens achter te laten.',
     },
     {
       title: 'Je zit nergens aan vast',
