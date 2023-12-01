@@ -67,7 +67,9 @@ const Support: NextPage = () => {
                   een klein team van betrokken ondernemers. Meer dan de helft
                   van het founders team zet zich op dit moment vrijwillig in
                   voor Goodplace. Er is geen commercieel winstoogmerk en het
-                  bestuur ontvangt geen salaris.
+                  bestuur ontvangt geen salaris. Het doel is om dit percentage
+                  in de toekomst te verlagen: hoe meer donateurs bij Goodplace,
+                  hoe lager dit percentage kan zijn.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Welke goede doelen mogen in de app?

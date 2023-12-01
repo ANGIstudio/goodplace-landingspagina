@@ -13,6 +13,9 @@ import vriendensophia from '../assets/brands/vriendensophia.png';
 import warchild from '../assets/brands/warchild.png';
 import wildeganzen from '../assets/brands/wildeganzen.png';
 import wwf from '../assets/brands/wwf.png';
+import greenpeace from '../assets/brands/greenpeace.png';
+import cordaid from '../assets/brands/cordaid.png';
+import supportcasper from '../assets/brands/supportcasper.png';
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
@@ -50,7 +53,11 @@ export const brandItems = [
   { id: '13', src: kika },
   { id: '14', src: ifaw },
   { id: '15', src: klabu },
+  { id: '16', src: greenpeace },
+  { id: '17', src: cordaid },
+  { id: '18', src: supportcasper },
 ];
+
 
 export interface SocialsProps {
   socialsItems: {

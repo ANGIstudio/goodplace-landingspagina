@@ -2,10 +2,13 @@ import React from 'react';
 
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
+import applestore from '../assets/apple-store-badge.png';
 import arrow_1 from '../assets/arrow_1.svg';
 import arrow_2 from '../assets/arrow_2.svg';
 import arrow_3 from '../assets/arrow_3.svg';
+import googleplay from '../assets/google-play-badge.png';
 import screen_1 from '../assets/howto_screen_1.png';
 import screen_2 from '../assets/howto_screen_2.png';
 import screen_3 from '../assets/howto_screen_3.png';
@@ -105,6 +108,47 @@ const howitworks: NextPage = () => {
                 Pauzeer, stop of wijzig je donatie gemakkelijk, en op elk
                 moment.
               </h3>
+            </div>
+          </div>
+        </Wrapper>
+      </Section>
+      <Section bgColor="green">
+        <Wrapper>
+          <div className="text-center overflow-hidden">
+            <h2 className="mt-12 mb-10 text-darkgreen font-extrabold md:text-4xl text-3xl max-w-2xl m-auto">
+              Ontdek het nieuwe doneren
+            </h2>
+            <div className="flex space-x-3 justify-center">
+              <div>
+                <Link
+                  href="https://play.google.com/store/apps/details?id=foundation.goodplace.app"
+                  passHref
+                >
+                  <a>
+                    <Image
+                      height={61}
+                      width={211}
+                      alt="googleplay"
+                      src={googleplay}
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div>
+                <Link
+                  href="https://apps.apple.com/nl/app/goodplace/id1573545734"
+                  passHref
+                >
+                  <a>
+                    <Image
+                      width={200}
+                      height={61}
+                      alt="apple-store"
+                      src={applestore}
+                    />
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </Wrapper>

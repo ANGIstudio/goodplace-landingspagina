@@ -22,8 +22,10 @@ export const Usp: React.FC<UspProps> = ({ usp, variant }) => {
       <div className="c-usp__image">
         <Image alt={usp.title} src={usp.image} />
       </div>
-      <p className="md:text-2xl text-xl font-extrabold">{usp.title}</p>
-      <p className="ml-10 mr-10 md:text-lg text-base font-medium">
+      <p className="md:text-2xl text-xl font-extrabold text-center">
+        {usp.title}
+      </p>
+      <p className="md:text-lg text-base font-medium text-center">
         {usp.description}
       </p>
     </div>
