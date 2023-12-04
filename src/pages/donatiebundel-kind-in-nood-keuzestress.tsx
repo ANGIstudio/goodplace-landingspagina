@@ -57,65 +57,7 @@ const CampaignLatent: NextPage = () => {
       <Meta appConfig={AppConfig} />
       <Navigation logo={logo} mobilelogo={logo} />
       <Section noPaddingBottom noPaddingTop>
-        <div className="mb-6 bg-campaign_1_klein bg-fixed bg-cover bg-no-repeat h-screen -mt-105px md:hidden">
-          <div className="bg-gradient-to-t from-black to-transparent h-screen -mt-105px">
-            <div className="flex lg:flex-row flex-col-reverse lg:pt-48 pt-24 lg:space-x-56 max-w-screen-2xl mx-auto px-6 lg:px-4">
-              <div className="lg:pt-72 lg:mt-72">
-                <div className="flex space-x-4 lg:-ml-8 md:ml-10 lg:w-fit w-80 lg:pt-0 pt-8">
-                  <div>
-                    <Link
-                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-functioneel"
-                      passHref
-                    >
-                      <a>
-                        <Image alt="googleplay" src={googleplay} />
-                      </a>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link
-                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-functioneel&mt=8"
-                      passHref
-                    >
-                      <a>
-                        <Image alt="apple-store" src={applestore} />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className="lg:pl-56 md:pl-10 lg:pt-8 sm:pt-36 pt-36">
-                <div className="w-20 md:w-36 pb-8">
-                  <Image alt="hands" src={icon_hands} />
-                </div>
-                <h1 className="text-white font-extrabold pb-4">Jij de wil,</h1>
-                <h1 className="text-white font-extrabold mb-8">wij de weg.</h1>
-
-                <h3 className="text-white md:text-xl md:max-w-lg max-w-sm md:font-normal lg:font-normal text-base leading-6">
-                  Voel je je overweldigd door wat er allemaal om ons heen
-                  gebeurt? Jij bent de sleutel tot verandering! Bundel de kracht
-                  van meerdere goede doelen, en help kinderen in nood. Snel en
-                  gemakkelijk.
-                </h3>
-                <div className="md:mt-8 lg:block hidden">
-                  <Image alt="QR" src={QR} />
-                </div>
-                <div className="md:mt-12 mt-8 md:hidden">
-                  <Button
-                    tag="link"
-                    href="https://share.app.goodplace.foundation/kind-in-nood-f"
-                    label="Probeer een bundel donatie in de app!"
-                    variant="gradientgreen"
-                    size="S"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mb-6 bg-campaign_1 bg-fixed bg-cover bg-no-repeat h-screen -mt-105px md:block hidden">
+        <div className="mb-6 bg-campaign_1 bg-fixed bg-cover bg-no-repeat h-screen -mt-105px">
           <div className="bg-gradient-to-t from-black to-transparent h-screen -mt-105px">
             <div className="flex lg:flex-row flex-col-reverse lg:pt-48 pt-24 lg:space-x-56 max-w-screen-2xl mx-auto px-6 lg:px-4">
               <div className="lg:pt-72 lg:mt-72">
