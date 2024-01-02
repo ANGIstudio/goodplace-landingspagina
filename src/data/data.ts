@@ -89,3 +89,21 @@ export const socialsItems = [
   src: whatsapp,
 },
 ];
+
+export const socialsItems_follow = [
+  {
+    id: '2',
+    href: 'https://www.linkedin.com/company/goodplacefoundation/',
+    src: linkedin,
+  },
+  {
+    id: '3',
+    href: 'https://instagram.com/goodplace.foundation',
+    src: instagram,
+  },
+  {
+    id: '4',
+    href: 'https://www.facebook.com/profile.php?id=100078787633106',
+    src: facebook,
+  },
+];
