@@ -9,21 +9,20 @@ import arrow from '../assets/arrow_campaign.png';
 import icon_hands from '../assets/bundel_hands.png';
 import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
+import QR from '../assets/Themacampagne_dec_23/qr_bundel.png';
+import bundel from '../assets/Themacampagne_jan_24/bundel.png';
 import heroimage from '../assets/Themacampagne_jan_24/heroimage.png';
 import heroimage_mobile from '../assets/Themacampagne_jan_24/heroimage_mobile.png';
-import bundel from '../assets/Themacampagne_jan_24/bundel.png';
-import QR from '../assets/Themacampagne_dec_23/qr_bundel.png';
 import target from '../assets/vink.png';
 import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
 import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation_campaign/Navigation_campaign';
 import { Section } from '../components/Section/Section';
-import { Usp } from '../components/Usp/Usp';
-import { socialsItems_follow } from '../data/data';
 import { Socials } from '../components/Socials/Socials';
+import { Usp } from '../components/Usp/Usp';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import { brandItems } from '../data/data';
+import { brandItems, socialsItems_follow } from '../data/data';
 import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
 
@@ -67,7 +66,6 @@ const CampaignLatent: NextPage = () => {
                 <div className="order-1 md:order-1 lg:block hidden">
                   <Image alt="heroimage" src={heroimage} />
                 </div>
-                
                 <div className="flex space-x-4 lg:-ml-8 md:ml-10 lg:w-fit w-80 lg:pt-12 pt-8">
                   <div>
                     <Link
@@ -97,17 +95,24 @@ const CampaignLatent: NextPage = () => {
                   <Image alt="hands" src={icon_hands} />
                 </div>
                 <div className="flex flex-row md:hidden block">
-                  <div className="w-20 md:w-36 pb-8"><Image alt="hands" src={icon_hands} /></div>
-                  <div className="w-32 ml-36 -mt-36"><Image alt="heroimage_mobile" src={heroimage_mobile} /></div>
+                  <div className="w-20 md:w-36 pb-8">
+                    <Image alt="hands" src={icon_hands} />
+                  </div>
+                  <div className="w-32 ml-36 -mt-36">
+                    <Image alt="heroimage_mobile" src={heroimage_mobile} />
+                  </div>
                 </div>
-                <h1 className="text-darkestgreen font-black pb-4">De handen ineen,</h1>
-                <h1 className="text-darkestgreen font-bold mb-8">voor elke vrouw.</h1>
-
+                <h1 className="text-darkestgreen font-black pb-4">
+                  De handen ineen,
+                </h1>
+                <h1 className="text-darkestgreen font-bold mb-8">
+                  voor elke vrouw.
+                </h1>
                 <h3 className="text-darkestgreen md:text-xl md:max-w-lg max-w-sm md:font-medium lg:font-medium text-base leading-6">
-                  Wereldwijd, maar ook bij jou om die hoek zijn vrouwen 
-                  slachtoffer van geweld, uitbuiting en ongelijkheid. Bij 
-                  Goodplace geef je in een paar klikken aan al deze thema’s 
-                  tegelijk. Dat is gemakkelijk en effectief impact maken. 
+                  Wereldwijd, maar ook bij jou om die hoek zijn vrouwen
+                  slachtoffer van geweld, uitbuiting en ongelijkheid. Bij
+                  Goodplace geef je in een paar klikken aan al deze thema’s
+                  tegelijk. Dat is gemakkelijk en effectief impact maken.
                 </h3>
                 <div className="md:mt-8 lg:block hidden">
                   <Image alt="QR" src={QR} />
@@ -132,16 +137,17 @@ const CampaignLatent: NextPage = () => {
           <Wrapper>
             <div className="lg:ml-36 md:ml-10 md:px-0 lg:max-w-3x">
               <h2 className="font-bold md:text-5xl text-4xl mt-4 mb-4">
-                Elke 10 dagen wordt er in Nederland een vrouw vermoord door partnergeweld.
+                Elke 10 dagen wordt er in Nederland een vrouw vermoord door
+                partnergeweld.
               </h2>
               <p className="md:max-w-xl max-w-xs text-lg text-justify">
-                De cijfers liegen niet - er moet iets veranderen. Maar waar begin 
-                je?  Help met 1 donatie, 5 goede doelen die zich inzetten voor de 
-                vrouw.
+                De cijfers liegen niet - er moet iets veranderen. Maar waar
+                begin je? Help met 1 donatie, 5 goede doelen die zich inzetten
+                voor de vrouw.
               </p>
-
               <p className="pt-16 md:mt-10">
-                Met de bundeldonatie doneer je in één keer aan alle goede doelen in onze speciale vrouwenbundel.
+                Met de bundeldonatie doneer je in één keer aan alle goede doelen
+                in onze speciale vrouwenbundel.
               </p>
             </div>
           </Wrapper>
@@ -153,16 +159,18 @@ const CampaignLatent: NextPage = () => {
           <Wrapper>
             <div className="lg:ml-36 md:ml-4 lg:px lg:mt-12 md:mt-16">
               <h2 className="font-black md:text-5xl text-4xl mt-4 mb-4">
-                Elke 10 dagen wordt er in Nederland een vrouw vermoord door partnergeweld.
+                Elke 10 dagen wordt er in Nederland een vrouw vermoord door
+                partnergeweld.
               </h2>
               <p className="max-w-lg">
-                De cijfers liegen niet - er moet iets veranderen. Maar waar begin 
-                je?  Help met 1 donatie, 5 goede doelen die zich inzetten voor de 
-                vrouw.
+                De cijfers liegen niet - er moet iets veranderen. Maar waar
+                begin je? Help met 1 donatie, 5 goede doelen die zich inzetten
+                voor de vrouw.
               </p>
 
               <p className="pt-16 md:-mt-4 font-bold">
-              Met de bundeldonatie doneer je in één keer aan alle goede doelen in onze speciale vrouwenbundel.
+                Met de bundeldonatie doneer je in één keer aan alle goede doelen
+                in onze speciale vrouwenbundel.
               </p>
 
               <div className="max-w-xl">
@@ -197,8 +205,8 @@ const CampaignLatent: NextPage = () => {
                   >
                     nieuwsbrief
                   </a>
-                </span>
-                {' '}of social media
+                </span>{' '}
+                of social media
                 <Socials socialsItems={socialsItems_follow} />
               </p>
             </div>
@@ -280,7 +288,6 @@ const CampaignLatent: NextPage = () => {
         </div>
         <Section noPaddingBottom bgColor="white">
           <Wrapper>
-            
             <div>
               <Brands brandItems={brandItems} />
             </div>
