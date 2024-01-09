@@ -11,6 +11,7 @@ import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
 import QR from '../assets/Themacampagne_dec_23/qr_bundel.png';
 import bundel from '../assets/Themacampagne_jan_24/bundel.png';
+import bundel_mobile from '../assets/Themacampagne_jan_24/bundel_mobile.png';
 import heroimage from '../assets/Themacampagne_jan_24/heroimage.png';
 import heroimage_mobile from '../assets/Themacampagne_jan_24/heroimage_mobile.png';
 import target from '../assets/vink.png';
@@ -98,21 +99,21 @@ const CampaignLatent: NextPage = () => {
                   <div className="w-20 md:w-36 pb-8">
                     <Image alt="hands" src={icon_hands} />
                   </div>
-                  <div className="w-32 ml-36 -mt-36">
+                  <div className="w-64 ml-36 -mt-36">
                     <Image alt="heroimage_mobile" src={heroimage_mobile} />
                   </div>
                 </div>
-                <h1 className="text-darkestgreen font-black pb-4">
+                <h1 className="text-darkestgreen font-black text-4xl md:text-7xl">
                   De handen ineen,
                 </h1>
-                <h1 className="text-darkestgreen font-bold mb-8">
+                <h1 className="text-darkestgreen font-bold mb-8 text-4xl md:text-7xl">
                   voor elke vrouw.
                 </h1>
                 <h3 className="text-darkestgreen md:text-xl md:max-w-lg max-w-sm md:font-medium lg:font-medium text-base leading-6">
-                  Wereldwijd, maar ook bij jou om die hoek zijn vrouwen
+                  Wereldwijd, maar ook bij jou om de hoek zijn vrouwen
                   slachtoffer van geweld, uitbuiting en ongelijkheid. Bij
                   Goodplace geef je in een paar klikken aan al deze thema’s
-                  tegelijk. Dat is gemakkelijk en effectief impact maken.
+                  tegelijk. Dát is gemakkelijk en effectief impact maken.
                 </h3>
                 <div className="md:mt-8 lg:block hidden">
                   <Image alt="QR" src={QR} />
@@ -121,7 +122,7 @@ const CampaignLatent: NextPage = () => {
                   <Button
                     tag="link"
                     href="https://share.app.goodplace.foundation/kind-in-nood-f"
-                    label="Probeer een bundel donatie in de app!"
+                    label="Probeer een bundeldonatie in de app!"
                     variant="gradientgreen"
                     size="S"
                   />
@@ -135,19 +136,21 @@ const CampaignLatent: NextPage = () => {
       <div className="absolute bg-white mx-auto md:-mt-6 -mt-4 w-screen rounded-3xl">
         <Section>
           <Wrapper>
-            <div className="lg:ml-36 md:ml-10 md:px-0 lg:max-w-3x">
-              <h2 className="font-bold md:text-5xl text-4xl mt-4 mb-4">
-                Elke 10 dagen wordt er in Nederland een vrouw vermoord door
-                partnergeweld.
+            <div className="lg:ml-36 md:ml-10 md:px-0 lg:max-w-xl">
+              <h2 className="font-bold md:text-4xl text-3xl mt-4 mb-4">
+                <span className="font-black">Elke 10 dagen</span> wordt er in
+                Nederland een vrouw <span className="italic">vermoord</span>{' '}
+                door partnergeweld.
               </h2>
-              <p className="md:max-w-xl max-w-xs text-lg text-justify">
+              <p className="md:max-w-lg max-w-xs text-lg">
                 De cijfers liegen niet - er moet iets veranderen. Maar waar
                 begin je? Help met 1 donatie, 5 goede doelen die zich inzetten
                 voor de vrouw.
               </p>
-              <p className="pt-16 md:mt-10">
-                Met de bundeldonatie doneer je in één keer aan alle goede doelen
-                in onze speciale vrouwenbundel.
+              <p className="mt-10 md:max-w-lg max-w-xs text-lg">
+                In deze bundeldonatie help je onderstaande 5 goede doelen. Wij
+                zetten voor je op een rijtje wie wat doet, en waar je donatie
+                naartoe gaat.
               </p>
             </div>
           </Wrapper>
@@ -157,7 +160,7 @@ const CampaignLatent: NextPage = () => {
       <div className="bg-white">
         <Section>
           <Wrapper>
-            <div className="lg:ml-36 md:ml-4 lg:px lg:mt-12 md:mt-16">
+            <div className="lg:ml-36 md:ml-4 lg:mt-12 md:mt-16">
               <h2 className="font-black md:text-5xl text-4xl mt-4 mb-4">
                 Elke 10 dagen wordt er in Nederland een vrouw vermoord door
                 partnergeweld.
@@ -168,15 +171,10 @@ const CampaignLatent: NextPage = () => {
                 voor de vrouw.
               </p>
 
-              <p className="pt-16 md:-mt-4 font-bold">
-                Met de bundeldonatie doneer je in één keer aan alle goede doelen
-                in onze speciale vrouwenbundel.
-              </p>
-
-              <div className="max-w-xl">
-                <div className="relative">
+              <div className="max-w-2xl">
+                <div className="relative md:mt-32 mt-8 hidden md:block">
                   <Image alt="bundel" src={bundel} />
-                  <div className="absolute -top-1/4 -right-1/3 h-[132px] md:w-2/3 hidden md:block">
+                  <div className="absolute -top-1/4 -right-1/3 h-[132px] md:w-2/3">
                     <Image
                       alt="arrow"
                       src={arrow}
@@ -185,17 +183,20 @@ const CampaignLatent: NextPage = () => {
                     />
                   </div>
                 </div>
+                <div className="relative mt-20 mb-4 md:hidden">
+                  <Image alt="bundel" src={bundel_mobile} />
+                </div>
               </div>
               <Button
                 tag="link"
                 href="https://share.app.goodplace.foundation/kind-in-nood-f"
-                label="Probeer een bundel donatie"
+                label="Probeer een bundeldonatie"
                 variant="gradientgreen"
                 size="M"
               />
 
-              <p className="md:max-w-sm max-w-xs mt-4 text-base text-justify">
-                Of volg ons via onze{' '}
+              <p className="md:max-w-xs max-w-xs mt-4 text-base text-justify">
+                Of blijf op de hoogte via onze{' '}
                 <span className="font-bold text-base">
                   <a
                     className=""
@@ -225,7 +226,7 @@ const CampaignLatent: NextPage = () => {
                 Dé donatie app.
               </h3>
 
-              <div className="space-y-2 md:space-y-0 lg:grid lg:grid-cols-3 gap-24 -mx-8 md:pt-24 pt-10 text-darkestgreen text-lg font-medium">
+              <div className="space-y-2 md:space-y-0 lg:grid lg:grid-cols-3 gap-24 -mx-8 md:pt-24 pt-10 text-darkestgreen text-lg font-medium px-4 md:px-0">
                 {uspImages.map((usp) => (
                   <Usp key={usp.title} usp={usp} variant="primary" />
                 ))}
