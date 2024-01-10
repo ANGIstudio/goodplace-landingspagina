@@ -9,15 +9,19 @@ import arrow from '../assets/arrow_campaign.png';
 import icon_hands from '../assets/bundel_hands.png';
 import googleplay from '../assets/google-play-badge.png';
 import logo from '../assets/logo_wit.svg';
-import QR from '../assets/Themacampagne_dec_23/qr_bundel.png';
 import bundel from '../assets/Themacampagne_jan_24/bundel.png';
 import bundel_mobile from '../assets/Themacampagne_jan_24/bundel_mobile.png';
 import heroimage from '../assets/Themacampagne_jan_24/heroimage.png';
 import heroimage_mobile from '../assets/Themacampagne_jan_24/heroimage_mobile.png';
+import logo_1 from '../assets/Themacampagne_jan_24/logo_1.png';
+import logo_2 from '../assets/Themacampagne_jan_24/logo_2.png';
+import logo_3 from '../assets/Themacampagne_jan_24/logo_3.png';
+import logo_4 from '../assets/Themacampagne_jan_24/logo_4.png';
+import logo_5 from '../assets/Themacampagne_jan_24/logo_5.png';
+import QR from '../assets/Themacampagne_jan_24/QR.png';
 import target from '../assets/vink.png';
 import { Brands } from '../components/Brands/Brands';
 import { Button } from '../components/Button/Button';
-import { Footer } from '../components/Footer/Footer';
 import { Navigation } from '../components/Navigation_campaign/Navigation_campaign';
 import { Section } from '../components/Section/Section';
 import { Socials } from '../components/Socials/Socials';
@@ -64,13 +68,13 @@ const CampaignLatent: NextPage = () => {
           <div className="">
             <div className="flex lg:flex-row flex-col-reverse lg:pt-48 pt-24 max-w-screen-2xl mx-auto px-6 lg:px-4 lg:space-x-32">
               <div className="lg:-mt-48">
-                <div className="order-1 md:order-1 lg:block hidden">
+                <div className="order-1 md:order-1 md:block hidden">
                   <Image alt="heroimage" src={heroimage} />
                 </div>
-                <div className="flex space-x-4 lg:-ml-8 md:ml-10 lg:w-fit w-80 lg:pt-12 pt-8">
+                <div className="flex space-x-4 md:ml-10 lg:w-fit w-80 lg:pt-12 pt-8">
                   <div>
                     <Link
-                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-functioneel"
+                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dvrouwencampagne"
                       passHref
                     >
                       <a>
@@ -80,7 +84,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                   <div>
                     <Link
-                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-functioneel&mt=8"
+                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=vrouwencampagne&mt=8"
                       passHref
                     >
                       <a>
@@ -91,7 +95,7 @@ const CampaignLatent: NextPage = () => {
                 </div>
               </div>
 
-              <div className="md:pl-10 lg:pt-8 sm:pt-36 pt-36">
+              <div className="lg:pt-0 sm:pt-36 pt-36">
                 <div className="w-20 md:w-36 pb-8 md:block hidden">
                   <Image alt="hands" src={icon_hands} />
                 </div>
@@ -103,10 +107,10 @@ const CampaignLatent: NextPage = () => {
                     <Image alt="heroimage_mobile" src={heroimage_mobile} />
                   </div>
                 </div>
-                <h1 className="text-darkestgreen font-black text-4xl md:text-7xl">
+                <h1 className="text-darkestgreen font-black text-4xl md:text-6xl">
                   De handen ineen,
                 </h1>
-                <h1 className="text-darkestgreen font-bold mb-8 text-4xl md:text-7xl">
+                <h1 className="text-darkestgreen font-bold mb-8 text-4xl md:text-6xl">
                   voor elke vrouw.
                 </h1>
                 <h3 className="text-darkestgreen md:text-xl md:max-w-lg max-w-sm md:font-medium lg:font-medium text-base leading-6">
@@ -115,13 +119,13 @@ const CampaignLatent: NextPage = () => {
                   Goodplace geef je in een paar klikken aan al deze thema’s
                   tegelijk. Dát is gemakkelijk en effectief impact maken.
                 </h3>
-                <div className="md:mt-8 lg:block hidden">
+                <div className="md:mt-8 md:block hidden w-2/3">
                   <Image alt="QR" src={QR} />
                 </div>
                 <div className="md:mt-12 mt-8 md:hidden">
                   <Button
                     tag="link"
-                    href="https://share.app.goodplace.foundation/kind-in-nood-f"
+                    href="https://share.app.goodplace.foundation/vrouwen-1"
                     label="Probeer een bundeldonatie in de app!"
                     variant="gradientgreen"
                     size="S"
@@ -187,35 +191,158 @@ const CampaignLatent: NextPage = () => {
                   <Image alt="bundel" src={bundel_mobile} />
                 </div>
               </div>
+
               <Button
                 tag="link"
-                href="https://share.app.goodplace.foundation/kind-in-nood-f"
-                label="Probeer een bundeldonatie"
+                href="https://share.app.goodplace.foundation/vrouwen-1"
+                label="Probeer een bundeldonatie!"
                 variant="gradientgreen"
-                size="M"
+                size="L"
               />
+            </div>
+          </Wrapper>
+        </Section>
+      </div>
+      <div className="bg-pink">
+        <Section>
+          <Wrapper>
+            <div className="lg:ml-36 md:ml-4 md:grid md:grid-cols-2 md:max-w-5xl md:gap-8">
+              <h2 className="font-black md:text-4xl text-4xl mb-4 max-w-xs">
+                Dit gebeurt er met jouw geld
+              </h2>
 
-              <p className="md:max-w-xs max-w-xs mt-4 text-base text-justify">
-                Of blijf op de hoogte via onze{' '}
-                <span className="font-bold text-base">
-                  <a
-                    className=""
-                    href="https://forms.gle/WQGWzE9Csf8gTcvA8"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    nieuwsbrief
-                  </a>
-                </span>{' '}
-                of social media
-                <Socials socialsItems={socialsItems_follow} />
+              <div className="md:mx-0 mx-4 md:mb-0 mb-10">
+                <div className="grid grid-cols-5 md:gap-8 gap-2 mb-2 md:mt-0 mt-12">
+                  <div className="drop-shadow-xl">
+                    <Image alt="wijzijnm" src={logo_1} />
+                  </div>
+                  <div className="col-span-4">
+                    <p className="max-w-lg font-bold md:text-xl text-lg md:leading-normal leading-6 md:mt-0 mt-4">
+                      Doorbreek de taboe rondom seksueel misbruik
+                    </p>
+                  </div>
+                </div>
+                <p className="max-w-lg md:text-lg text-base leading-normal md:mt-0 mt-4">
+                  Wij zijn M heeft als doel seksueel misbruik bespreekbaar te
+                  maken, zodat slachtoffers beter geholpen kunnen worden. Zij
+                  doen dit door voorlichting te geven op scholen en campagnes
+                  rondom seksueel misbruik te organiseren.
+                </p>
+              </div>
+              <div className="md:mx-0 mx-4 md:mb-0 mb-10">
+                <div className="grid grid-cols-5 md:gap-8 gap-2 mb-2 md:mt-0 mt-12">
+                  <div className="drop-shadow-xl">
+                    <Image alt="MamaCash" src={logo_2} />
+                  </div>
+                  <div className="col-span-4">
+                    <p className="max-w-lg font-bold md:text-xl text-lg md:leading-normal leading-6">
+                      Gelijke rechten voor vrouwen, meisjes, trans- en interekse
+                      personen
+                    </p>
+                  </div>
+                </div>
+                <p className="max-w-lg md:text-lg text-base leading-normal md:mt-0 mt-4">
+                  Iedereen moet volledig en volwaardig kunnen deelnemen in alle
+                  maatschappelijke en economische sectoren en volledige
+                  zeggenschap hebben over het eigen lichaam. MamaCash zet zich
+                  hiervoor in door relevante vrouwenfondsen te financieren en
+                  fondsen aan te sporen meer geld vrij te maken voor deze
+                  groepen.
+                </p>
+              </div>
+              <div className="md:mx-0 mx-4 md:mb-0 mb-10">
+                <div className="grid grid-cols-5 md:gap-8 gap-2 mb-2 md:mt-0 mt-12">
+                  <div className="drop-shadow-xl">
+                    <Image alt="beschermdewieg" src={logo_4} />
+                  </div>
+                  <div className="col-span-4">
+                    <p className="max-w-lg font-bold md:text-xl text-lg md:leading-normal leading-6">
+                      Bescherming en ondersteuning bij ongewenste zwangerschap
+                    </p>
+                  </div>
+                </div>
+                <p className="max-w-lg md:text-lg text-base leading-normal md:mt-0 mt-4">
+                  Tot 2015 werden er in Nederland jaarlijks gemiddeld 5
+                  vondelingen gevonden. De meeste baby’s waren dood. Beschermde
+                  wieg doet er alles aan om samen met de moeder tot een andere
+                  oplossing te komen, door laagdrempelig, anonieme hulp te
+                  bieden. Zij stimuleren vrouwen hun eigen waarden en daarbij
+                  passende levensbeschouwing te volgen.
+                </p>
+              </div>
+              <div className="md:mx-0 mx-4 md:mb-0 mb-10">
+                <div className="grid grid-cols-5 md:gap-8 gap-2 mb-2 md:mt-0 mt-12">
+                  <div className="drop-shadow-xl">
+                    <Image alt="freeagirl" src={logo_3} />
+                  </div>
+                  <div className="col-span-4">
+                    <p className="max-w-lg font-bold md:text-xl text-lg md:leading-normal leading-6">
+                      Voor een wereld zonder seksuele uitbuiting van meisjes
+                    </p>
+                  </div>
+                </div>
+                <p className="max-w-lg md:text-lg text-base leading-normal md:mt-0 mt-4">
+                  Free a Girl bevrijdt meisjes van seksuele uitbuiting. Zij
+                  verzamelen bewijsmateriaal door undercover te gaan in bordelen
+                  of via online onderzoek. Als er genoeg bewijsmateriaal is
+                  verzameld, trappen de bevrijdingsteams, in samenwerking met de
+                  lokale politie, de deuren van een bordeel, karaokebar of
+                  dansclub in om meisjes te bevrijden. De meisjes krijgen acute
+                  medische zorg en mentale hulp om hun trauma’s te verwerken en
+                  om te voorkomen dat zij opnieuw slachtoffer worden.
+                </p>
+              </div>
+              <div className="md:mx-0 mx-4 md:mb-0 mb-10">
+                <div className="grid grid-cols-5 md:gap-8 gap-2 mb-2 md:mt-0 mt-12">
+                  <div className="drop-shadow-xl">
+                    <Image alt="cordaid" src={logo_5} />
+                  </div>
+                  <div className="col-span-4">
+                    <p className="max-w-lg font-bold md:text-xl text-lg md:leading-normal leading-6 md:mt-0 mt-4">
+                      Veiligheid en gelijke rechten voor vrouwen
+                    </p>
+                  </div>
+                </div>
+                <p className="max-w-lg md:text-lg text-base leading-normal md:mt-0 mt-4">
+                  Vrouwen worden wereldwijd achtergesteld. Traditionele
+                  verhoudingen en normen verbieden vrouwen om land te erven,
+                  recht te hebben op de inkomsten van hun man en marginaliseren
+                  slachtoffers van seksueel misbruik. Cordaid helpt door het
+                  geven van een stem aan vrouwen en ze bewust te maken van waar
+                  ze recht op hebben.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col md:px-0 lg:max-w-5xl max-w-2xl m-auto">
+              <h2 className="text-darkestgreen font-bold text-2xl max-w-2xl m-auto md:mt-12 mt-8">
+                Geïnteresseerd in dit thema?
+              </h2>
+              <div className="mx-auto mt-4 md:px-0 md:block hidden">
+                <Button
+                  tag="link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd6PILTfYxXrMnuVsCH2Mvl6m3oN24zrFubJz_S7SWw6G3JQg/viewform?usp=sf_link"
+                  label="Meld je aan voor de nieuwsbrief"
+                  variant="gradientgreen"
+                  size="M"
+                />
+              </div>
+              <div className="mx-auto md:mt-24 mt-4 md:px-0 md:hidden">
+                <Button
+                  tag="link"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd6PILTfYxXrMnuVsCH2Mvl6m3oN24zrFubJz_S7SWw6G3JQg/viewform?usp=sf_link"
+                  label="Meld je aan voor de nieuwsbrief"
+                  variant="gradientgreen"
+                  size="S"
+                />
+              </div>
+              <p className="m-auto mt-4 text-lg text-center">
+                en ontvang updates over het werk van deze goede doelen.
               </p>
             </div>
           </Wrapper>
         </Section>
       </div>
-
-      <div className="bg-pink">
+      <div className="bg-white">
         <Section>
           <Wrapper>
             <div className="flex flex-col md:px-0 lg:max-w-5xl md:max-w-2xl max-w-xs m-auto">
@@ -250,6 +377,12 @@ const CampaignLatent: NextPage = () => {
                   size="S"
                 />
               </div>
+              <p className="m-auto mt-4 md:text-lg text-base text-center">
+                of volg ons op social media
+              </p>
+              <div className="m-auto md:mt-8 mt-2">
+                <Socials socialsItems={socialsItems_follow} />
+              </div>
             </div>
           </Wrapper>
         </Section>
@@ -264,7 +397,7 @@ const CampaignLatent: NextPage = () => {
                 <div className="flex space-x-3 justify-center mx-auto lg:px-96 lg:mx-12 md:px-46 px-12">
                   <div>
                     <Link
-                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dkind-in-nood-functioneel"
+                      href="https://play.google.com/store/apps/details?id=foundation.goodplace.app&referrer=utm_source%3Dgoodplace%26utm_medium%3Dlandingpage%26utm_campaign%3Dvrouwencampagne"
                       passHref
                     >
                       <a>
@@ -274,7 +407,7 @@ const CampaignLatent: NextPage = () => {
                   </div>
                   <div>
                     <Link
-                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=kind-in-nood-functioneel&mt=8"
+                      href="https://apps.apple.com/app/apple-store/id1573545734?pt=123201503&ct=vrouwencampagne&mt=8"
                       passHref
                     >
                       <a>
@@ -292,11 +425,6 @@ const CampaignLatent: NextPage = () => {
             <div>
               <Brands brandItems={brandItems} />
             </div>
-          </Wrapper>
-        </Section>
-        <Section noPaddingBottom bgColor="green">
-          <Wrapper>
-            <Footer />
           </Wrapper>
         </Section>
       </div>

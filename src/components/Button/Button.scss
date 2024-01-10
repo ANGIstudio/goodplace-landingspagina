@@ -15,7 +15,7 @@
   }
 
   &--large {
-    @apply py-6 px-12 text-2xl;
+    @apply py-4 px-6 text-2xl;
   }
 
   &--green {
@@ -27,7 +27,7 @@
   }
 
   &--gradientgreen {
-    @apply bg-gradient-to-l from-darkestgreen to-darkgreen text-white font-semibold text-base text-center drop-shadow-lg  hover:-translate-y-1 hover:scale-105 duration-300;
+    @apply bg-gradient-to-l from-darkestgreen to-darkgreen text-white font-bold text-base text-center drop-shadow-xl  hover:-translate-y-1 hover:scale-105 duration-300;
   }
 
 }
