@@ -336,7 +336,8 @@ const CampaignLatent: NextPage = () => {
                 />
               </div>
               <p className="m-auto mt-4 text-lg text-center">
-                en ontvang updates over het werk van deze goede doelen.
+                en ontvang updates over dit thema en het werk van deze goede
+                doelen.
               </p>
             </div>
           </Wrapper>
