@@ -47,6 +47,7 @@ module.exports = {
         mediumorange: '#FFD8BB',
         semidarkorange: '#FAC299',
         darkorange: '#FB6B47',
+        pink: '#ECD0E7'
       },
       lineHeight: {
         3: '14px',
