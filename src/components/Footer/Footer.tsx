@@ -68,6 +68,12 @@ export const Footer: React.FC = () => {
           <li>
             <Socials socialsItems={socialsItems} />
           </li>
+          <li>
+            <Link href="https://forms.gle/WQGWzE9Csf8gTcvA8">
+              Of meld je aan voor onze nieuwsbrief.
+            </Link>
+            <br />
+          </li>
         </ul>
       </div>
 
