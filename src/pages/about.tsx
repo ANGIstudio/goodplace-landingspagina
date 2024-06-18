@@ -2,9 +2,9 @@ import React from 'react';
 
 import { NextPage } from 'next';
 
-import founders1 from '../assets/dominique_noortje.png';
+import core_team from '../assets/core_team.png';
 import adviesraad from '../assets/joni_yvo_leo.png';
-import founders2 from '../assets/menno_frank_jeremy.png';
+import phone_with_app from '../assets/phone_with_app.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
 import { Base } from '../templates/Base';
@@ -33,7 +33,7 @@ const About: NextPage = () => {
           </div>
           <div className="flex md:flex-row flex-col md:justify-center items-center lg:ml-42 md:space-x-12 overflow-hidden md:mt-2 mt-8">
             <div className="-mt-4 mb-4">
-              <img alt="founders_noortje_dominique" src={founders1.src} />
+              <img alt="Telefoon met Goodplace app" src={phone_with_app.src} />
             </div>
             <div className="md:w-2/5 md:-mt-16 -mt-4">
               <p className="text-darkgreen pb-4 font-medium md:text-xl text-lg md:text-justify">
@@ -87,7 +87,7 @@ const About: NextPage = () => {
               </p>
             </div>
             <div>
-              <img alt="founders_menno_frank_jeremy" src={founders2.src} />
+              <img alt="Goodplace core team" src={core_team.src} />
             </div>
           </div>
         </Wrapper>
