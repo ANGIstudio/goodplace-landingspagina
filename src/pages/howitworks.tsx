@@ -41,11 +41,12 @@ const howitworks: NextPage = () => {
                 <img alt="awd" src={nummer_1.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
-                Ontdek goede doelen <br /> & start met doneren
+                Ontdek onze bundels & goede <br /> doelen
               </h1>
               <h3 className="text-darkgreen font-semibold pb-4  lg:text-2xl text-xl mb-4">
-                Vind het goede doel waar jij aan wilt doneren, kies je bedrag,
-                en start gemakkelijk je maandelijkse donatie.
+                Vind het onderwerp of goede doel dat bij je past, kies het
+                bedrag en start gemakkelijk je maandelijkse of eenmalige
+                donatie.
               </h3>
             </div>
           </div>
@@ -60,12 +61,16 @@ const howitworks: NextPage = () => {
                 <img alt="nummer_2" src={nummer_2.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
-                Houd overzicht
+                Blijf betrokken
               </h1>
               <h3 className="text-darkgreen font-semibold pb-4  lg:text-2xl text-xl mb-2">
-                Bekijk je lopende donaties, of donaties uit het verleden, en
-                houd maandelijks inzicht in wat je hebt gegeven in het “Mijn
-                Donatie“-overzicht
+                Blijf op de hoogte van de impact van jouw donatie(s) met
+                regelmatige updates. Ontvang inspiratie en positieve
+                nieuwsberichten via Goodnews.
+              </h3>
+              <h3 className="text-darkgreen font-semibold pb-4  lg:text-2xl text-xl mb-2">
+                Pas je communicatievoorkeuren aan zoals jij dat wilt, zonder
+                ongewenste telefoontjes of post van je goede doelen.
               </h3>
             </div>
             <div className="-mb-48 sm:-mb-64 md:mb-28 max-w-md relative">

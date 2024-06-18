@@ -15,61 +15,130 @@ const Support: NextPage = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
-                  Veelgestelde vragen
+                  Vraag & antwoord
                 </h2>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl md:text-3xl text-2xl">
                   Waarom Goodplace?
                 </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
-                    Goodplace is er om drempels die mensen ervaren bij doneren
-                    weg te nemen: doneren moet toch gewoon kunnen zonder gedoe?
+                    Met deze app willen we de digitale generaties meer en vaker
+                    laten doneren aan de onderwerpen en doelen waar ze betrokken
+                    bij willen zijn.
                   </strong>
                 </p>
                 <p className="text-lg mt-4">
-                  Veel mensen willen wel doneren aan goede doelen, maar doen dit
-                  nu niet. Bijvoorbeeld omdat het soms lastig is om donaties
-                  weer op te zeggen, omdat ze geen ongewenste telefoontjes en
-                  post willen krijgen, of omdat ze twijfelen of het geld wel
-                  goed terecht komt. Iedereen moet op zijn eigen manier kunnen
-                  geven aan wat zij zelf belangrijk vinden. Zo kunnen we de
-                  wereld gezamenlijk beter maken!
+                  De Goodplace foundation is opgericht door een aantal betrokken
+                  donateurs voor alle donateurs van de digitale generatie om het
+                  geven aan goede doelen leuker en makkelijker te maken en
+                  daarbij tegelijkertijd goede doelen te helpen om nieuwe
+                  doelgroepen te bereiken.
+                </p>
+                <p className="text-lg mt-4">
+                  Uit diverse onderzoeken blijkt namelijk dat de digitale
+                  generatie meer dan eerdere generaties bezig zijn met grote
+                  thema&apos;s maar dat ze desondanks de weg naar structureel
+                  doneren veel minder weten vinden. Stichting Goodplace maakt
+                  doneren via de Goodplace app radicaal eenvoudig omdat wij
+                  geloven dat iedereen positieve impact kan maken, en dat dat zo
+                  simpel mogelijk moet zijn.
+                </p>
+                <p className="text-lg mt-4">
+                  Er is behoefte aan vereenvoudiging van het enorme aanbod van
+                  goede doelen én om op een eigentijdse manier te kunnen volgen
+                  hoe het geld een waardevolle besteding krijgt. De Goodplace
+                  app helpt met positiviteit en donatiegemak betrokken donateurs
+                  het goede te doen. Goodplace legt de regie weer bij de
+                  donateur zelf.
+                </p>
+                <p className="text-lg mt-4">
+                  Goodplace is non profit en{' '}
+                  <strong>100% van de donaties</strong> gaan naar de goede
+                  doelen.
+                </p>
+                <p className="text-lg mt-4">
+                  <a
+                    className="text-darkgreen underline"
+                    href="https://goodplace.foundation/about/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lees meer over Goodplace
+                  </a>
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
-                  Waar komt mijn donatie terecht?
+                  Wat maakt Goodplace uniek?
                 </h4>
                 <p className="md:text-xl text-lg">
                   <strong>
-                    Een donatie bij Goodplace gaat direct naar het
-                    betalingsaccount van het goede doel, en komt dus niet eerst
-                    op een tussenrekening bij ons terecht.
+                    Goodplace is een donatieplatform waarbij je kan geven aan
+                    alle relevante thema’s, actualiteit en gecertificeerde
+                    doelen, precies zoals jij wil:
                   </strong>
-                </p>
-                <p className="text-lg mt-4">
-                  Op dit moment is Mollie onze betalingspartner, wat betekent
-                  dat het geld vanuit jouw bankrekening door Mollie direct naar
-                  het account van de goede doelen wordt gestort. Vervolgens
-                  heeft het goede doel zelf de vrijheid om te bepalen waar ze
-                  het geld aan besteden.
+                  <ul>
+                    <li>
+                      Geefgemak: doneer aan een bundel of goed doel die bij jou
+                      past
+                    </li>
+                    <li>
+                      Betrokkenheid: digitale updates & inspiratie, weet je wat
+                      er met je donatie gebeurt
+                    </li>
+                    <li>
+                      Controle: geen ongewenste communicatie en stoppen met 1
+                      klik
+                    </li>
+                    <li>
+                      Transparantie: 100% van je donatie gaat naar het goede
+                      doel.
+                    </li>
+                  </ul>
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
-                  Wat is het verdienmodel van Goodplace?
+                  Hoe kan het dat de app gratis is én 100% van elke donatie naar
+                  het goede doel gaat?
                 </h4>
                 <p className="md:text-xl text-lg">
-                  <strong>
-                    Op dit moment ontvangt Goodplace 5% van elke donatie. Dit
-                    betekent dat van elke 10 euro die jij doneert, 50 cent bij
-                    ons terecht komt om onze kosten te dekken.
-                  </strong>
+                  Goodplace vindt het belangrijk dat alle donaties 100% bij de
+                  goede doelen terechtkomen, daarom zijn wij een stichting
+                  zonder winstoogmerk.
                 </p>
                 <p className="text-lg mt-4">
-                  Goodplace is een stichting zonder winstoogmerk en bestaat uit
-                  een klein team van betrokken ondernemers. Meer dan de helft
-                  van het founders team zet zich op dit moment vrijwillig in
-                  voor Goodplace. Er is geen commercieel winstoogmerk en het
-                  bestuur ontvangt geen salaris. Het doel is om dit percentage
-                  in de toekomst te verlagen: hoe meer donateurs bij Goodplace,
-                  hoe lager dit percentage kan zijn.
+                  De kosten van Goodplace worden gedekt via andere kanalen.
+                  Goodplace is zelf een goed doel en ontvangt daarom donaties.
+                  Er zijn een aantal grotere funders die het initiatief van
+                  Goodplace een warm hart toedragen en graag een
+                  maatschappelijke bijdrage leveren. Daarnaast kunnen goede
+                  doelen een communicatie-abonnement afnemen op het
+                  donatieplatform, waarbij we nooit persoonlijke data delen met
+                  derden en jij zelf in controle blijft over wat je wil
+                  ontvangen.
+                </p>
+                <p className="text-lg mt-4">
+                  De kosten houden we in de hand door te werken met een klein
+                  team van betrokken ondernemers, die veelal op vrijwillige
+                  basis hun expertise voor Goodplace inzetten en het bestuur
+                  ontvangt geen salaris.
+                </p>
+                <p className="text-lg mt-4">
+                  <a
+                    className="text-darkgreen underline"
+                    href="https://goodplace.foundation/about/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Lees meer over Goodplace
+                  </a>
+                </p>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Wat zijn “Bundel” donaties?
+                </h4>
+                <p className="text-lg mt-4">
+                  Via bundels van Goodplace kan je een bepaald onderwerp
+                  steunen: met 1 donatie doneer je aan meerdere goede doelen.
+                  Hiermee maken we het makkelijker voor jou als donateur om een
+                  keuze te maken en blijf je op de hoogte van wat er met het
+                  geld gebeurt.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Welke goede doelen mogen in de app?
@@ -93,6 +162,30 @@ const Support: NextPage = () => {
                   >
                     Geef het aan ons door!
                   </a>
+                </p>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Waar komt mijn donatie terecht?
+                </h4>
+                <p className="md:text-xl text-lg">
+                  <strong>
+                    Een donatie bij Goodplace gaat voor 100% naar het goede
+                    doel. Dus als je een goed doel geeft, gaat het bedrag
+                    volledig naar dat goede doel. Als je geeft aan een bundel
+                    wordt het geld gelijk verdeeld over de doelen in de bundel
+                    en vervolgens gaat dat bedrag naar die goede doelen.
+                  </strong>
+                </p>
+                <p className="text-lg mt-4">
+                  Goodplace heeft transparantie hoog in het vaandel staan en wij
+                  vinden dat de betaalstroom voor donaties daar ook onder valt.
+                </p>
+                <p className="text-lg mt-4">
+                  Mollie is onze betalingspartner, wat betekent dat het geld van
+                  een dontie vanuit jouw bankrekening door Mollie wordt
+                  ontvangen. Vervolgens gaan donaties rechtstreeks naar het
+                  Mollie-account van het betreffende goede doel of ze worden
+                  door Goodplace Foundation uitbetaald aan het betreffende goede
+                  doel.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Kan ik ook eenmalige donaties doen?

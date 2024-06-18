@@ -14,7 +14,8 @@ export const Hero: React.FC = () => {
         <h2 className="c-hero__brandtitle">Goodplace,</h2>
         <h1 className="c-hero__title">Dé donatie app.</h1>
         <h3 className="c-hero__subtitle">
-          Doneer flexibel en overzichtelijk aan jouw goede doelen.
+          Ervaar het gemak van geven: steun een bundel óf goed doel en volg de
+          impact van jouw donatie!
         </h3>
         <div className="c-hero__download-links">
           <div>
@@ -48,6 +49,7 @@ export const Hero: React.FC = () => {
             </Link>
           </div>
         </div>
+        <div className="c-hero__text">100% naar het goede doel</div>
       </div>
       <div className="order-1 md:order-2 m-auto md:m-0 md:w-1/2">
         <Image alt="phones" src={phones} />

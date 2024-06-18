@@ -1,26 +1,26 @@
+import cordaid from '../assets/brands/cordaid.png';
 import cruyff from '../assets/brands/cruyff.png';
+import greenpeace from '../assets/brands/greenpeace.png';
 import ifaw from '../assets/brands/ifaw.png';
+import jarigejob from '../assets/brands/jarigejob.png';
 import justdiggit from '../assets/brands/justdiggit.png';
 import kika from '../assets/brands/kika.png';
 import klabu from '../assets/brands/klabu.png';
 import mf from '../assets/brands/mf.png';
 import oceancleanup from '../assets/brands/ocean.png';
 import saveachildsheart from '../assets/brands/savechildsheart.png';
-import jarigejob from '../assets/brands/jarigejob.png';
 import sunday from '../assets/brands/sunday.png';
+import supportcasper from '../assets/brands/supportcasper.png';
 import tjommie from '../assets/brands/tjommie.png';
 import vriendensophia from '../assets/brands/vriendensophia.png';
 import warchild from '../assets/brands/warchild.png';
 import wildeganzen from '../assets/brands/wildeganzen.png';
 import wwf from '../assets/brands/wwf.png';
-import greenpeace from '../assets/brands/greenpeace.png';
-import cordaid from '../assets/brands/cordaid.png';
-import supportcasper from '../assets/brands/supportcasper.png';
-import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
+import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
-import whatsapp from '../assets/whatsapp.svg';
 import sharingiscaring from '../assets/sharingiscaring.png';
+import whatsapp from '../assets/whatsapp.svg';
 
 export interface ContentImagesProps {
   [index: string]: StaticImageData | undefined;
@@ -58,7 +58,6 @@ export const brandItems = [
   { id: '18', src: supportcasper },
 ];
 
-
 export interface SocialsProps {
   socialsItems: {
     id: string;
@@ -83,11 +82,11 @@ export const socialsItems = [
     href: 'https://www.facebook.com/profile.php?id=100078787633106',
     src: facebook,
   },
-{
-  id: '5',
-  href: 'https://wa.me/message/2WUXUEODY26DH1',
-  src: whatsapp,
-},
+  {
+    id: '5',
+    href: 'https://wa.me/message/2WUXUEODY26DH1',
+    src: whatsapp,
+  },
 ];
 
 export const socialsItems_follow = [

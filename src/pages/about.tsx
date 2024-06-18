@@ -21,14 +21,13 @@ const About: NextPage = () => {
                 verhaal
               </h2>
               <p className="text-darkgreen mb-2 md:text-justify font-medium md:text-xl text-lg">
-                Goodplace werd opgericht in 2021 door twee generaties
-                ondernemers met een gezamenlijke missie:
+                Goodplace Foundation heeft een missie:
               </p>
               <p className="text-darkgreen font-medium md:text-4xl text-2xl md:text-justify">
-                een betere
-                <strong>
-                  <em> wereld voor mens, dier en natuur.</em>
-                </strong>
+                <em>
+                  <strong>de digitale generatie</strong> meer én vaker laten
+                  doneren aan <strong>goede doelen</strong>.
+                </em>
               </p>
             </div>
           </div>
@@ -38,19 +37,26 @@ const About: NextPage = () => {
             </div>
             <div className="md:w-2/5 md:-mt-16 -mt-4">
               <p className="text-darkgreen pb-4 font-medium md:text-xl text-lg md:text-justify">
-                Noortje en Dominique zijn van de generatie die zich
-                geconfronteerd voelt met een wereld die wellicht in hun leven al
-                grotendeels onleefbaar wordt. De urgentie om een steentje bij te
-                dragen en impact te maken, voelden zij zeker. Toch voelden zij
-                zich tegengehouden te doneren aan goede doelen.
+                De jongere generaties bekommeren zich meer dan ooit om de
+                wereldproblematiek, maar geven steeds minder aan een goed doel.
+                Als generaties afhaken om te geven heeft dit een grote impact op
+                het werk van veel goede doelen.{' '}
+                <strong>Wij maken doneren daarom radicaal eenvoudig</strong>.
                 <br />
+                De Goodplace app biedt een nieuwe vorm van doneren én
+                informeren: we geven mensen een beter gevoel door makkelijker te
+                doneren en met Goodnews blijf je op hoogte van de impact van
+                jouw donatie(s).
                 <br />
-                Ze misten een <strong>overzichtelijke</strong> en
-                <strong> makkelijke</strong> manier om hun donaties te regelen,
-                precies zoals ze gewend waren bij het bestellen van eten of het
-                boeken van hun sportklasjes: “Er zijn zóveel problemen in de
-                wereld, en zoveel organisaties, klein en groot, die allemaal
-                goede dingen doen. We zagen door de bomen het bos niet meer.”
+                Met één klik je donatie starten, stoppen en je
+                communicatievoorkeuren beheren. Kies voor een bundel of doneer
+                direct aan een van de vele andere goede doelen. Met één klik je
+                donatie starten, stoppen en communicatievoorkeuren beheren. Kies
+                voor een bundel of doneer direct aan een van de vele andere
+                goede doelen.
+                <br />
+                Goodplace is non-profit en{' '}
+                <strong>100% van je donatie gaat naar het goede doel</strong>.
               </p>
             </div>
           </div>
@@ -58,25 +64,26 @@ const About: NextPage = () => {
             <div className="md:w-2/5">
               <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
                 <em>
-                  ”Doneren werd voor hen een <strong>moetje”</strong>
+                  ”We zijn een <strong>klein team</strong> met een
+                  <strong>betrokken netwerk</strong>.”
                 </em>
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
-                Frank, Menno en Jeremy hebben het inmiddels ’gemaakt’ in hun
-                carrière. Ze vonden het tijd zich meer in te zetten voor de
-                maatschappij. Ook zij voelden weerstand bij de huidige manier
-                van doneren: doneren werd voor hen een “moetje” en was niet meer
-                leuk.
+                Achter de schermen bij Goodplace werkt een gedreven en
+                onbezoldigd bestuur van succesvolle ondernemers en grotendeels
+                vrijwillig team.
                 <br />
-                <br />
-                Zij stoorden zich ook steeds meer aan colportage, of
-                ‘straatverkopers’, een kostbaar marketingkanaal voor goede
-                doelen waardoor significant minder geld op de juiste plek
-                terechtkomt. Ze zochten een digitaal alternatief waarbij de
-                donateur doneren weer als iets positiefs kon zien:
-                <strong>
-                  “Een donatie zou ook een dopamine-shot moeten losmaken”
-                </strong>
+                Als ondernemer met een passie voor technologie en impact, richt
+                <strong>Menno van der Marel</strong> zich op de organisatie en
+                financiering. Voormalig CTO bij Fox-IT,{' '}
+                <strong>Jeremy Butcher</strong> is verantwoordelijk voor de
+                techniek achter de app. <strong>Frank Gottenbos</strong>,
+                mede-oprichter en ondernemer in digitale innovatie, richt zich
+                op bestuur en financiën. <strong>Marlies Meeboer</strong>, een
+                ervaren digitaal strateeg, vervult de rol van productmanager en
+                ambassadeur voor donateurs. Met haar internationale ervaring met
+                non-profit organisaties is <strong>Anouk Piket</strong> de
+                verbinder met de goede doelen.
               </p>
             </div>
             <div>
@@ -90,13 +97,39 @@ const About: NextPage = () => {
         <Wrapper>
           <div className="m-auto items-center max-w-lg">
             <h2 className="mb-2 text-darkgreen font-black break-words lg:text-5xl md:text-3xl">
-              Raad <br />
-              van Advies
+              Over Goodplace
             </h2>
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
-              Al vanaf het begin zijn Yoni, Leopold en Yvo bij Goodplace
-              betrokken. Zij zijn onze belangrijkste ambassadeurs en staan
-              altijd klaar om zich in te zetten voor Goodplace.
+              In 2021 zijn <strong>Frank Gottenbos</strong> en{' '}
+              <strong>Menno van der Marel</strong> Goodplace gestart. Daarna
+              zijn verschillende initiatieven betrokken die hetzelfde doel
+              nastreefden:
+              <strong>Noortje de Haan</strong> en{' '}
+              <strong>Dominique van der Vlist</strong> begonnen hun concept in
+              Amsterdam en <strong>Ernout van der Waard</strong>,{' '}
+              <strong>Koos Block</strong> en
+              <strong>Camiel Mulders</strong> hebben Time to Give opgericht.
+              Sinds 2024 zijn deze initiatieven samengekomen onder de naam:
+              Goodplace Foundation.
+            </p>
+            <p>
+              Vanaf het begin zijn <strong>Yoni Uhlenbeck</strong> (CEO de Roos
+              advocaten), <strong>Leopold van Oosten</strong> (founder Amsterdam
+              Standard) en <strong>Yvo Gortemaker</strong> (founder Amsterdam
+              Standard) als Raad van Advies bij Goodplace betrokken. Zij zijn
+              onze belangrijkste adviseurs en staan altijd klaar om zich in te
+              zetten voor Goodplace. Ook <strong>Michel Jansen</strong> (Global
+              Conversion Lead bij ING) en <strong>Bart Lakeman</strong>
+              (Managing Director Addurance) denken regelmatig vrijwillig mee om
+              Goodplace te helpen. Goodplace heeft zijn bestaan ook te danken
+              aan zijn funders.
+            </p>
+            <p>
+              <strong>
+                Steun Goodplace.Foundation met een donatie en help ons platform
+                groeien! Liever op een andere manier bijdragen? Geef ons
+                feedback of vertel anderen over ons.
+              </strong>
             </p>
           </div>
           <div className="flex w-full justify-center items-center mt-8 lg:ml-4">

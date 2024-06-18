@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
             <Link href="/">Home</Link> <br />
             <Link href="/about">Over&nbsp;Goodplace</Link> <br />
             <Link href="/howitworks">Hoe&nbsp;werkt&nbsp;het?</Link> <br />
-            <Link href="/support">FAQ</Link> <br />
+            <Link href="/support">Veelgestelde vragen</Link> <br />
             <Link href="/charities">
               <p className="text-base text-green">Goede&nbsp;Doelen</p>
             </Link>
@@ -45,7 +45,9 @@ export const Footer: React.FC = () => {
             </a>
           </li>
           <li>
-            Overschiestraat 182 <br /> 1062 XK Amsterdam <br />
+            Stichting Goodplace Foundation <br />
+            Prinses Margrietplantsoen 33 <br />
+            2595 AM &apos;s-Gravenhage <br />
             Nederland
           </li>
         </ul>
@@ -78,7 +80,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="c-footer__legal">
-        <div>&copy; 2023 Goodplace. Alle rechten voorbehouden.</div>
+        <div>&copy; 2024 Goodplace. Alle rechten voorbehouden.</div>
         <div>
           <Link href="/privacy">
             <a className="c-footer__legal-link">Privacy beleid</a>
