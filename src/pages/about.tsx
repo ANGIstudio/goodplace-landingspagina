@@ -44,10 +44,7 @@ const About: NextPage = () => {
                 <br />
                 Met één klik je donatie starten, stoppen en je
                 communicatievoorkeuren beheren. Kies voor een bundel of doneer
-                direct aan een van de vele andere goede doelen. Met één klik je
-                donatie starten, stoppen en communicatievoorkeuren beheren. Kies
-                voor een bundel of doneer direct aan een van de vele andere
-                goede doelen.
+                direct aan een van de vele andere goede doelen.
                 <br />
                 Goodplace is non-profit en{' '}
                 <strong>100% van je donatie gaat naar het goede doel</strong>.
