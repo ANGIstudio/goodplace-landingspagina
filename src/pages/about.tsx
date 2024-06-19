@@ -97,14 +97,12 @@ const About: NextPage = () => {
               In 2021 zijn <strong>Frank Gottenbos</strong> en{' '}
               <strong>Menno van der Marel</strong> Goodplace gestart. Daarna
               zijn verschillende initiatieven betrokken die hetzelfde doel
-              nastreefden:{' '}
-              <strong>Noortje de Haan</strong> en{' '}
+              nastreefden: <strong>Noortje de Haan</strong> en{' '}
               <strong>Dominique van der Vlist</strong> begonnen hun concept in
               Amsterdam en <strong>Ernout van der Waard</strong>,{' '}
-              <strong>Koos Block</strong> en{' '}
-              <strong>Camiel Mulders</strong> hebben Time to Give opgericht.
-              Sinds 2024 zijn deze initiatieven samengekomen onder de naam:
-              Goodplace Foundation.
+              <strong>Koos Block</strong> en <strong>Camiel Mulders</strong>{' '}
+              hebben Time to Give opgericht. Sinds 2024 zijn deze initiatieven
+              samengekomen onder de naam: Goodplace Foundation.
             </p>
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               Vanaf het begin zijn <strong>Yoni Uhlenbeck</strong> (CEO de Roos

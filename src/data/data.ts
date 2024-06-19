@@ -89,7 +89,7 @@ export const socialsItems = [
   },
 ];
 
-export const socialsItems_follow = [
+export const socialsItemsFollow = [
   {
     id: '2',
     href: 'https://www.linkedin.com/company/goodplacefoundation/',
