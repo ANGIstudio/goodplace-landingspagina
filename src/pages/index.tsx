@@ -86,8 +86,9 @@ const Index: NextPage = () => {
                 Doelen
               </h2>
               <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
-                Via de bundels zoals FIXME geef je met 1 donatie aan 5 goede
-                doelen.
+                Via de bundels zoals <strong>Groene wereld bundel</strong>,{' '}
+                <strong>Kinderhulp bundel</strong> en <strong>Armoede NL
+                bundel</strong> geef je met 1 donatie aan 5 goede doelen.
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
                 Ontdek meer bundels óf doneer direct aan een van de vele goede

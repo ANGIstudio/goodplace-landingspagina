@@ -41,7 +41,7 @@ const howitworks: NextPage = () => {
                 <img alt="awd" src={nummer_1.src} />
               </div>
               <h1 className="text-darkgreen font-black break-words pb-3 lg:text-5xl text-3xl">
-                Ontdek onze bundels & goede <br /> doelen
+                Ontdek onze bundels & goede doelen
               </h1>
               <h3 className="text-darkgreen font-semibold pb-4  lg:text-2xl text-xl mb-4">
                 Vind het onderwerp of goede doel dat bij je past, kies het

@@ -3,7 +3,6 @@ import React from 'react';
 import { NextPage } from 'next';
 
 import core_team from '../assets/core_team.png';
-import adviesraad from '../assets/joni_yvo_leo.png';
 import phone_with_app from '../assets/phone_with_app.png';
 import { Section } from '../components/Section/Section';
 import { Wrapper } from '../components/Wrapper/Wrapper';
@@ -43,11 +42,6 @@ const About: NextPage = () => {
                 het werk van veel goede doelen.{' '}
                 <strong>Wij maken doneren daarom radicaal eenvoudig</strong>.
                 <br />
-                De Goodplace app biedt een nieuwe vorm van doneren én
-                informeren: we geven mensen een beter gevoel door makkelijker te
-                doneren en met Goodnews blijf je op hoogte van de impact van
-                jouw donatie(s).
-                <br />
                 Met één klik je donatie starten, stoppen en je
                 communicatievoorkeuren beheren. Kies voor een bundel of doneer
                 direct aan een van de vele andere goede doelen. Met één klik je
@@ -64,7 +58,7 @@ const About: NextPage = () => {
             <div className="md:w-2/5">
               <p className="text-darkgreen font-medium md:text-4xl text-3xl mb-4 md:text-justify">
                 <em>
-                  ”We zijn een <strong>klein team</strong> met een
+                  ”We zijn een <strong>klein team</strong> met een{' '}
                   <strong>betrokken netwerk</strong>.”
                 </em>
               </p>
@@ -73,7 +67,7 @@ const About: NextPage = () => {
                 onbezoldigd bestuur van succesvolle ondernemers en grotendeels
                 vrijwillig team.
                 <br />
-                Als ondernemer met een passie voor technologie en impact, richt
+                Als ondernemer met een passie voor technologie en impact, richt{' '}
                 <strong>Menno van der Marel</strong> zich op de organisatie en
                 financiering. Voormalig CTO bij Fox-IT,{' '}
                 <strong>Jeremy Butcher</strong> is verantwoordelijk voor de
@@ -103,37 +97,34 @@ const About: NextPage = () => {
               In 2021 zijn <strong>Frank Gottenbos</strong> en{' '}
               <strong>Menno van der Marel</strong> Goodplace gestart. Daarna
               zijn verschillende initiatieven betrokken die hetzelfde doel
-              nastreefden:
+              nastreefden:{' '}
               <strong>Noortje de Haan</strong> en{' '}
               <strong>Dominique van der Vlist</strong> begonnen hun concept in
               Amsterdam en <strong>Ernout van der Waard</strong>,{' '}
-              <strong>Koos Block</strong> en
+              <strong>Koos Block</strong> en{' '}
               <strong>Camiel Mulders</strong> hebben Time to Give opgericht.
               Sinds 2024 zijn deze initiatieven samengekomen onder de naam:
               Goodplace Foundation.
             </p>
-            <p>
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               Vanaf het begin zijn <strong>Yoni Uhlenbeck</strong> (CEO de Roos
               advocaten), <strong>Leopold van Oosten</strong> (founder Amsterdam
               Standard) en <strong>Yvo Gortemaker</strong> (founder Amsterdam
               Standard) als Raad van Advies bij Goodplace betrokken. Zij zijn
               onze belangrijkste adviseurs en staan altijd klaar om zich in te
               zetten voor Goodplace. Ook <strong>Michel Jansen</strong> (Global
-              Conversion Lead bij ING) en <strong>Bart Lakeman</strong>
+              Conversion Lead bij ING) en <strong>Bart Lakeman</strong>{' '}
               (Managing Director Addurance) denken regelmatig vrijwillig mee om
               Goodplace te helpen. Goodplace heeft zijn bestaan ook te danken
               aan zijn funders.
             </p>
-            <p>
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               <strong>
                 Steun Goodplace.Foundation met een donatie en help ons platform
                 groeien! Liever op een andere manier bijdragen? Geef ons
                 feedback of vertel anderen over ons.
               </strong>
             </p>
-          </div>
-          <div className="flex w-full justify-center items-center mt-8 lg:ml-4">
-            <img alt="raad van advies" src={adviesraad.src} />
           </div>
         </Wrapper>
       </Section>
