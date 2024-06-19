@@ -49,7 +49,6 @@ export const Hero: React.FC = () => {
             </Link>
           </div>
         </div>
-        <div className="c-hero__text">100% naar het goede doel</div>
       </div>
       <div className="order-1 md:order-2 m-auto md:m-0 md:w-1/2">
         <Image alt="phones" src={phones} />
