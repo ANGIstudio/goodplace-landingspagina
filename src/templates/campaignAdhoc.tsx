@@ -85,13 +85,18 @@ const CampaignAdhoc: NextPage = () => {
                 <div className="w-20 md:w-36 pb-8">
                   <Image alt="hands" src={icon_hands} />
                 </div>
-                <h2 className="text-white font-extrabold mb-8">Aardbeving Marokko</h2>
-                <h1 className="text-white font-extrabold pb-3">Hoe kun jij helpen?</h1>
+                <h2 className="text-white font-extrabold mb-8">
+                  Aardbeving Marokko
+                </h2>
+                <h1 className="text-white font-extrabold pb-3">
+                  Hoe kun jij helpen?
+                </h1>
 
                 <h3 className="text-white md:text-2xl md:max-w-xl max-w-sm sm:text-lg md:font-normal font-semibold text-medium leading-6">
                   Veel hulporganisaties zijn direct in actie gekomen na de ramp
-                  afgelopen vrijdagnacht in Marokko. Krijg overzicht over wie wat
-                  doet, en doneer snel & makkelijk aan 8 goede doelen tegelijk.
+                  afgelopen vrijdagnacht in Marokko. Krijg overzicht over wie
+                  wat doet, en doneer snel & makkelijk aan 8 goede doelen
+                  tegelijk.
                 </h3>
                 <div className="md:mt-12 mt-8 md:block hidden">
                   <Button

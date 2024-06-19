@@ -41,7 +41,7 @@ const Index: NextPage = () => {
       title: 'Geen winstoogmerk',
       image: target,
       description:
-        'Wij zijn zelf een stichting en maken dus geen winst op jouw donatie. Zoveel mogelijk geld voor het goede doel dus.',
+        'Wij zijn zelf een stichting, 100% van je donatie gaat naar het goede doel.',
     },
   ];
 
@@ -60,13 +60,12 @@ const Index: NextPage = () => {
           <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-20">
             <div className="mb-4 md:mb-16 max-w-xl md:m-auto mx-0">
               <h2 className="md:mb-8 mb-4 text-lightgreen font-black md:text-5xl text-4xl">
-                Doneren <br />
-                zonder drempels
+                Geven met <br />
+                een goed gevoel
               </h2>
               <p className="text-lightgreen font-semibold md:text-xl text-base">
-                Ons doel is om jou in control te laten zijn over jouw donaties.
-                Alles overzichtelijk en flexibel geregeld vanuit één simpele
-                app, zonder ergens aan vast te zitten.
+                Met onze app is doneren aan de onderwerpen of goede doelen waar
+                jij om geeft super eenvoudig.
               </p>
             </div>
             <div className="space-y-2 md:space-y-0 md:grid lg:grid-cols-3 gap-10 md:-mx-8 md:pt-10 text-lightgreen text-lg font-medium  md:max-w-7xl justify-center max-w-sm">
@@ -87,9 +86,14 @@ const Index: NextPage = () => {
                 Doelen
               </h2>
               <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
-                Wij zijn continu bezig met het uitbreiden van ons aanbod aan
-                goede doelen. Groot of klein, lokaal actief of wereldwijd: we
-                sluiten niemand uit. Mis je een goed doel in ons aanbod?
+                Via de bundels zoals <strong>Groene wereld bundel</strong>,{' '}
+                <strong>Kinderhulp bundel</strong> en{' '}
+                <strong>Armoede NL bundel</strong> geef je met 1 donatie aan 5
+                goede doelen.
+              </p>
+              <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
+                Ontdek meer bundels óf doneer direct aan een van de vele goede
+                doelen in de app.
               </p>
 
               <Button

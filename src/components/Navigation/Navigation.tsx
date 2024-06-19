@@ -54,7 +54,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                       : ''
                   }
                 >
-                  Over ons
+                  Over Goodplace
                 </a>
               </Link>
             </li>
@@ -67,7 +67,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                       : ''
                   }
                 >
-                  FAQ
+                  Veelgestelde vragen
                 </a>
               </Link>
             </li>
@@ -93,7 +93,7 @@ export const Navigation: React.FC<NavigationProps> = ({ logo, mobilelogo }) => {
                         : ''
                     }
                   >
-                    Over ons
+                    Over Goodplace
                   </a>
                 </Link>
               </li>

@@ -27,7 +27,7 @@ import { Section } from '../components/Section/Section';
 import { Socials } from '../components/Socials/Socials';
 import { Usp } from '../components/Usp/Usp';
 import { Wrapper } from '../components/Wrapper/Wrapper';
-import { brandItems, socialsItems_follow } from '../data/data';
+import { brandItems, socialsItemsFollow } from '../data/data';
 import { AppConfig } from '../utils/AppConfig';
 import { Meta } from '../utils/Meta';
 
@@ -382,7 +382,7 @@ const CampaignLatent: NextPage = () => {
                 of volg ons op social media
               </p>
               <div className="m-auto md:mt-8 mt-2">
-                <Socials socialsItems={socialsItems_follow} />
+                <Socials socialsItems={socialsItemsFollow} />
               </div>
             </div>
           </Wrapper>
