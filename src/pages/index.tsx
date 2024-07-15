@@ -26,22 +26,22 @@ interface UspImages {
 const Index: NextPage = () => {
   const uspImages: UspImages[] = [
     {
+      title: 'Al jouw donaties in 1 app',
+      image: target,
+      description:
+        'Ontdek jouw favoriete goede doelen. Houd overzicht en volg de impact van je donaties.',
+    },
+    {
       title: 'Je zit nergens aan vast',
       image: target,
       description:
-        'Start, wijzig en stop je donaties gemakkelijk, wanneer jij dat wilt. Eenmalig of maandelijks doneren, zonder ongewenste reclame of post vanuit het goede doel.',
+        'Start, wijzig en stop je donaties wanneer jij dat wilt. Zonder ongewenste reclame vanuit het goede doel.',
     },
     {
-      title: 'Al je donaties bij elkaar in één app',
+      title: '100% naar het goede doel',
       image: target,
       description:
-        'Vind jouw favoriete goede doelen in ons aanbod en lees over wat zij doen. Houd overzicht over je lopende donaties, donaties uit het verleden, en over wat je uitgeeft aan goede doelen.',
-    },
-    {
-      title: 'Geen winstoogmerk',
-      image: target,
-      description:
-        'Wij zijn zelf een stichting, 100% van je donatie gaat naar het goede doel.',
+        'Wij zijn zelf een stichting en maken dus geen winst op jouw donatie. We zorgen dat jouw geld maximaal impact heeft.',
     },
   ];
 
@@ -60,8 +60,8 @@ const Index: NextPage = () => {
           <div className="text-center h-screen md:-mb-10 lg:-mt-24 -mt-20">
             <div className="mb-4 md:mb-16 max-w-xl md:m-auto mx-0">
               <h2 className="md:mb-8 mb-4 text-lightgreen font-black md:text-5xl text-4xl">
-                Geven met <br />
-                een goed gevoel
+                Geven met een <br />
+                goed gevoel
               </h2>
               <p className="text-lightgreen font-semibold md:text-xl text-base">
                 Met onze app is doneren aan de onderwerpen of goede doelen waar
@@ -82,14 +82,31 @@ const Index: NextPage = () => {
           <div className="h-screen text-center text-darkgreen md:-mt-44 -mt-24 -mb-36">
             <div className="mb-8 md:mb-24 max-w-xl m-auto mt-24">
               <h2 className="mb-8 text-darkgreen font-black md:text-5xl text-4xl">
-                Goede <br />
-                Doelen
+                Ontdek jouw bundels & goede doelen
               </h2>
               <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
-                Via de bundels zoals <strong>Groene wereld bundel</strong>,{' '}
-                <strong>Kinderhulp bundel</strong> en{' '}
-                <strong>Armoede NL bundel</strong> geef je met 1 donatie aan 5
-                goede doelen.
+                Via bundels zoals{' '}
+                <a
+                  className="text-darkgreen hover:underline hover:text-darkorange font-extrabold"
+                  href="https://app.goodplace.foundation/charity/129"
+                >
+                  Groene wereld
+                </a>
+                ,{' '}
+                <a
+                  className="text-darkgreen hover:underline hover:text-darkorange font-extrabold"
+                  href="https://app.goodplace.foundation/charity/130"
+                >
+                  Kinderhulp
+                </a>{' '}
+                en{' '}
+                <a
+                  className="text-darkgreen hover:underline hover:text-darkorange font-extrabold"
+                  href="https://app.goodplace.foundation/charity/128"
+                >
+                  Gelijke kansen
+                </a>{' '}
+                geef je met 1 donatie aan 5 goede doelen.
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg md:mb-9 mb-10 md:mb-12">
                 Ontdek meer bundels óf doneer direct aan een van de vele goede
@@ -106,7 +123,7 @@ const Index: NextPage = () => {
             </div>
             <div className="mt-24">
               <h2 className="font-bold md:text-xl text-lg">
-                Een aantal van onze goede doelen:
+                Meer dan 100 goede doelen, bijvoorbeeld:
               </h2>
               <Brands brandItems={brandItems} />
             </div>

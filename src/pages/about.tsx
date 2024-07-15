@@ -42,9 +42,11 @@ const About: NextPage = () => {
                 het werk van veel goede doelen.{' '}
                 <strong>Wij maken doneren daarom radicaal eenvoudig</strong>.
                 <br />
+                <br />
                 Met één klik je donatie starten, stoppen en je
                 communicatievoorkeuren beheren. Kies voor een bundel of doneer
                 direct aan een van de vele andere goede doelen.
+                <br />
                 <br />
                 Goodplace is non-profit en{' '}
                 <strong>100% van je donatie gaat naar het goede doel</strong>.
@@ -63,6 +65,7 @@ const About: NextPage = () => {
                 Achter de schermen bij Goodplace werkt een gedreven en
                 onbezoldigd bestuur van succesvolle ondernemers en grotendeels
                 vrijwillig team.
+                <br />
                 <br />
                 Als ondernemer met een passie voor technologie en impact, richt{' '}
                 <strong>Menno van der Marel</strong> zich op de organisatie en
