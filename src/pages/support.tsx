@@ -74,7 +74,7 @@ const Support: NextPage = () => {
                   relevante thema’s, actualiteit en gecertificeerde doelen,
                   precies zoals jij wil:
                 </p>
-                <ul className="md:text-xl text-lg list-disc">
+                <ul className="md:text-xl text-lg">
                   <li>
                     Geefgemak: doneer aan een bundel of goed doel die bij jou
                     past

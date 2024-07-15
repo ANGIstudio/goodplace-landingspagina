@@ -65,7 +65,7 @@ const Index: NextPage = () => {
               </h2>
               <p className="text-lightgreen font-semibold md:text-xl text-base">
                 Met onze app is doneren aan de onderwerpen of goede doelen waar
-                jij om geeft super eenvoudig.
+                jij om geeft radicaal eenvoudig.
               </p>
             </div>
             <div className="space-y-2 md:space-y-0 md:grid lg:grid-cols-3 gap-10 md:-mx-8 md:pt-10 text-lightgreen text-lg font-medium  md:max-w-7xl justify-center max-w-sm">
