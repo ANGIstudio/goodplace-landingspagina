@@ -69,36 +69,32 @@ const Support: NextPage = () => {
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Wat maakt Goodplace uniek?
                 </h4>
-                <p className="md:text-xl text-lg">
-                  <strong>
-                    Goodplace is een donatieplatform waarbij je kan geven aan
-                    alle relevante thema’s, actualiteit en gecertificeerde
-                    doelen, precies zoals jij wil:
-                  </strong>
-                  <ul>
-                    <li>
-                      Geefgemak: doneer aan een bundel of goed doel die bij jou
-                      past
-                    </li>
-                    <li>
-                      Betrokkenheid: digitale updates & inspiratie, weet je wat
-                      er met je donatie gebeurt
-                    </li>
-                    <li>
-                      Controle: geen ongewenste communicatie en stoppen met 1
-                      klik
-                    </li>
-                    <li>
-                      Transparantie: 100% van je donatie gaat naar het goede
-                      doel.
-                    </li>
-                  </ul>
+                <p className="md:text-xl text-lg font-bold">
+                  Goodplace is een donatieplatform waarbij je kan geven aan alle
+                  relevante thema’s, actualiteit en gecertificeerde doelen,
+                  precies zoals jij wil:
                 </p>
+                <ul className="md:text-xl text-lg">
+                  <li>
+                    Geefgemak: doneer aan een bundel of goed doel die bij jou
+                    past
+                  </li>
+                  <li>
+                    Betrokkenheid: digitale updates & inspiratie, weet je wat er
+                    met je donatie gebeurt
+                  </li>
+                  <li>
+                    Controle: geen ongewenste communicatie en stoppen met 1 klik
+                  </li>
+                  <li>
+                    Transparantie: 100% van je donatie gaat naar het goede doel.
+                  </li>
+                </ul>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Hoe kan het dat de app gratis is én 100% van elke donatie naar
                   het goede doel gaat?
                 </h4>
-                <p className="md:text-xl text-lg">
+                <p className="md:text-xl text-lg font-bold">
                   Goodplace vindt het belangrijk dat alle donaties 100% bij de
                   goede doelen terechtkomen, daarom zijn wij een stichting
                   zonder winstoogmerk.
@@ -130,15 +126,59 @@ const Support: NextPage = () => {
                     Lees meer over Goodplace
                   </a>
                 </p>
+
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Hoe ziet het financiële plaatje van de Goodplace Foundation
+                  eruit?
+                </h4>
+                <p className="md:text-xl text-lg font-bold">
+                  We willen graag inzicht geven in de financiën van de Goodplace
+                  Foundation.
+                </p>
+                <p className="text-lg mt-4">
+                  In 2022 zijn we op eigen kosten begonnen met een pilot in de
+                  vorm van een basisapp met 15 doelen en ruim 100
+                  testgebruikers. Deze pilot was zo succesvol dat we in 2023 een
+                  financieringsronde van 760.000 euro hebben opgehaald, waarmee
+                  we een professioneel platform hebben kunnen neerzetten. In
+                  2024 wordt vol ingezet op de lancering van Goodplace met ruim
+                  500 CBF-doelen en een dedicated betaalstichting, zodat we de
+                  markt breed kunnen bedienen op een efficiënte manier tegen
+                  minimale kosten.
+                </p>
+                <p className="text-lg mt-4">
+                  Dit is het{' '}
+                  <a
+                    className="text-darkgreen underline"
+                    target="_blank"
+                    href="/goodplace-financien.pdf"
+                  >
+                    volledige overzicht
+                  </a>
+                  .
+                </p>
+
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Wat zijn “Bundel” donaties?
                 </h4>
-                <p className="text-lg mt-4">
+                <p className="text-lg mt-4 font-bold">
                   Via bundels van Goodplace kan je een bepaald onderwerp
-                  steunen: met 1 donatie doneer je aan meerdere goede doelen.
-                  Hiermee maken we het makkelijker voor jou als donateur om een
-                  keuze te maken en blijf je op de hoogte van wat er met het
-                  geld gebeurt.
+                  steunen: met één donatie doneer je aan meerdere goede doelen.
+                </p>
+                <p className="text-lg mt-4">
+                  Met onze bundels maken we het makkelijker voor jou als
+                  donateur om een keuze te maken, en blijf je op de hoogte van
+                  wat er met het geld gebeurt. Via de Goodplace app kun je ook
+                  structureel doneren aan een thema dat jij belangrijk vindt,
+                  door middel van een maandelijkse bundeldonatie. Je kunt deze
+                  met één klik starten, wijzigen of stoppen wanneer je maar
+                  wilt, zonder dat je gegevens worden gedeeld met de goede
+                  doelen.
+                </p>
+                <p className="text-lg mt-4">
+                  We willen het aanbod van bundeldonaties verder uitbreiden in
+                  2025 en voor donateurs die dat willen, meer wisseling van
+                  goede doelen per bundel mogelijk maken.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Welke goede doelen mogen in de app?
