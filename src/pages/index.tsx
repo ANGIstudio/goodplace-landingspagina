@@ -102,7 +102,7 @@ const Index: NextPage = () => {
                 en{' '}
                 <a
                   className="text-darkgreen hover:underline hover:text-darkorange font-extrabold"
-                  href="https://app.goodplace.foundation/charity/128"
+                  href="https://app.goodplace.foundation/charity/156"
                 >
                   Gelijke kansen
                 </a>{' '}
