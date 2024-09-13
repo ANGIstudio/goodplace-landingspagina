@@ -69,7 +69,7 @@ const About: NextPage = () => {
                   href="/goodplace-bestuur.pdf"
                 >
                   onbezoldigd bestuur
-                </a>
+                </a>{' '}
                 van succesvolle ondernemers en een grotendeels vrijwillig team.
                 <br />
                 <br />
@@ -125,15 +125,29 @@ const About: NextPage = () => {
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               Onderstaande documenten geven meer achtergrondinformatie over onze
               missie:
-              <a href="/goodplace-beleidsplan.pdf">Beleidsplan</a>
-              <a href="/goodplace-financien.pdf">Financieel overzicht</a>
-              <a href="/goodplace-begroting.pdf">Begroting</a>
-              <a href="/goodplace-jaarrekening-2023.pdf">Jaarrekening 2023</a>
-              <a href="/goodplace-bestuur.pdf">
-                Hoofd- & nevenfuncties bestuurders
-              </a>
-              <a href="/goodplace-statuten.pdf">Statuten</a>
             </p>
+            <ul>
+              <li>
+                <a href="/goodplace-beleidsplan.pdf">Beleidsplan</a>
+              </li>
+              <li>
+                <a href="/goodplace-financien.pdf">Financieel overzicht</a>
+              </li>
+              <li>
+                <a href="/goodplace-begroting.pdf">Begroting</a>
+              </li>
+              <li>
+                <a href="/goodplace-jaarrekening-2023.pdf">Jaarrekening 2023</a>
+              </li>
+              <li>
+                <a href="/goodplace-bestuur.pdf">
+                  Hoofd- & nevenfuncties bestuurders
+                </a>
+              </li>
+              <li>
+                <a href="/goodplace-statuten.pdf">Statuten</a>
+              </li>
+            </ul>
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               <strong>
                 Steun Goodplace.Foundation met een donatie en help ons platform

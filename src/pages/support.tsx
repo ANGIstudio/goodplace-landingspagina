@@ -187,7 +187,11 @@ const Support: NextPage = () => {
                     aansluiten bij Goodplace. Wij richten ons dus niet alleen op
                     de grote goede doelen, maar ook kleine locale iniatieven
                     zijn welkom. Lees meer over onze{' '}
-                    <a href="/goodplace-onboarding.pdf">
+                    <a
+                      className="text-darkgreen underline"
+                      href="/goodplace-onboarding.pdf"
+                      target="_blank"
+                    >
                       procedure voor onboarding van goede doelen
                     </a>
                     .
@@ -232,9 +236,9 @@ const Support: NextPage = () => {
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Heeft Goodplace een ANBI of CBF keurmerk?
                 </h4>
-                <p className="md:text-xl text-lg">
+                <p className="text-lg mt-4">
                   <strong>ANBI</strong> - Goodplace Foundation is door de
-                  belastingdienst erkent als donatieplatform voor ANBI doelen.
+                  belastingdienst erkend als donatieplatform voor ANBI doelen.
                   De belastingdienst heeft Goodplace aangemerkt als zuivere
                   loketinstelling. Dit betekent dat donaties aan ANBI doelen via
                   Goodplace hun ANBI-status behouden. Daarmee bevestigt de
