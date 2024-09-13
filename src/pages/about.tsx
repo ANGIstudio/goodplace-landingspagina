@@ -128,24 +128,58 @@ const About: NextPage = () => {
             </p>
             <ul>
               <li>
-                <a href="/goodplace-beleidsplan.pdf">Beleidsplan</a>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-beleidsplan.pdf"
+                  target="_blank"
+                >
+                  Beleidsplan
+                </a>
               </li>
               <li>
-                <a href="/goodplace-financien.pdf">Financieel overzicht</a>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-financien.pdf"
+                  target="_blank"
+                >
+                  Financieel overzicht
+                </a>
               </li>
               <li>
-                <a href="/goodplace-begroting.pdf">Begroting</a>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-begroting.pdf"
+                  target="_blank"
+                >
+                  Begroting
+                </a>
               </li>
               <li>
-                <a href="/goodplace-jaarrekening-2023.pdf">Jaarrekening 2023</a>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-jaarrekening-2023.pdf"
+                  target="_blank"
+                >
+                  Jaarrekening 2023
+                </a>
               </li>
               <li>
-                <a href="/goodplace-bestuur.pdf">
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-bestuur.pdf"
+                  target="_blank"
+                >
                   Hoofd- & nevenfuncties bestuurders
                 </a>
               </li>
               <li>
-                <a href="/goodplace-statuten.pdf">Statuten</a>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-statuten.pdf"
+                  target="_blank"
+                >
+                  Statuten
+                </a>
               </li>
             </ul>
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
