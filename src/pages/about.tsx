@@ -62,22 +62,28 @@ const About: NextPage = () => {
                 </em>
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
-                Achter de schermen bij Goodplace werkt een gedreven en
-                onbezoldigd bestuur van succesvolle ondernemers en grotendeels
-                vrijwillig team.
+                Achter de schermen bij Goodplace werkt een gedreven en{' '}
+                <a
+                  className="text-darkgreen underline"
+                  target="_blank"
+                  href="/goodplace-bestuur.pdf"
+                >
+                  onbezoldigd bestuur
+                </a>{' '}
+                van succesvolle ondernemers en een grotendeels vrijwillig team.
                 <br />
                 <br />
-                Als ondernemer met een passie voor technologie en impact, richt{' '}
-                <strong>Menno van der Marel</strong> zich op de organisatie en
-                financiering. Voormalig CTO bij Fox-IT,{' '}
-                <strong>Jeremy Butcher</strong> is verantwoordelijk voor de
-                techniek achter de app. <strong>Frank Gottenbos</strong>,
-                mede-oprichter en ondernemer in digitale innovatie, richt zich
-                op bestuur en financiën. <strong>Marlies Meeboer</strong>, een
-                ervaren digitaal strateeg, vervult de rol van productmanager en
-                ambassadeur voor donateurs. Met haar internationale ervaring met
-                non-profit organisaties is <strong>Anouk Piket</strong> de
-                verbinder met de goede doelen.
+                Initiatiefnemer <strong>Menno van der Marel</strong> heeft een
+                passie voor technologie en impact. Hij richt zich binnen het
+                team op de organisatie en financiering.{' '}
+                <strong>Jeremy Butcher</strong>, voormalig CTO bij Fox-IT, is
+                verantwoordelijk voor de techniek achter de app.{' '}
+                <strong>Frank Gottenbos</strong>, mede-oprichter en ondernemer
+                in digitale innovatie, richt zich op bestuur en financiën.{' '}
+                <strong>Marlies Meeboer</strong> een ervaren digitaal strateeg,
+                vervult de rol van product- en marketingmanager. Met haar
+                internationale ervaring met non-profit organisaties is{' '}
+                <strong>Anouk Piket</strong> de verbinder met de goede doelen.
               </p>
             </div>
             <div>
@@ -116,6 +122,67 @@ const About: NextPage = () => {
               Goodplace te helpen. Goodplace heeft zijn bestaan ook te danken
               aan zijn funders.
             </p>
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
+              Onderstaande documenten geven meer achtergrondinformatie over onze
+              missie:
+            </p>
+            <ul className="list-disc">
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-beleidsplan.pdf"
+                  target="_blank"
+                >
+                  Beleidsplan
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-financien.pdf"
+                  target="_blank"
+                >
+                  Financieel overzicht
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-begroting.pdf"
+                  target="_blank"
+                >
+                  Begroting
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-jaarrekening-2023.pdf"
+                  target="_blank"
+                >
+                  Jaarrekening 2023
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-bestuur.pdf"
+                  target="_blank"
+                >
+                  Hoofd- & nevenfuncties bestuurders
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
+                  href="/goodplace-statuten.pdf"
+                  target="_blank"
+                >
+                  Statuten
+                </a>
+              </li>
+            </ul>
+            <br />
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               <strong>
                 Steun Goodplace.Foundation met een donatie en help ons platform

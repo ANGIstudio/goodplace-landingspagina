@@ -126,7 +126,6 @@ const Support: NextPage = () => {
                     Lees meer over Goodplace
                   </a>
                 </p>
-
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Hoe ziet het financiële plaatje van de Goodplace Foundation
                   eruit?
@@ -157,7 +156,6 @@ const Support: NextPage = () => {
                   </a>
                   .
                 </p>
-
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Wat zijn “Bundel” donaties?
                 </h4>
@@ -188,12 +186,20 @@ const Support: NextPage = () => {
                     Elk goed doel met een CBF keurmerk of ANBI status mag zich
                     aansluiten bij Goodplace. Wij richten ons dus niet alleen op
                     de grote goede doelen, maar ook kleine locale iniatieven
-                    zijn welkom.
+                    zijn welkom. Lees meer over onze{' '}
+                    <a
+                      className="text-darkgreen underline"
+                      href="/goodplace-onboarding.pdf"
+                      target="_blank"
+                    >
+                      procedure voor onboarding van goede doelen
+                    </a>
+                    .
                   </strong>
                 </p>
                 <p className="text-lg mt-4">
                   Wij zijn continu bezig met het uitbreiden van ons aanbod aan
-                  goede doelen. Heb jij een suggestie voor een nieuw goed doel?
+                  goede doelen. Heb jij een suggestie voor een nieuw goed doel?{' '}
                   <a
                     className="text-darkgreen underline"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScNLkencHjnk8uUlSFKGMSRrgloTKy6MD-IeLMrKb76S8gLkg/viewform?vc=0&c=0&w=1&flr=0"
@@ -226,6 +232,26 @@ const Support: NextPage = () => {
                   Mollie-account van het betreffende goede doel of ze worden
                   door Goodplace Foundation uitbetaald aan het betreffende goede
                   doel.
+                </p>
+                <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
+                  Heeft Goodplace een ANBI of CBF keurmerk?
+                </h4>
+                <p className="text-lg mt-4">
+                  <strong>ANBI</strong> - Goodplace Foundation is door de
+                  belastingdienst erkend als donatieplatform voor ANBI doelen.
+                  De belastingdienst heeft Goodplace aangemerkt als zuivere
+                  loketinstelling. Dit betekent dat donaties aan ANBI doelen via
+                  Goodplace hun ANBI-status behouden. Daarmee bevestigt de
+                  belastingdienst dat Goodplace zelf als donatieplatform geen
+                  ANBI is, maar wel fiscaal erkent is voor ANBI doelen.
+                </p>
+                <p className="text-lg mt-4">
+                  <strong>CBF</strong> - Goodplace is, in samenwerking met het
+                  CBF, betrokken bij het tot standkomen van het CBF normenkader
+                  voor donatieplatforms. Op dit moment is het proces voor
+                  erkenningsaanvraag gaande. Ons streven is om in Q4 2024 als
+                  een van de eerste organisaties de CBF erkenning
+                  donatieplatforms te ontvangen.
                 </p>
                 <h4 className="mt-10 mb-1 md:text-3xl text-2xl">
                   Kan ik ook eenmalige donaties doen?
