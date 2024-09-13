@@ -126,7 +126,7 @@ const About: NextPage = () => {
               Onderstaande documenten geven meer achtergrondinformatie over onze
               missie:
             </p>
-            <ul>
+            <ul className="list-disc">
               <li>
                 <a
                   className="text-darkgreen mb-2 font-medium md:text-xl text-lg underline"
