@@ -182,6 +182,7 @@ const About: NextPage = () => {
                 </a>
               </li>
             </ul>
+            <br />
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               <strong>
                 Steun Goodplace.Foundation met een donatie en help ons platform
