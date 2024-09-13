@@ -62,22 +62,28 @@ const About: NextPage = () => {
                 </em>
               </p>
               <p className="text-darkgreen font-medium md:text-xl text-lg ml-10 md:text-justify">
-                Achter de schermen bij Goodplace werkt een gedreven en
-                onbezoldigd bestuur van succesvolle ondernemers en grotendeels
-                vrijwillig team.
+                Achter de schermen bij Goodplace werkt een gedreven en{' '}
+                <a
+                  className="text-darkgreen underline"
+                  target="_blank"
+                  href="/goodplace-bestuur.pdf"
+                >
+                  onbezoldigd bestuur
+                </a>
+                van succesvolle ondernemers en een grotendeels vrijwillig team.
                 <br />
                 <br />
-                Als ondernemer met een passie voor technologie en impact, richt{' '}
-                <strong>Menno van der Marel</strong> zich op de organisatie en
-                financiering. Voormalig CTO bij Fox-IT,{' '}
-                <strong>Jeremy Butcher</strong> is verantwoordelijk voor de
-                techniek achter de app. <strong>Frank Gottenbos</strong>,
-                mede-oprichter en ondernemer in digitale innovatie, richt zich
-                op bestuur en financiën. <strong>Marlies Meeboer</strong>, een
-                ervaren digitaal strateeg, vervult de rol van productmanager en
-                ambassadeur voor donateurs. Met haar internationale ervaring met
-                non-profit organisaties is <strong>Anouk Piket</strong> de
-                verbinder met de goede doelen.
+                Initiatiefnemer <strong>Menno van der Marel</strong> heeft een
+                passie voor technologie en impact. Hij richt zich binnen het
+                team op de organisatie en financiering.{' '}
+                <strong>Jeremy Butcher</strong>, voormalig CTO bij Fox-IT, is
+                verantwoordelijk voor de techniek achter de app.{' '}
+                <strong>Frank Gottenbos</strong>, mede-oprichter en ondernemer
+                in digitale innovatie, richt zich op bestuur en financiën.{' '}
+                <strong>Marlies Meeboer</strong> een ervaren digitaal strateeg,
+                vervult de rol van product- en marketingmanager. Met haar
+                internationale ervaring met non-profit organisaties is{' '}
+                <strong>Anouk Piket</strong> de verbinder met de goede doelen.
               </p>
             </div>
             <div>
@@ -115,6 +121,18 @@ const About: NextPage = () => {
               (Managing Director Addurance) denken regelmatig vrijwillig mee om
               Goodplace te helpen. Goodplace heeft zijn bestaan ook te danken
               aan zijn funders.
+            </p>
+            <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
+              Onderstaande documenten geven meer achtergrondinformatie over onze
+              missie:
+              <a href="/goodplace-beleidsplan.pdf">Beleidsplan</a>
+              <a href="/goodplace-financien.pdf">Financieel overzicht</a>
+              <a href="/goodplace-begroting.pdf">Begroting</a>
+              <a href="/goodplace-jaarrekening-2023.pdf">Jaarrekening 2023</a>
+              <a href="/goodplace-bestuur.pdf">
+                Hoofd- & nevenfuncties bestuurders
+              </a>
+              <a href="/goodplace-statuten.pdf">Statuten</a>
             </p>
             <p className="text-darkgreen mb-2 font-medium md:text-xl text-lg md:text-justify">
               <strong>

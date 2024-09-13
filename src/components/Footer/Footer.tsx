@@ -29,6 +29,10 @@ export const Footer: React.FC = () => {
             <Link href="/about">Over&nbsp;Goodplace</Link> <br />
             <Link href="/howitworks">Hoe&nbsp;werkt&nbsp;het?</Link> <br />
             <Link href="/support">Veelgestelde vragen</Link> <br />
+            <Link href="/goodplace-klachtenprocedure.pdf">
+              Klachtenprocedure
+            </Link>{' '}
+            <br />
             <Link href="/charities">
               <p className="text-base text-green">Goede&nbsp;Doelen</p>
             </Link>
