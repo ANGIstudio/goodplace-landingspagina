@@ -62,11 +62,11 @@ const Privacy: NextPage = () => {
               </div>
               <div>
                 <h4 className="mt-4">
-                  <strong>Verwerkings-verantwoordelijke</strong>
+                  <strong>Verwerkingsverantwoordelijke</strong>
                 </h4>
                 <p>
                   Wij verwerken jouw persoonsgegevens als zogeheten
-                  <strong> Verwerkings-verantwoordelijke</strong> in de zin van
+                  <strong> Verwerkingsverantwoordelijke</strong> in de zin van
                   de Algemene Verordening Gegevensbescherming (
                   <strong>AVG</strong>
                   ). Als je vragen hebt over de verwerking van jouw
@@ -78,7 +78,7 @@ const Privacy: NextPage = () => {
                 <h4 className="mt-4">
                   <strong>
                     Welke Persoonsgegevens verzamelen en verwerken wij als
-                    Verwerkings-verantwoordelijke?
+                    Verwerkingsverantwoordelijke?
                   </strong>
                 </h4>
 
@@ -395,17 +395,21 @@ const Privacy: NextPage = () => {
                   <ul className="list-disc py-4">
                     <li className="list-inside">
                       <strong>Accountgegevens | </strong> Jouw accountgegevens
-                      worden bewaard zolang jouw account is geactiveerd en
-                      worden binnen zes (6) maanden na het deactiveren van jouw
-                      account verwijderd (tenzij hieronder anders vermeld). Als
-                      jij jouw account 24 maanden niet hebt gebruikt, zullen we
-                      deze automatisch verwijderen nadat we jou een reminder
-                      hebben gestuurd.
+                      worden bewaard zolang jouw account is geactiveerd (tenzij
+                      hieronder anders vermeld). Als jij jouw account 24 maanden
+                      niet hebt gebruikt, zullen we deze automatisch verwijderen
+                      nadat we jou een reminder hebben gestuurd. Na verwijdering
+                      van jouw account bewaren we jouw donatiegegevens in
+                      anonieme vorm. Deze gegevens hebben wij nodig voor
+                      statistische en rapporteringsdoeleinden. Nieuwsbrieven |
+                      Wij bewaren de Persoonsgegevens die worden gebruikt voor
+                      het verzenden van nieuwsbrieven totdat je zich afmeldt
+                      voor onze nieuwsbrief.
                     </li>
                     <li className="list-inside">
                       <strong>Nieuwsbrieven | </strong>Wij bewaren de
                       Persoonsgegevens die worden gebruikt voor het verzenden
-                      van nieuwsbrieven totdat je zich afmeldt voor onze
+                      van nieuwsbrieven totdat je je afmeldt voor onze
                       nieuwsbrief.
                     </li>
                     <li className="list-inside">

@@ -96,6 +96,60 @@ const CookieStatement: NextPage = () => {
                           <Td>1 jaar </Td>
                           <Td>App </Td>
                         </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="mt-4">
+                <strong>ANALYTISCHE COOKIES (STATISTIEKEN)</strong>
+              </h4>
+              <p>
+                Wij hebben een <strong>gerechtvaardigd belang</strong> om de via
+                deze cookies verzamelde persoonsgegevens te gebruiken, namelijk
+                om het gebruik van onze website en app te analyseren en
+                verbeteren.
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="overflow-x-auto">
+                <div className="py-2 inline-block min-w-full">
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full">
+                      <thead className="border-b">
+                        <tr>
+                          <Th>Naam:</Th>
+                          <Th>Provider:</Th>
+                          <Th>Functie/Doeleinde:</Th>
+                          <Th>Bewaartermijn:</Th>
+                          <Th>Bij gebruik van:</Th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="border-b">
+                          <Td>Google Analytics</Td>
+                          <Td>
+                            <a
+                              className="underline"
+                              href="https://policies.google.com/privacy"
+                            >
+                              Google
+                            </a>
+                          </Td>
+                          <Td>
+                            Volgen van het gebruik van onze Website voor onze
+                            interne analytische doeleinden en om de kwaliteit en
+                            relevantie van onze Website te verbeteren. Zie het
+                            privacybeleid van Google voor meer informatie over
+                            de verwerking van persoonsgegevens.
+                          </Td>
+                          <Td>35 dagen</Td>
+                          <Td>Website</Td>
+                        </tr>
                         <tr className="border-b">
                           <Td>Firebase - Google</Td>
                           <Td>
@@ -125,14 +179,63 @@ const CookieStatement: NextPage = () => {
 
             <div>
               <h4 className="mt-4">
+                <strong>TRACKING COOKIES</strong>
+              </h4>
+              <p>
+                Wij hebben <strong>toestemming</strong> om de via deze cookies
+                verzamelde persoonsgegevens te gebruiken, namelijk om onze
+                gepersonaliseerde advertenties aan jou te verbeteren.
+              </p>
+            </div>
+
+            <div className="flex flex-col">
+              <div className="overflow-x-auto">
+                <div className="py-2 inline-block min-w-full">
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full">
+                      <thead className="border-b">
+                        <tr>
+                          <Th>Naam:</Th>
+                          <Th>Provider:</Th>
+                          <Th>Functie/Doeleinde:</Th>
+                          <Th>Bewaartermijn:</Th>
+                          <Th>Bij gebruik van:</Th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="border-b">
+                          <Td>Facebook pixel (_fb)</Td>
+                          <Td>
+                            <a
+                              className="underline"
+                              href="https://www.facebook.com/privacy/policy/"
+                            >
+                              Meta
+                            </a>
+                          </Td>
+                          <Td>
+                            Het meten van de effectiviteit van onze
+                            advertentiecampagnes en o,m de advertenties te
+                            verbeteren. Zie het privacybeleid van Meta voor meer
+                            informatie over de verwerking van persoonsgegevens.
+                          </Td>
+                          <Td>1 jaar</Td>
+                          <Td>App</Td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="mt-4">
                 <strong>Kan ik de cookies verwijderen?</strong>
               </h4>
               <p>
-                Wij gebruiken geen cookies op onze website. Deze kunnen en
-                hoeven dus ook niet verwijderd te worden. De analytische
-                technieken die wij in de app gebruiken zoals hierboven genoemd
-                leiden niet tot verwijderbare cookies of soortgelijke bestanden
-                op je mobiele telefoon.
+                De cookies in onze App of Website kun je via onze cookie banner
+                of in je browser verwijderen.
               </p>
             </div>
 
